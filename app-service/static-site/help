@@ -1,0 +1,51 @@
+========================================================================================================
+
+  Your cdktf typescript project is ready!
+
+  cat help                Print this message
+
+  Compile:
+    yarn run get           Import/update Terraform providers and modules (you should check-in this directory)
+    yarn run compile       Compile typescript code to javascript (or "yarn run watch")
+    yarn run watch         Watch for changes and compile typescript in the background
+    yarn run build         Compile typescript
+
+  Synthesize:
+    cdktf synth [stack]   Synthesize Terraform resources from stacks to cdktf.out/ (ready for 'terraform apply')
+
+  Diff:
+    cdktf diff [stack]    Perform a diff (terraform plan) for the given stack
+
+  Deploy:
+    cdktf deploy [stack]  Deploy the given stack
+
+  Destroy:
+    cdktf destroy [stack] Destroy the stack
+
+  Test:
+    yarn run test        Runs unit tests (edit __tests__/main-test.ts to add your own tests)
+    yarn run test:watch  Watches the tests and reruns them on change
+
+  Upgrades:
+    yarn run upgrade        Upgrade cdktf modules to latest version
+    yarn run upgrade:next   Upgrade cdktf modules to latest "@next" version (last commit)
+
+ Use Providers:
+
+  You can add prebuilt providers (if available) or locally generated ones using the add command:
+  
+  cdktf provider add "aws@~>3.0" null kreuzwerker/docker
+
+  You can find all prebuilt providers on yarn: https://www.yarnjs.com/search?q=keywords:cdktf
+  You can also install these providers directly through yarn:
+
+  yarn install @cdktf/provider-aws
+  yarn install @cdktf/provider-google
+  yarn install @cdktf/provider-azurerm
+  yarn install @cdktf/provider-docker
+  yarn install @cdktf/provider-github
+  yarn install @cdktf/provider-null
+
+  You can also build any module or provider locally. Learn more https://cdk.tf/modules-and-providers
+
+========================================================================================================
