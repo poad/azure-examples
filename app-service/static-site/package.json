@@ -1,0 +1,38 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "main": "main.js",
+  "types": "main.ts",
+  "license": "MPL-2.0",
+  "private": true,
+  "scripts": {
+    "get": "cdktf get",
+    "build": "yarn get",
+    "synth": "cdktf synth",
+    "compile": "tsc --pretty",
+    "watch": "tsc -w",
+    "upgrade": "yarn add \"cdktf@*\" \"cdktf-cli@*\"",
+    "upgrade:next": "yarn add cdktf@next cdktf-cli@next"
+  },
+  "engines": {
+    "node": ">=14.0"
+  },
+  "dependencies": {
+    "@cdktf/provider-azurerm": "*",
+    "cdktf": "*",
+    "constructs": "*"
+  },
+  "devDependencies": {
+    "@swc/core": "*",
+    "@swc/helpers": "*",
+    "@types/node": "*",
+    "cdktf-cli": "*",
+    "regenerator-runtime": "*",
+    "ts-node": "*",
+    "typescript": "*"
+  },
+  "workspaces": [
+    "assets/azure-webapp-sample"
+  ],
+  "packageManager": "yarn@3.2.4"
+}
