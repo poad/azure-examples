@@ -41,7 +41,7 @@ jobs:
           ${{ runner.os }}-yarn-
 
     - working-directory: app-service/static-site
-      run: yarn install --immutable && yarn all
+      run: yarn install && yarn build
 
   configure:
     runs-on: ubuntu-latest
