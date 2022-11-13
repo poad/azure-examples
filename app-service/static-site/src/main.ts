@@ -30,10 +30,6 @@ class ExampleWebApp extends TerraformStack {
     new TerraformOutput(this, "cdktf-app-apikey", {
       value: app.apiKey,
     });
-
-    new TerraformOutput(this, "cdktf-app-url", {
-      value: `https://${app.name}.azurewebsites.net/`,
-    });
   }
 }
 
