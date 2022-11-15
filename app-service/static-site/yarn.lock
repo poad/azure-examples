@@ -312,90 +312,90 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc/core-darwin-arm64@npm:1.3.16":
-  version: 1.3.16
-  resolution: "@swc/core-darwin-arm64@npm:1.3.16"
+"@swc/core-darwin-arm64@npm:1.3.17":
+  version: 1.3.17
+  resolution: "@swc/core-darwin-arm64@npm:1.3.17"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@swc/core-darwin-x64@npm:1.3.16":
-  version: 1.3.16
-  resolution: "@swc/core-darwin-x64@npm:1.3.16"
+"@swc/core-darwin-x64@npm:1.3.17":
+  version: 1.3.17
+  resolution: "@swc/core-darwin-x64@npm:1.3.17"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@swc/core-linux-arm-gnueabihf@npm:1.3.16":
-  version: 1.3.16
-  resolution: "@swc/core-linux-arm-gnueabihf@npm:1.3.16"
+"@swc/core-linux-arm-gnueabihf@npm:1.3.17":
+  version: 1.3.17
+  resolution: "@swc/core-linux-arm-gnueabihf@npm:1.3.17"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
-"@swc/core-linux-arm64-gnu@npm:1.3.16":
-  version: 1.3.16
-  resolution: "@swc/core-linux-arm64-gnu@npm:1.3.16"
+"@swc/core-linux-arm64-gnu@npm:1.3.17":
+  version: 1.3.17
+  resolution: "@swc/core-linux-arm64-gnu@npm:1.3.17"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@swc/core-linux-arm64-musl@npm:1.3.16":
-  version: 1.3.16
-  resolution: "@swc/core-linux-arm64-musl@npm:1.3.16"
+"@swc/core-linux-arm64-musl@npm:1.3.17":
+  version: 1.3.17
+  resolution: "@swc/core-linux-arm64-musl@npm:1.3.17"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@swc/core-linux-x64-gnu@npm:1.3.16":
-  version: 1.3.16
-  resolution: "@swc/core-linux-x64-gnu@npm:1.3.16"
+"@swc/core-linux-x64-gnu@npm:1.3.17":
+  version: 1.3.17
+  resolution: "@swc/core-linux-x64-gnu@npm:1.3.17"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@swc/core-linux-x64-musl@npm:1.3.16":
-  version: 1.3.16
-  resolution: "@swc/core-linux-x64-musl@npm:1.3.16"
+"@swc/core-linux-x64-musl@npm:1.3.17":
+  version: 1.3.17
+  resolution: "@swc/core-linux-x64-musl@npm:1.3.17"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@swc/core-win32-arm64-msvc@npm:1.3.16":
-  version: 1.3.16
-  resolution: "@swc/core-win32-arm64-msvc@npm:1.3.16"
+"@swc/core-win32-arm64-msvc@npm:1.3.17":
+  version: 1.3.17
+  resolution: "@swc/core-win32-arm64-msvc@npm:1.3.17"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@swc/core-win32-ia32-msvc@npm:1.3.16":
-  version: 1.3.16
-  resolution: "@swc/core-win32-ia32-msvc@npm:1.3.16"
+"@swc/core-win32-ia32-msvc@npm:1.3.17":
+  version: 1.3.17
+  resolution: "@swc/core-win32-ia32-msvc@npm:1.3.17"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"@swc/core-win32-x64-msvc@npm:1.3.16":
-  version: 1.3.16
-  resolution: "@swc/core-win32-x64-msvc@npm:1.3.16"
+"@swc/core-win32-x64-msvc@npm:1.3.17":
+  version: 1.3.17
+  resolution: "@swc/core-win32-x64-msvc@npm:1.3.17"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
 "@swc/core@npm:*":
-  version: 1.3.16
-  resolution: "@swc/core@npm:1.3.16"
+  version: 1.3.17
+  resolution: "@swc/core@npm:1.3.17"
   dependencies:
-    "@swc/core-darwin-arm64": 1.3.16
-    "@swc/core-darwin-x64": 1.3.16
-    "@swc/core-linux-arm-gnueabihf": 1.3.16
-    "@swc/core-linux-arm64-gnu": 1.3.16
-    "@swc/core-linux-arm64-musl": 1.3.16
-    "@swc/core-linux-x64-gnu": 1.3.16
-    "@swc/core-linux-x64-musl": 1.3.16
-    "@swc/core-win32-arm64-msvc": 1.3.16
-    "@swc/core-win32-ia32-msvc": 1.3.16
-    "@swc/core-win32-x64-msvc": 1.3.16
+    "@swc/core-darwin-arm64": 1.3.17
+    "@swc/core-darwin-x64": 1.3.17
+    "@swc/core-linux-arm-gnueabihf": 1.3.17
+    "@swc/core-linux-arm64-gnu": 1.3.17
+    "@swc/core-linux-arm64-musl": 1.3.17
+    "@swc/core-linux-x64-gnu": 1.3.17
+    "@swc/core-linux-x64-musl": 1.3.17
+    "@swc/core-win32-arm64-msvc": 1.3.17
+    "@swc/core-win32-ia32-msvc": 1.3.17
+    "@swc/core-win32-x64-msvc": 1.3.17
   dependenciesMeta:
     "@swc/core-darwin-arm64":
       optional: true
@@ -419,7 +419,7 @@ __metadata:
       optional: true
   bin:
     swcx: run_swcx.js
-  checksum: 4361252c928c487a02f526aecd8f3072b923244234c2701916944cf13c252b6d5ce2466caf3e0797d3e92e71a89d4a044f8577e51e8f7fe3af0fe30d94e94b13
+  checksum: daf59b866ebfaa99460050591012792f957f96e5e400fbef5ad730cb85fae9e0179143104f01436a6c6fbbe0859bf485119056cf19cf9d63d4e77b3a9286c546
   languageName: node
   linkType: hard
 
@@ -917,9 +917,9 @@ __metadata:
   linkType: hard
 
 "constructs@npm:*, constructs@npm:^10.0.25":
-  version: 10.1.159
-  resolution: "constructs@npm:10.1.159"
-  checksum: 92310f162fb2587f24242cbbb6ed76475c49eb5b179d5104d14d97ac034a7bafdb1103ebb543bed90d0d9b9c7f7e53999b49a32ac3e88d9bc19d5acf16f1ce3e
+  version: 10.1.160
+  resolution: "constructs@npm:10.1.160"
+  checksum: 441fd94017263c11a102e99b276b9b60461d9462fb601059f58deaca60f87fc85583606e00d25c37c0b01eed1d8e7693d020a587cf88fc4dc4ecd4a71109226c
   languageName: node
   linkType: hard
 
@@ -1464,8 +1464,8 @@ __metadata:
   linkType: hard
 
 "jsii-srcmak@npm:^0.1.686":
-  version: 0.1.733
-  resolution: "jsii-srcmak@npm:0.1.733"
+  version: 0.1.734
+  resolution: "jsii-srcmak@npm:0.1.734"
   dependencies:
     fs-extra: ^9.1.0
     jsii: ^1.71.0
@@ -1474,7 +1474,7 @@ __metadata:
     yargs: ^15.4.1
   bin:
     jsii-srcmak: bin/jsii-srcmak
-  checksum: 29b5a1933c3333a3a0134d0707295a7c9cb16080574b6d1d060a5ce4709f37e7edec08fd90377b339412b60a5a0c4b4dc225e7e01fc4babb49472f4e5d976326
+  checksum: 0b1772242a129275a7e727839b3aedbbd021ea85108d578f1874ea82f2886ed684040b33923a921d8a6c67e774488d061539531c385465bfc3f7ded2388d7c26
   languageName: node
   linkType: hard
 
@@ -1896,9 +1896,9 @@ __metadata:
   linkType: hard
 
 "regenerator-runtime@npm:*":
-  version: 0.13.10
-  resolution: "regenerator-runtime@npm:0.13.10"
-  checksum: 09893f5a9e82932642d9a999716b6c626dc53ef2a01307c952ebbf8e011802360163a37c304c18a6c358548be5a72b448e37209954a18696f21e438c81cbb4b9
+  version: 0.13.11
+  resolution: "regenerator-runtime@npm:0.13.11"
+  checksum: 27481628d22a1c4e3ff551096a683b424242a216fee44685467307f14d58020af1e19660bf2e26064de946bad7eff28950eae9f8209d55723e2d9351e632bbb4
   languageName: node
   linkType: hard
 
