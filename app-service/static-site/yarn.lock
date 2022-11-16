@@ -757,7 +757,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cdktf@npm:*, cdktf@npm:0.13.3":
+"cdktf@npm:*":
+  version: 0.14.0
+  resolution: "cdktf@npm:0.14.0"
+  dependencies:
+    archiver: 5.3.1
+    json-stable-stringify: ^1.0.1
+    semver: ^7.3.7
+  peerDependencies:
+    constructs: ^10.0.25
+  checksum: 17654b95a66aad37c16ebc7ce5ea132b5693b119c39f9dbdd25a02beeefc985aed345fca353fdcdbc5b9512894ba1a88da849b2036106326b269c1ed3052772d
+  languageName: node
+  linkType: hard
+
+"cdktf@npm:0.13.3":
   version: 0.13.3
   resolution: "cdktf@npm:0.13.3"
   dependencies:
