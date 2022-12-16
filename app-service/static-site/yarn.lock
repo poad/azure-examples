@@ -162,12 +162,12 @@ __metadata:
   linkType: hard
 
 "@cdktf/provider-azurerm@npm:*":
-  version: 4.0.3
-  resolution: "@cdktf/provider-azurerm@npm:4.0.3"
+  version: 4.0.4
+  resolution: "@cdktf/provider-azurerm@npm:4.0.4"
   peerDependencies:
     cdktf: ^0.14.0
     constructs: ^10.0.0
-  checksum: 489df2f62ae879d4b05ec915bb6b5976bc13ae5109f70a1ae543ba2828dd7af9895a7c36445f47aaaf8e4f4b829136c25e5e7524b888e25da8d47ba60d192c59
+  checksum: e7e7968f2b2f21edc238ab1f0ddc126d263363204a2908852e8790c7163f9acad4f1122e81e6308c93600d61b0960df41b57800b6d78b078f40911f5364e7697
   languageName: node
   linkType: hard
 
@@ -958,9 +958,9 @@ __metadata:
   linkType: hard
 
 "constructs@npm:*, constructs@npm:^10.0.25":
-  version: 10.1.190
-  resolution: "constructs@npm:10.1.190"
-  checksum: ee6a3167a00c619297abf9aff472b0f98aa875f69a0a4eb20c44adbc0af2c75ad0fc4a62dd73f301afbcc56b91cbb742a4a7ee34dd184ffa26bff167a28eb470
+  version: 10.1.191
+  resolution: "constructs@npm:10.1.191"
+  checksum: 41133db8ce3b86e04cec846e289bf59463ac6dd39b4cb32fc20e1fbf45bbaca9b62910962207bd4dce048e6a4784cfe5a5e6ac02f5592e9b514c7eb217359ecc
   languageName: node
   linkType: hard
 
@@ -1515,8 +1515,8 @@ __metadata:
   linkType: hard
 
 "jsii-srcmak@npm:^0.1.741":
-  version: 0.1.763
-  resolution: "jsii-srcmak@npm:0.1.763"
+  version: 0.1.764
+  resolution: "jsii-srcmak@npm:0.1.764"
   dependencies:
     fs-extra: ^9.1.0
     jsii: ^1.72.0
@@ -1525,7 +1525,7 @@ __metadata:
     yargs: ^15.4.1
   bin:
     jsii-srcmak: bin/jsii-srcmak
-  checksum: b4bd1629091292f6395b7242724f099daa19ae31612d862e7cb7170fa5df43de0f2ed790a14ec195b64a9458fcc2c96eb6ff7f52f57b6f2715745ace88ca9cb4
+  checksum: 3d4f943508e4ba6d03ba5a618fe4481137ea9f39aa5136145780f4c709a252e8a8cddc2862c1dc2c89ac879f74bf65d5086ba1d28615ab69398d06b5a71b7e8a
   languageName: node
   linkType: hard
 
