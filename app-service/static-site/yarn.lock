@@ -526,9 +526,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 18.11.15
-  resolution: "@types/node@npm:18.11.15"
-  checksum: cae8692a5cee0316f93ee0342237eb921f70c51afb37c661c711a925a4642654ae7e404c5a80899d481c0cfaff3a6891ef04bacd330a2e72734192bfc91dc2d8
+  version: 18.11.17
+  resolution: "@types/node@npm:18.11.17"
+  checksum: 1933afd068d5c75c068c6c4df6d10edb3b0b2bb6503d544e2f0496ac007c90596e6a5e284a8ef032451bc16f871b7e46719d7d2bea60e9b25d13a77d52161cac
   languageName: node
   linkType: hard
 
@@ -958,9 +958,9 @@ __metadata:
   linkType: hard
 
 "constructs@npm:*, constructs@npm:^10.0.25":
-  version: 10.1.191
-  resolution: "constructs@npm:10.1.191"
-  checksum: 41133db8ce3b86e04cec846e289bf59463ac6dd39b4cb32fc20e1fbf45bbaca9b62910962207bd4dce048e6a4784cfe5a5e6ac02f5592e9b514c7eb217359ecc
+  version: 10.1.194
+  resolution: "constructs@npm:10.1.194"
+  checksum: 84cc302c3b3f3bf4669165068b353ca91af111ca0f4870f30f25282792678b3a68c1cc4f625aedca31271f0f91449d6fedbcdbeb8f4db4d7927e363eb2edd34e
   languageName: node
   linkType: hard
 
@@ -1515,8 +1515,8 @@ __metadata:
   linkType: hard
 
 "jsii-srcmak@npm:^0.1.741":
-  version: 0.1.764
-  resolution: "jsii-srcmak@npm:0.1.764"
+  version: 0.1.767
+  resolution: "jsii-srcmak@npm:0.1.767"
   dependencies:
     fs-extra: ^9.1.0
     jsii: ^1.72.0
@@ -1525,7 +1525,7 @@ __metadata:
     yargs: ^15.4.1
   bin:
     jsii-srcmak: bin/jsii-srcmak
-  checksum: 3d4f943508e4ba6d03ba5a618fe4481137ea9f39aa5136145780f4c709a252e8a8cddc2862c1dc2c89ac879f74bf65d5086ba1d28615ab69398d06b5a71b7e8a
+  checksum: 73f4d33d892a90282cfd08c7f5740b8db57e596f5f0ede456a9e9035607a663c7f07e40215615e3a01135a9853cd819c67a91a707e682b0458b746ec7b9ef1ff
   languageName: node
   linkType: hard
 
