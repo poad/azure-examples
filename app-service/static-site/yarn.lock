@@ -572,14 +572,14 @@ __metadata:
   linkType: hard
 
 "ajv@npm:^8.11.2":
-  version: 8.11.2
-  resolution: "ajv@npm:8.11.2"
+  version: 8.12.0
+  resolution: "ajv@npm:8.12.0"
   dependencies:
     fast-deep-equal: ^3.1.1
     json-schema-traverse: ^1.0.0
     require-from-string: ^2.0.2
     uri-js: ^4.2.2
-  checksum: 53435bf79ee7d1eabba8085962dba4c08d08593334b304db7772887f0b7beebc1b3d957432f7437ed4b60e53b5d966a57b439869890209c50fed610459999e3e
+  checksum: 4dc13714e316e67537c8b31bc063f99a1d9d9a497eb4bbd55191ac0dcd5e4985bbb71570352ad6f1e76684fb6d790928f96ba3b2d4fd6e10024be9612fe3f001
   languageName: node
   linkType: hard
 
@@ -958,9 +958,9 @@ __metadata:
   linkType: hard
 
 "constructs@npm:*, constructs@npm:^10.0.25":
-  version: 10.1.208
-  resolution: "constructs@npm:10.1.208"
-  checksum: a27d6c577784a927f072f987d084d278a4c5bbaf46c97834f624634695e3b3c5af89324a0b444923576067c4cf13d3da86a095657a3929e446fe80bff627588f
+  version: 10.1.209
+  resolution: "constructs@npm:10.1.209"
+  checksum: 35b0ffc5b1afabef6605c2995fe4937f51780e100993a5264cbe5fa13ee869cef9fd948547171a59fbfa71768cf238bdc35058f402a32b672b3a8593d6e85586
   languageName: node
   linkType: hard
 
@@ -1515,8 +1515,8 @@ __metadata:
   linkType: hard
 
 "jsii-srcmak@npm:^0.1.741":
-  version: 0.1.782
-  resolution: "jsii-srcmak@npm:0.1.782"
+  version: 0.1.783
+  resolution: "jsii-srcmak@npm:0.1.783"
   dependencies:
     fs-extra: ^9.1.0
     jsii: ^1.72.0
@@ -1525,7 +1525,7 @@ __metadata:
     yargs: ^15.4.1
   bin:
     jsii-srcmak: bin/jsii-srcmak
-  checksum: 1786644844252579a8821bc72e69a228ac33a4400222d540e7d3f12c32c61a0677bff51851560100e9f1ee4493bd664e2ce9d583f742ccded172cbac82a2d19d
+  checksum: a76c2c233b79222a5b7f29dc55fa21de976e2966428840ec0f79f2ac7ad9a11bafc8897d9baee8db61200448c9c84c6a02686b1a08a28e7e7575c73f667935b1
   languageName: node
   linkType: hard
 
