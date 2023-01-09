@@ -956,9 +956,9 @@ __metadata:
   linkType: hard
 
 "constructs@npm:*, constructs@npm:^10.0.25":
-  version: 10.1.211
-  resolution: "constructs@npm:10.1.211"
-  checksum: d0b0377f9c7398b64da78fdcddf2387c489accf1ef54a94534925767fb1f30e7b81d661e0ca1996cd6e4c6ef5f28475458a19bdf26a8a847f3717c6978aaf128
+  version: 10.1.214
+  resolution: "constructs@npm:10.1.214"
+  checksum: 00e27026acb0a49a87f41deb7470a45328f08af9bf66c37d43b3495666e07f277e11086c16a917b2c0cac10394da04602dfcf0937386f8263cdd09655a8bdf38
   languageName: node
   linkType: hard
 
@@ -1513,8 +1513,8 @@ __metadata:
   linkType: hard
 
 "jsii-srcmak@npm:^0.1.741":
-  version: 0.1.785
-  resolution: "jsii-srcmak@npm:0.1.785"
+  version: 0.1.788
+  resolution: "jsii-srcmak@npm:0.1.788"
   dependencies:
     fs-extra: ^9.1.0
     jsii: ^1.73.0
@@ -1523,7 +1523,7 @@ __metadata:
     yargs: ^15.4.1
   bin:
     jsii-srcmak: bin/jsii-srcmak
-  checksum: 415af8daef19ada351f828e7256b091523ddda9e32de4138ba8a9d09f5bef2e0c05a89471288b0c7a4553e2bd4408e236315f0b3ce30e92fcc5b455d7aebedad
+  checksum: 8508f322efed6f87ec3d79d5a9dc56d4565ba7aff8ce2475ed0abbd9f11374e9fd6291322bfad5a9ccc176e27f51d0bbf60a9c032f5936f3ca359433302f497d
   languageName: node
   linkType: hard
 
@@ -1880,11 +1880,11 @@ __metadata:
   linkType: hard
 
 "prettier@npm:^2.7.1":
-  version: 2.8.1
-  resolution: "prettier@npm:2.8.1"
+  version: 2.8.2
+  resolution: "prettier@npm:2.8.2"
   bin:
     prettier: bin-prettier.js
-  checksum: 4f21a0f1269f76fb36f54e9a8a1ea4c11e27478958bf860661fb4b6d7ac69aac1581f8724fa98ea3585e56d42a2ea317a17ff6e3324f40cb11ff9e20b73785cc
+  checksum: 740c56c2128d587d656ea1dde9bc9c3503dfc94db4f3ac387259215eeb2e216680bdad9d18a0c9feecc6b42cfa188d6fa777df4c36c1d00cedd4199074fbfbd2
   languageName: node
   linkType: hard
 
