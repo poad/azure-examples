@@ -162,12 +162,12 @@ __metadata:
   linkType: hard
 
 "@cdktf/provider-azurerm@npm:*":
-  version: 4.0.6
-  resolution: "@cdktf/provider-azurerm@npm:4.0.6"
+  version: 4.0.7
+  resolution: "@cdktf/provider-azurerm@npm:4.0.7"
   peerDependencies:
     cdktf: ^0.14.0
     constructs: ^10.0.0
-  checksum: 1bde7683d711909d1bb7f63c2724af181b1ed4993da7d7ab8bac4640d3069bed90742a44b16d9e8b8008d2e9fa16fecd6a3525a6cfb4ec1b77d884718d1ba820
+  checksum: b84666c922af85057f05d51f329a1af53267d6850af8bc3df3dbc45a5ecc0d8864a94837f05bf8061e3f674e8d4d375e78190da348a0725acd1c1597ad3d2335
   languageName: node
   linkType: hard
 
@@ -956,9 +956,9 @@ __metadata:
   linkType: hard
 
 "constructs@npm:*, constructs@npm:^10.0.25":
-  version: 10.1.216
-  resolution: "constructs@npm:10.1.216"
-  checksum: 1eed84f8c01e564c3698060fe754a57dce57267ffdc28899944b51bac98dedd67fb1ee3079a64e4acb2db9e7168428e8e800ffa8806df6eec2c591e39bca9410
+  version: 10.1.218
+  resolution: "constructs@npm:10.1.218"
+  checksum: 571d47384c0ea80c8cba674073bb6b2d4026f257a75d6af1d61cea8fda02900a72a8607d4ca58dfe6f5b26a9e04811c534b20f3687c310c69b208d6dc9d776fd
   languageName: node
   linkType: hard
 
@@ -1513,8 +1513,8 @@ __metadata:
   linkType: hard
 
 "jsii-srcmak@npm:^0.1.741":
-  version: 0.1.790
-  resolution: "jsii-srcmak@npm:0.1.790"
+  version: 0.1.792
+  resolution: "jsii-srcmak@npm:0.1.792"
   dependencies:
     fs-extra: ^9.1.0
     jsii: ^1.73.0
@@ -1523,7 +1523,7 @@ __metadata:
     yargs: ^15.4.1
   bin:
     jsii-srcmak: bin/jsii-srcmak
-  checksum: b82fb04611f32b111b4ccd87c0541223d596819db9b4a356c39b3785a023fca8b900f62da81e44bc0cde9462741d771322d1f90c69dd0e9ad90a0917089a0c39
+  checksum: b629c49469fe916746e41467d82b198ec09d15afc2f0a0f14c98882983a5adb116f76867036fe1cc77c6614760fe810f6706fdc1ae89e43a7e1bd08986c1ad01
   languageName: node
   linkType: hard
 
@@ -1783,8 +1783,8 @@ __metadata:
   linkType: hard
 
 "node-fetch@npm:^2.6.7":
-  version: 2.6.7
-  resolution: "node-fetch@npm:2.6.7"
+  version: 2.6.8
+  resolution: "node-fetch@npm:2.6.8"
   dependencies:
     whatwg-url: ^5.0.0
   peerDependencies:
@@ -1792,7 +1792,7 @@ __metadata:
   peerDependenciesMeta:
     encoding:
       optional: true
-  checksum: 8d816ffd1ee22cab8301c7756ef04f3437f18dace86a1dae22cf81db8ef29c0bf6655f3215cb0cdb22b420b6fe141e64b26905e7f33f9377a7fa59135ea3e10b
+  checksum: 91f57be68e29f9b1382750693619e199733a6936998e6d618f1aa779853ad8fc4a2facf170db7957bf1d2510bad33449edf74b5802713d81b63de5986fa3be00
   languageName: node
   linkType: hard
 
