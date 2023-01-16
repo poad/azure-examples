@@ -162,12 +162,12 @@ __metadata:
   linkType: hard
 
 "@cdktf/provider-azurerm@npm:*":
-  version: 4.0.7
-  resolution: "@cdktf/provider-azurerm@npm:4.0.7"
+  version: 4.0.8
+  resolution: "@cdktf/provider-azurerm@npm:4.0.8"
   peerDependencies:
     cdktf: ^0.14.0
     constructs: ^10.0.0
-  checksum: b84666c922af85057f05d51f329a1af53267d6850af8bc3df3dbc45a5ecc0d8864a94837f05bf8061e3f674e8d4d375e78190da348a0725acd1c1597ad3d2335
+  checksum: 335b4b369031311f4b96db2f316b1fc4903e68eb744ba310f47ffbc328e7ba4fc7c93d6ace969f8d9b3b6e8ce40fe2faf2aad2dfeaf0e19a6ea08340c1ab56e3
   languageName: node
   linkType: hard
 
@@ -956,9 +956,9 @@ __metadata:
   linkType: hard
 
 "constructs@npm:*, constructs@npm:^10.0.25":
-  version: 10.1.218
-  resolution: "constructs@npm:10.1.218"
-  checksum: 571d47384c0ea80c8cba674073bb6b2d4026f257a75d6af1d61cea8fda02900a72a8607d4ca58dfe6f5b26a9e04811c534b20f3687c310c69b208d6dc9d776fd
+  version: 10.1.221
+  resolution: "constructs@npm:10.1.221"
+  checksum: 56c6f8e944f8e82cbd0e4bdf8ceeb4905037d50696ce645d8953f9c269ca86665ec0df45c9843ea4d8eb8a0df1b3de813c40499cf53cd3ba48388dbc4bf1532e
   languageName: node
   linkType: hard
 
@@ -1513,8 +1513,8 @@ __metadata:
   linkType: hard
 
 "jsii-srcmak@npm:^0.1.741":
-  version: 0.1.792
-  resolution: "jsii-srcmak@npm:0.1.792"
+  version: 0.1.795
+  resolution: "jsii-srcmak@npm:0.1.795"
   dependencies:
     fs-extra: ^9.1.0
     jsii: ^1.73.0
@@ -1523,7 +1523,7 @@ __metadata:
     yargs: ^15.4.1
   bin:
     jsii-srcmak: bin/jsii-srcmak
-  checksum: b629c49469fe916746e41467d82b198ec09d15afc2f0a0f14c98882983a5adb116f76867036fe1cc77c6614760fe810f6706fdc1ae89e43a7e1bd08986c1ad01
+  checksum: 01d1032b01e4880567084cd53a11f496827c0b5ec9b56347b83f17ae2617db55f42b88c2f7e6bb5e9f850b888c5e130d24c5ecac910e472b8ba6d861c7d3b5bd
   languageName: node
   linkType: hard
 
@@ -1744,11 +1744,11 @@ __metadata:
   linkType: hard
 
 "minimatch@npm:^5.1.0":
-  version: 5.1.2
-  resolution: "minimatch@npm:5.1.2"
+  version: 5.1.4
+  resolution: "minimatch@npm:5.1.4"
   dependencies:
     brace-expansion: ^2.0.1
-  checksum: 32ffda25b9fb8270a1c1beafdb7489dc0e411af553495136509a945691f63c9b6b000eeeaaf8bffe3efa609c1d6d3bc0f5a106f6c3443b5c05da649100ded964
+  checksum: 0de6d7d154e70d12487b30a7bfcb74bd15fd1f1ec007a2516699ba76e63f78ca2e5016c200b242ed75123aff8dcccf49947f71b629fb1b1f221c8e76a13ed8de
   languageName: node
   linkType: hard
 
@@ -1880,11 +1880,11 @@ __metadata:
   linkType: hard
 
 "prettier@npm:^2.7.1":
-  version: 2.8.2
-  resolution: "prettier@npm:2.8.2"
+  version: 2.8.3
+  resolution: "prettier@npm:2.8.3"
   bin:
     prettier: bin-prettier.js
-  checksum: 740c56c2128d587d656ea1dde9bc9c3503dfc94db4f3ac387259215eeb2e216680bdad9d18a0c9feecc6b42cfa188d6fa777df4c36c1d00cedd4199074fbfbd2
+  checksum: 92f2ceb522d454370e02082aa74ad27388672f7cee8975028b59517c069fe643bdc73e322675c8faf2ff173d7a626d1a6389f26b474000308e793aa25fff46e5
   languageName: node
   linkType: hard
 
