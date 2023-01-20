@@ -1112,9 +1112,9 @@ __metadata:
   linkType: hard
 
 "constructs@npm:*, constructs@npm:^10.0.25":
-  version: 10.1.224
-  resolution: "constructs@npm:10.1.224"
-  checksum: b9dd22b1a0ea7ea83c54cf8875e718eaf2f6b59bb5d3d232e0a22eb7fd884278bdfe1bef9e4d26e4835bb2d38c6cbcb12648244d0e7f4457b0bd4182b9c23173
+  version: 10.1.225
+  resolution: "constructs@npm:10.1.225"
+  checksum: e69e61097614557de4c9280a507e477e6810755879bece72dc50363572a838616b62b50baee55f51d301733232a972fd07661b04183e6108a23b03d38753089c
   languageName: node
   linkType: hard
 
@@ -1878,8 +1878,8 @@ __metadata:
   linkType: hard
 
 "jsii-srcmak@npm:^0.1.790":
-  version: 0.1.798
-  resolution: "jsii-srcmak@npm:0.1.798"
+  version: 0.1.799
+  resolution: "jsii-srcmak@npm:0.1.799"
   dependencies:
     fs-extra: ^9.1.0
     jsii: ^1.73.0
@@ -1888,7 +1888,7 @@ __metadata:
     yargs: ^15.4.1
   bin:
     jsii-srcmak: bin/jsii-srcmak
-  checksum: 09e505b1c7515749476469d2ee03bbaf28fb492c78c520c8017857d5f8374c2b351248396df96a9a88b8609922221387dd15a9a3c34b4b9f995b4a9f49e01259
+  checksum: 7eac6cf408b3adc7fbc617d9d5fd37dc41b156552590311ed06d896cde61b47423dcf80f7346200d9d7ec4fbd039b1056c460268644322743e0250b73060c954
   languageName: node
   linkType: hard
 
@@ -2541,9 +2541,9 @@ __metadata:
   linkType: hard
 
 "punycode@npm:^2.1.0, punycode@npm:^2.1.1":
-  version: 2.2.0
-  resolution: "punycode@npm:2.2.0"
-  checksum: 32f291c1b1e8bef8a7d351a369579565bc17530ee5224d2f2b5c37b2647aa0ec7f1972294e2de1b632812f90c8080a7c0c5645c14758aadc0f27b35dd4906d89
+  version: 2.3.0
+  resolution: "punycode@npm:2.3.0"
+  checksum: 39f760e09a2a3bbfe8f5287cf733ecdad69d6af2fe6f97ca95f24b8921858b91e9ea3c9eeec6e08cede96181b3bb33f95c6ffd8c77e63986508aa2e8159fa200
   languageName: node
   linkType: hard
 
