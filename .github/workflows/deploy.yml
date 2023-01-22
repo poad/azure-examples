@@ -1,0 +1,69 @@
+name: Deploy
+ 
+on:
+  push:
+    branches:    
+    - main 
+
+  workflow_dispatch:
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - uses: hashicorp/setup-terraform@v2
+    
+    - name: Use Node.js 18.x
+      uses: actions/setup-node@v3.6.0
+      with:
+        node-version: 18.x
+        check-latest: true
+        cache: yarn
+        cache-dependency-path: app-service/static-site/yarn.lock
+
+    - name: Setup yarn
+      run: |
+        corepack enable
+        corepack prepare yarn@stable --activate
+
+    - name: Get yarn cache directory path
+      id: yarn-cache-dir-path
+      run: echo "dir=$(yarn config get cacheFolder)" >> $GITHUB_OUTPUT
+
+    - uses: actions/cache@v3
+      id: yarn-cache
+      with:
+        path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+        key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-yarn-
+
+    - name: Log in to Azure using OIDC
+      uses: azure/login@v1
+      with:
+        client-id: ${{ secrets.ARM_CLIENT_ID }}
+        tenant-id: ${{ secrets.ARM_TENANT_ID }}
+        subscription-id: ${{ secrets.ARM_SUBSCRIPTION_ID }}
+        allow-no-subscriptions: true
+
+    - name: Setup yarn
+      run: npm -g i cdktf-cli
+
+    - name: yarn install
+      working-directory: app-service/static-site
+      run: yarn install
+
+    - name: Deploy
+      working-directory: app-service/static-site
+      env:
+        ARM_USE_OIDC: true
+        ARM_CLIENT_ID: ${{ secrets.ARM_CLIENT_ID }}
+        ARM_TENANT_ID: ${{ secrets.ARM_TENANT_ID }}
+        ARM_SUBSCRIPTION_ID: ${{ secrets.ARM_SUBSCRIPTION_ID }}
+      run: cdktf deploy
