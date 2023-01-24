@@ -69,7 +69,7 @@ jobs:
         terraformVersion: 1.3.0
         cdktfVersion: 0.15.1
         workingDirectory: app-service/static-site
-        stackName: StaticSiteApp
+        stackName: azure-static-site-app
         mode: auto-approve-apply
         terraformCloudToken: ${{ secrets.TERRAFORM_CLOUD_TOKEN }}
         githubToken: ${{ secrets.GITHUB_TOKEN }}
