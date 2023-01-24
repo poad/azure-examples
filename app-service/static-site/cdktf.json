@@ -1,7 +1,7 @@
 {
   "language": "typescript",
-  "app": "yarn ts-node src/main.ts",
-  "projectId": "a2e39f50-ae53-4341-b572-b386f28c65d2",
+  "app": "npx ts-node src/main.ts",
+  "projectId": "4588c0be-2b89-4eb9-adc6-e3569daa3c01",
   "sendCrashReports": "true",
   "terraformProviders": [
     "azurerm@~> 3.10"
