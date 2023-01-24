@@ -8,7 +8,7 @@ class ExampleWebApp extends TerraformStack {
   constructor(scope: Construct, id: string) {
     super(scope, id);
 
-    new AzurermProvider(this, "azureFeature", {
+    new AzurermProvider(this, "azureRm", {
       features: {},
     });
 

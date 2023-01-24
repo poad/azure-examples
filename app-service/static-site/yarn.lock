@@ -606,11 +606,11 @@ __metadata:
   linkType: hard
 
 "acorn@npm:^8.4.1":
-  version: 8.8.1
-  resolution: "acorn@npm:8.8.1"
+  version: 8.8.2
+  resolution: "acorn@npm:8.8.2"
   bin:
     acorn: bin/acorn
-  checksum: 4079b67283b94935157698831967642f24a075c52ce3feaaaafe095776dfbe15d86a1b33b1e53860fc0d062ed6c83f4284a5c87c85b9ad51853a01173da6097f
+  checksum: f790b99a1bf63ef160c967e23c46feea7787e531292bb827126334612c234ed489a0dc2c7ba33156416f0ffa8d25bf2b0fdb7f35c2ba60eb3e960572bece4001
   languageName: node
   linkType: hard
 
@@ -1112,9 +1112,9 @@ __metadata:
   linkType: hard
 
 "constructs@npm:*, constructs@npm:^10.0.25":
-  version: 10.1.228
-  resolution: "constructs@npm:10.1.228"
-  checksum: 332b8e1d29377dca0bc3a042e85a1ce5a5ea83f3c02a141d5ea40aaf653274cd45187d53bced0bcaa25c5aa6e03671ea86aa847a61105f5caaed58cf97b6badb
+  version: 10.1.229
+  resolution: "constructs@npm:10.1.229"
+  checksum: bd2374874f549055cff1abf72441a27eaf3ab4917fed7075b5a6033e027ae61e3d965a551a7dad7a6ddbcd38f4815103b468b08b9404d2e7bfb9b91c764dcd4f
   languageName: node
   linkType: hard
 
@@ -1878,8 +1878,8 @@ __metadata:
   linkType: hard
 
 "jsii-srcmak@npm:^0.1.790":
-  version: 0.1.802
-  resolution: "jsii-srcmak@npm:0.1.802"
+  version: 0.1.803
+  resolution: "jsii-srcmak@npm:0.1.803"
   dependencies:
     fs-extra: ^9.1.0
     jsii: ^1.73.0
@@ -1888,7 +1888,7 @@ __metadata:
     yargs: ^15.4.1
   bin:
     jsii-srcmak: bin/jsii-srcmak
-  checksum: 7b105500486dcc564569212e9aa0c9ec327b136195de684b21b3ed9b036112afad44a4a51e4eac38100126ab6e126f5ec6c74c272aabbacfa2d1f2302a8073b9
+  checksum: d41d166b4bcdb0e6b00ec8415d9d51aab5b51500f0d3e21ddd04d9f3ae4c4fca83cf1ef79dfe15bcc4aedc74ffdadfc8abf0b21a0b62bc458ce8148f358e8e95
   languageName: node
   linkType: hard
 
