@@ -19,13 +19,11 @@ jobs:
 
     - uses: hashicorp/setup-terraform@v2
     
-    - name: Use Node.js 18.x
+    - name: Use Node.js 16.x
       uses: actions/setup-node@v3.6.0
       with:
-        node-version: 18.x
+        node-version: 16.x
         check-latest: true
-        cache: yarn
-        cache-dependency-path: app-service/static-site/yarn.lock
 
     - name: Setup yarn
       run: |
@@ -59,11 +57,17 @@ jobs:
       working-directory: app-service/static-site
       run: yarn install
 
-    - name: Deploy
-      working-directory: app-service/static-site
+    - name: Run Terraform CDK
+      uses: hashicorp/terraform-cdk-action@v0.1.0
       env:
+        CI: true
         ARM_USE_OIDC: true
         ARM_CLIENT_ID: ${{ secrets.ARM_CLIENT_ID }}
         ARM_TENANT_ID: ${{ secrets.ARM_TENANT_ID }}
         ARM_SUBSCRIPTION_ID: ${{ secrets.ARM_SUBSCRIPTION_ID }}
-      run: cdktf deploy
+      with:
+        terraformVersion: 1.3.0
+        cdktfVersion: 0.15.1
+        workingDirectory: app-service/static-site
+        mode: auto-approve-apply
+        githubToken: ${{ secrets.GITHUB_TOKEN }}
