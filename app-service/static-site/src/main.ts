@@ -28,5 +28,5 @@ class ExampleWebApp extends TerraformStack {
 }
 
 const app = new App();
-new ExampleWebApp(app, "webapp");
+new ExampleWebApp(app, "azure-static-site-app");
 app.synth();
