@@ -71,4 +71,5 @@ jobs:
         workingDirectory: app-service/static-site
         stackName: StaticSiteApp
         mode: auto-approve-apply
+        terraformCloudToken: ${{ secrets.TERRAFORM_CLOUD_TOKEN }}
         githubToken: ${{ secrets.GITHUB_TOKEN }}
