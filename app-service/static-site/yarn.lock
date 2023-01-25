@@ -915,20 +915,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cdktf@npm:*":
-  version: 0.15.0
-  resolution: "cdktf@npm:0.15.0"
-  dependencies:
-    archiver: 5.3.1
-    json-stable-stringify: ^1.0.2
-    semver: ^7.3.8
-  peerDependencies:
-    constructs: ^10.0.25
-  checksum: f5e1cfb3a32b9db6e2aaa94acfb655e6e3b549030ee4ef32e12649beebd904d7f8581a4b444c9cc0c98f41425f1e13759da99717770e17b0b8459c7227ae2fec
-  languageName: node
-  linkType: hard
-
-"cdktf@npm:0.15.1":
+"cdktf@npm:*, cdktf@npm:0.15.1":
   version: 0.15.1
   resolution: "cdktf@npm:0.15.1"
   dependencies:
@@ -1891,8 +1878,8 @@ __metadata:
   linkType: hard
 
 "jsii-srcmak@npm:^0.1.790":
-  version: 0.1.803
-  resolution: "jsii-srcmak@npm:0.1.803"
+  version: 0.1.804
+  resolution: "jsii-srcmak@npm:0.1.804"
   dependencies:
     fs-extra: ^9.1.0
     jsii: ^1.73.0
@@ -1901,7 +1888,7 @@ __metadata:
     yargs: ^15.4.1
   bin:
     jsii-srcmak: bin/jsii-srcmak
-  checksum: d41d166b4bcdb0e6b00ec8415d9d51aab5b51500f0d3e21ddd04d9f3ae4c4fca83cf1ef79dfe15bcc4aedc74ffdadfc8abf0b21a0b62bc458ce8148f358e8e95
+  checksum: 97658d41f7962fd59a93fb4f0beb47707cb5e740ed0d71cb206f3b44514ca6be8ed82dd74f129732587ecc4d763f1154b11a89b0ec1e9eec98db4a186d3c83e5
   languageName: node
   linkType: hard
 
