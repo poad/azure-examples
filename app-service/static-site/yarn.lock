@@ -2313,9 +2313,9 @@ __metadata:
   linkType: hard
 
 "node-abort-controller@npm:^3.0.1":
-  version: 3.1.0
-  resolution: "node-abort-controller@npm:3.1.0"
-  checksum: ea0583b61e259144f2906b47cc44d9918a1cacf6fb65248786349a7b6af15d496673a25eb65c50ee3ab7f4b06aca13da5c08c2cd53d6bed21d15a8d34a025f94
+  version: 3.1.1
+  resolution: "node-abort-controller@npm:3.1.1"
+  checksum: 2c340916af9710328b11c0828223fc65ba320e0d082214a211311bf64c2891028e42ef276b9799188c4ada9e6e1c54cf7a0b7c05dd9d59fcdc8cd633304c8047
   languageName: node
   linkType: hard
 
