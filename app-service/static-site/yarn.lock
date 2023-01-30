@@ -1836,30 +1836,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsii-pacmak@npm:^1.73.0":
-  version: 1.73.0
-  resolution: "jsii-pacmak@npm:1.73.0"
-  dependencies:
-    "@jsii/check-node": 1.73.0
-    "@jsii/spec": ^1.73.0
-    clone: ^2.1.2
-    codemaker: ^1.73.0
-    commonmark: ^0.30.0
-    escape-string-regexp: ^4.0.0
-    fs-extra: ^10.1.0
-    jsii-reflect: ^1.73.0
-    jsii-rosetta: ^1.73.0
-    semver: ^7.3.8
-    spdx-license-list: ^6.6.0
-    xmlbuilder: ^15.1.1
-    yargs: ^16.2.0
-  bin:
-    jsii-pacmak: bin/jsii-pacmak
-  checksum: 85e50496e46643cfa21f2e99fc68a5d131544312ff8c2553a785e22e1160fd5912289b372212eb5bac777ab35cb0083e33f2eab5a34e88a56af9ada376e483b7
-  languageName: node
-  linkType: hard
-
-"jsii-pacmak@npm:^1.74.0":
+"jsii-pacmak@npm:^1.73.0, jsii-pacmak@npm:^1.74.0":
   version: 1.74.0
   resolution: "jsii-pacmak@npm:1.74.0"
   dependencies:
@@ -1879,22 +1856,6 @@ __metadata:
   bin:
     jsii-pacmak: bin/jsii-pacmak
   checksum: e3d815230f9d21ebeeaf78a140222b12c4e3c964cd2b604406fa3d28818ed93fd727eee8973724193cff72a2a38bd3858be0af3fdefd187743026af6535768f8
-  languageName: node
-  linkType: hard
-
-"jsii-reflect@npm:^1.73.0":
-  version: 1.73.0
-  resolution: "jsii-reflect@npm:1.73.0"
-  dependencies:
-    "@jsii/check-node": 1.73.0
-    "@jsii/spec": ^1.73.0
-    chalk: ^4
-    fs-extra: ^10.1.0
-    oo-ascii-tree: ^1.73.0
-    yargs: ^16.2.0
-  bin:
-    jsii-tree: bin/jsii-tree
-  checksum: 29b3a7a78978a19a5b23424549a750b51015e7eef079edfbc9960153033a09c4e484ad0ded2244588eafe796aaf35ff751dcc93b31b155492d8ee3668d7211f6
   languageName: node
   linkType: hard
 
@@ -2505,13 +2466,6 @@ __metadata:
   dependencies:
     wrappy: 1
   checksum: cd0a88501333edd640d95f0d2700fbde6bff20b3d4d9bdc521bdd31af0656b5706570d6c6afe532045a20bb8dc0849f8332d6f2a416e0ba6d3d3b98806c7db68
-  languageName: node
-  linkType: hard
-
-"oo-ascii-tree@npm:^1.73.0":
-  version: 1.73.0
-  resolution: "oo-ascii-tree@npm:1.73.0"
-  checksum: 76d09efebe7ae467c436f6ad14045959b1810ed71246f77e77d4bee413d96ae7ba6a96264644d2319471869f430c492ac5d90b18d5aa5b8ec995f51d43bde83a
   languageName: node
   linkType: hard
 
