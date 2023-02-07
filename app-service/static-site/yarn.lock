@@ -2302,11 +2302,11 @@ __metadata:
   linkType: hard
 
 "node-abi@npm:^3.3.0":
-  version: 3.31.0
-  resolution: "node-abi@npm:3.31.0"
+  version: 3.32.0
+  resolution: "node-abi@npm:3.32.0"
   dependencies:
     semver: ^7.3.5
-  checksum: 38fa63c689ef50b4b8f576d5f843107e2d25bd7e7d4ed56dc0adb9db7eda945fc433a7a432beca4b9decf62ff05395f0e84f46e7ab7f275f85e5fde213353950
+  checksum: 321fd4b174908fa2b33a411f92dd878b7752547c2bdf516cd2ee6a9dbedef4981b8227e280db5e76db946fa7321038f9996e44147f8d62b9407ed05748393615
   languageName: node
   linkType: hard
 
