@@ -1841,8 +1841,8 @@ __metadata:
   linkType: hard
 
 "jsii-srcmak@npm:^0.1.790":
-  version: 0.1.825
-  resolution: "jsii-srcmak@npm:0.1.825"
+  version: 0.1.826
+  resolution: "jsii-srcmak@npm:0.1.826"
   dependencies:
     fs-extra: ^9.1.0
     jsii: ^1.75.0
@@ -1851,7 +1851,7 @@ __metadata:
     yargs: ^15.4.1
   bin:
     jsii-srcmak: bin/jsii-srcmak
-  checksum: 0608db17e29bdef433ea69cabde3cedb1464704327deb3288dc106713a98cee9ad4c8f820f0cc02432d6d5efd53728b28d5d7e85e72db9234d5ea9773e71743d
+  checksum: c70d256bc0d491774667252c0b796c31cee58604cab285099de472ac7d0ffd4afe3c89b3d17e00f0e5ce441da5b63fd1d994b5f158e5f93841b364c834b2809b
   languageName: node
   linkType: hard
 
@@ -2009,9 +2009,9 @@ __metadata:
   linkType: hard
 
 "lru-cache@npm:^7.7.1":
-  version: 7.14.1
-  resolution: "lru-cache@npm:7.14.1"
-  checksum: d72c6713c6a6d86836a7a6523b3f1ac6764768cca47ec99341c3e76db06aacd4764620e5e2cda719a36848785a52a70e531822dc2b33fb071fa709683746c104
+  version: 7.15.0
+  resolution: "lru-cache@npm:7.15.0"
+  checksum: 85fafe28ddb14fc4518a1f268241861bdb5339ed35b51a23c742cf2467c639a05f0c8d11594e3d27cdf1052c51ddb1fa06ece024c28caa5a0312c8f1ac2fc2c3
   languageName: node
   linkType: hard
 
@@ -2787,13 +2787,13 @@ __metadata:
   linkType: hard
 
 "streamroller@npm:^3.1.3":
-  version: 3.1.4
-  resolution: "streamroller@npm:3.1.4"
+  version: 3.1.5
+  resolution: "streamroller@npm:3.1.5"
   dependencies:
     date-format: ^4.0.14
     debug: ^4.3.4
     fs-extra: ^8.1.0
-  checksum: c7b48b806f48d0c692fd7594913c6541c68ef0f35b950dcef82664b988d59334b44a30ad1666c80efc4f25d4fdd6e45efa401e9ca945b586e0e87a4520bc9a71
+  checksum: c1df5612b785ffa4b6bbf16460590b62994c57265bc55a5166eebeeb0daf648e84bc52dc6d57e0cd4e5c7609bda93076753c63ff54589febd1e0b95590f0e443
   languageName: node
   linkType: hard
 
