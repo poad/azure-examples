@@ -15,13 +15,14 @@ __metadata:
   linkType: hard
 
 "@babel/generator@npm:^7.20.4":
-  version: 7.20.14
-  resolution: "@babel/generator@npm:7.20.14"
+  version: 7.21.1
+  resolution: "@babel/generator@npm:7.21.1"
   dependencies:
-    "@babel/types": ^7.20.7
+    "@babel/types": ^7.21.0
     "@jridgewell/gen-mapping": ^0.3.2
+    "@jridgewell/trace-mapping": ^0.3.17
     jsesc: ^2.5.1
-  checksum: 5f6aa2d86af26e76d276923a5c34191124a119b16ee9ccc34aef654a7dec84fbd7d2daed2e6458a6a06bf87f3661deb77c9fea59b8f67faff5c90793c96d76d6
+  checksum: 69085a211ff91a7a608ee3f86e6fcb9cf5e724b756d792a713b0c328a671cd3e423e1ef1b12533f366baba0616caffe0a7ba9d328727eab484de5961badbef00
   languageName: node
   linkType: hard
 
@@ -51,11 +52,11 @@ __metadata:
   linkType: hard
 
 "@babel/parser@npm:^7.20.7":
-  version: 7.20.15
-  resolution: "@babel/parser@npm:7.20.15"
+  version: 7.21.1
+  resolution: "@babel/parser@npm:7.21.1"
   bin:
     parser: ./bin/babel-parser.js
-  checksum: 1d0f47ca67ff2652f1c0ff1570bed8deccbc4b53509e7cd73476af9cc7ed23480c99f1179bd6d0be01612368b92b39e206d330ad6054009d699934848a89298b
+  checksum: a564cff6dec4201a611d1f2ae5af8d7436ce80550e75a77ee72dca6b094df6188b5a4ccfae6a98c85991b56a51e6c48159e466cc5a374c7a37af706fcb5a6bc2
   languageName: node
   linkType: hard
 
@@ -70,14 +71,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/types@npm:^7.20.2, @babel/types@npm:^7.20.7, @babel/types@npm:^7.8.3":
-  version: 7.20.7
-  resolution: "@babel/types@npm:7.20.7"
+"@babel/types@npm:^7.20.2, @babel/types@npm:^7.20.7, @babel/types@npm:^7.21.0, @babel/types@npm:^7.8.3":
+  version: 7.21.0
+  resolution: "@babel/types@npm:7.21.0"
   dependencies:
     "@babel/helper-string-parser": ^7.19.4
     "@babel/helper-validator-identifier": ^7.19.1
     to-fast-properties: ^2.0.0
-  checksum: b39af241f0b72bba67fd6d0d23914f6faec8c0eba8015c181cbd5ea92e59fc91a52a1ab490d3520c7dbd19ddb9ebb76c476308f6388764f16d8201e37fae6811
+  checksum: dbcdda202b3a2bfd59e4de880ce38652f1f8957893a9751be069ac86e47ad751222070fe6cd92220214d77973f1474e4e1111c16dc48199dfca1489c0ee8c0c5
   languageName: node
   linkType: hard
 
@@ -174,12 +175,12 @@ __metadata:
   linkType: hard
 
 "@cdktf/provider-azurerm@npm:*":
-  version: 5.0.5
-  resolution: "@cdktf/provider-azurerm@npm:5.0.5"
+  version: 5.0.6
+  resolution: "@cdktf/provider-azurerm@npm:5.0.6"
   peerDependencies:
     cdktf: ^0.15.0
     constructs: ^10.0.0
-  checksum: f2f2c28345947ca0edfbed50d0cf6ab35dced9b5443ade27eb9aedee59dd864f5c50f307c304594cd3fd6ce835ced17c3f7fdd6b051c4f003de08fd978f2be5b
+  checksum: bdc47edd26df0b9bfae81aa473bcbceed6ba62f22007cae30ef83e257239545e5f308df2a28992959ed0f4b73d31f5f2a77fd746ee4584e106432b24c6589a34
   languageName: node
   linkType: hard
 
@@ -256,7 +257,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jridgewell/trace-mapping@npm:^0.3.9":
+"@jridgewell/trace-mapping@npm:^0.3.17, @jridgewell/trace-mapping@npm:^0.3.9":
   version: 0.3.17
   resolution: "@jridgewell/trace-mapping@npm:0.3.17"
   dependencies:
@@ -561,9 +562,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 18.13.0
-  resolution: "@types/node@npm:18.13.0"
-  checksum: 4ea10f8802848b01672bce938f678b6774ca2cee0c9774f12275ab064ae07818419c3e2e41d6257ce7ba846d1ea26c63214aa1dfa4166fa3746291752b8c6416
+  version: 18.14.0
+  resolution: "@types/node@npm:18.14.0"
+  checksum: d83fcf5e4ed544755dd9028f5cbb6b9d46235043159111bb2ad62223729aee581c0144a9f6df8ba73d74011db9ed4ebd7af2fd5e0996714e3beb508a5da8ac5c
   languageName: node
   linkType: hard
 
@@ -1093,9 +1094,9 @@ __metadata:
   linkType: hard
 
 "constructs@npm:*, constructs@npm:^10.0.25":
-  version: 10.1.253
-  resolution: "constructs@npm:10.1.253"
-  checksum: 879e1576a7fb1b81367c1a20d459ad53338d641472ce1133a0a2d29469b9ca72a0560d027964645090f190ca5ae92a4ff2a099910262f79b44f6c225ac829f45
+  version: 10.1.256
+  resolution: "constructs@npm:10.1.256"
+  checksum: 4e5e7513eeaf3c0f522e59b684cbfaefb28658690c831f03cad848c0b47b7721ff83c226056562fabc756d3da224e742a10946603f0bcf1f6c9247925a1cc508
   languageName: node
   linkType: hard
 
@@ -1841,8 +1842,8 @@ __metadata:
   linkType: hard
 
 "jsii-srcmak@npm:^0.1.826":
-  version: 0.1.827
-  resolution: "jsii-srcmak@npm:0.1.827"
+  version: 0.1.831
+  resolution: "jsii-srcmak@npm:0.1.831"
   dependencies:
     fs-extra: ^9.1.0
     jsii: ^1.75.0
@@ -1851,7 +1852,7 @@ __metadata:
     yargs: ^15.4.1
   bin:
     jsii-srcmak: bin/jsii-srcmak
-  checksum: e176b40db3b30ef926d07f7bd50e3d9293f0453df10618c957464061d1cd0a195eeb0313366bd75e8cb29d8ca1d98f81682e86d4e013656458b95cfcc3d3fc57
+  checksum: 32b9310e12e6bd826fcbe55fc36bff3e57a7d31420578b71b93a6d34a30158196fc5bfd30bfd3da2e14e5fb07c52f8fbeb674ef2482daab08f551ae85853c312
   languageName: node
   linkType: hard
 
@@ -2009,9 +2010,9 @@ __metadata:
   linkType: hard
 
 "lru-cache@npm:^7.7.1":
-  version: 7.15.0
-  resolution: "lru-cache@npm:7.15.0"
-  checksum: 85fafe28ddb14fc4518a1f268241861bdb5339ed35b51a23c742cf2467c639a05f0c8d11594e3d27cdf1052c51ddb1fa06ece024c28caa5a0312c8f1ac2fc2c3
+  version: 7.16.1
+  resolution: "lru-cache@npm:7.16.1"
+  checksum: 64618e3ed4fd1203afedd9bbf5247921b1419f8e3100f20e58e5f04e741f8287bd7d04fefaad332411bb53b3a73445714b235de750cf5d310cba1fa23bd82795
   languageName: node
   linkType: hard
 
@@ -3296,8 +3297,8 @@ __metadata:
   linkType: hard
 
 "yargs@npm:^17.6":
-  version: 17.6.2
-  resolution: "yargs@npm:17.6.2"
+  version: 17.7.0
+  resolution: "yargs@npm:17.7.0"
   dependencies:
     cliui: ^8.0.1
     escalade: ^3.1.1
@@ -3306,7 +3307,7 @@ __metadata:
     string-width: ^4.2.3
     y18n: ^5.0.5
     yargs-parser: ^21.1.1
-  checksum: 47da1b0d854fa16d45a3ded57b716b013b2179022352a5f7467409da5a04a1eef5b3b3d97a2dfc13e8bbe5f2ffc0afe3bc6a4a72f8254e60f5a4bd7947138643
+  checksum: e7d5f5b60e63b04ded7c27c3d4b194565565cac3ea19fffcdbb183bed973a83106822a04dda28ebba4811ce92949a9d9858d3935186ff8f343548bf98aab2120
   languageName: node
   linkType: hard
 
