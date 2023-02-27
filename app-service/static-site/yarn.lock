@@ -1002,13 +1002,13 @@ __metadata:
   linkType: hard
 
 "codemaker@npm:^1.75.0":
-  version: 1.75.0
-  resolution: "codemaker@npm:1.75.0"
+  version: 1.76.0
+  resolution: "codemaker@npm:1.76.0"
   dependencies:
     camelcase: ^6.3.0
     decamelize: ^5.0.1
     fs-extra: ^10.1.0
-  checksum: 156ff58001e7016284d5a41c55ff99df74ba4c088da778252d60ab22acb9b6c220dcea004f8f9a4394c9c47102ed8793da9cb4adc392c5e35f1625e4eec76bea
+  checksum: 2423d40529e7f943039bed0ef07572cc5770454679a890fa0087bdc0953efcf9279a46c02f0bb5c5abda80dd24f019f0f6ff015484bc898e1f56da045bd758e4
   languageName: node
   linkType: hard
 
