@@ -277,7 +277,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jsii/spec@npm:1.75.0, @jsii/spec@npm:^1.75.0":
+"@jsii/check-node@npm:1.76.0":
+  version: 1.76.0
+  resolution: "@jsii/check-node@npm:1.76.0"
+  dependencies:
+    chalk: ^4.1.2
+    semver: ^7.3.8
+  checksum: 76eb7001bcea24eba325a72af2770d4a969f86e1d6001850ca5c04ba6d00cd64e11e28c348199d932b2826d0ab75a8d9f10af684479b132a25e584789c2594bc
+  languageName: node
+  linkType: hard
+
+"@jsii/spec@npm:1.76.0, @jsii/spec@npm:^1.76.0":
+  version: 1.76.0
+  resolution: "@jsii/spec@npm:1.76.0"
+  dependencies:
+    ajv: ^8.12.0
+  checksum: d357dbed87aeb2d132396f6435046d98a7fb7b8de09d1da14205a19fdd5fb22566cd66b4d22bafeeee5ac380aa10554693a729bf6e9ba0cda3b6a8aaa0b5e91f
+  languageName: node
+  linkType: hard
+
+"@jsii/spec@npm:^1.75.0":
   version: 1.75.0
   resolution: "@jsii/spec@npm:1.75.0"
   dependencies:
@@ -1821,15 +1840,15 @@ __metadata:
   linkType: hard
 
 "jsii-rosetta@npm:^1.75.0":
-  version: 1.75.0
-  resolution: "jsii-rosetta@npm:1.75.0"
+  version: 1.76.0
+  resolution: "jsii-rosetta@npm:1.76.0"
   dependencies:
-    "@jsii/check-node": 1.75.0
-    "@jsii/spec": 1.75.0
+    "@jsii/check-node": 1.76.0
+    "@jsii/spec": 1.76.0
     "@xmldom/xmldom": ^0.8.6
     commonmark: ^0.30.0
     fast-glob: ^3.2.12
-    jsii: 1.75.0
+    jsii: 1.76.0
     semver: ^7.3.8
     semver-intersect: ^1.4.0
     typescript: ~3.9.10
@@ -1837,7 +1856,7 @@ __metadata:
     yargs: ^16.2.0
   bin:
     jsii-rosetta: bin/jsii-rosetta
-  checksum: 0909cd1d7828647f1c2baa4f0e9b1e2333e8a9b5bd286df71767c774c65c195c97fd894a804be6b860d37715a1ec3184e5cdf3b0806282ce78976ef7f2838652
+  checksum: c418aa6f9db9889e38c6cb34e27ef32c41069073045f6a7f5fa23e59e1ebe856ba003eb982882ad7ae06fd4017c39952fd804f1d61cbef6e6708508b6768bf1c
   languageName: node
   linkType: hard
 
@@ -1856,7 +1875,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsii@npm:1.75.0, jsii@npm:^1.75.0":
+"jsii@npm:1.76.0":
+  version: 1.76.0
+  resolution: "jsii@npm:1.76.0"
+  dependencies:
+    "@jsii/check-node": 1.76.0
+    "@jsii/spec": ^1.76.0
+    case: ^1.6.3
+    chalk: ^4
+    fast-deep-equal: ^3.1.3
+    fs-extra: ^10.1.0
+    log4js: ^6.7.1
+    semver: ^7.3.8
+    semver-intersect: ^1.4.0
+    sort-json: ^2.0.1
+    spdx-license-list: ^6.6.0
+    typescript: ~3.9.10
+    yargs: ^16.2.0
+  bin:
+    jsii: bin/jsii
+  checksum: ac10c2f1f65f779ea17d929c8761915e455fa452788e04e198a0609f383a5cdc49586e2e585983b961ce95974b79f9e898e087db18dbb3cb76724e1b4eec9982
+  languageName: node
+  linkType: hard
+
+"jsii@npm:^1.75.0":
   version: 1.75.0
   resolution: "jsii@npm:1.75.0"
   dependencies:
