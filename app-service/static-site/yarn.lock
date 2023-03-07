@@ -267,16 +267,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jsii/check-node@npm:1.76.0":
-  version: 1.76.0
-  resolution: "@jsii/check-node@npm:1.76.0"
-  dependencies:
-    chalk: ^4.1.2
-    semver: ^7.3.8
-  checksum: 76eb7001bcea24eba325a72af2770d4a969f86e1d6001850ca5c04ba6d00cd64e11e28c348199d932b2826d0ab75a8d9f10af684479b132a25e584789c2594bc
-  languageName: node
-  linkType: hard
-
 "@jsii/check-node@npm:1.77.0":
   version: 1.77.0
   resolution: "@jsii/check-node@npm:1.77.0"
@@ -293,15 +283,6 @@ __metadata:
   dependencies:
     ajv: ^8.12.0
   checksum: 9e5dc9d76a21934ec053ce8a8cd3d927209dd59aa0d33f573e6ea43268e74ab53ffc359a36e831caee622efab7171c4672c50102d55aae4a6785fda5deecdf66
-  languageName: node
-  linkType: hard
-
-"@jsii/spec@npm:^1.76.0":
-  version: 1.76.0
-  resolution: "@jsii/spec@npm:1.76.0"
-  dependencies:
-    ajv: ^8.12.0
-  checksum: d357dbed87aeb2d132396f6435046d98a7fb7b8de09d1da14205a19fdd5fb22566cd66b4d22bafeeee5ac380aa10554693a729bf6e9ba0cda3b6a8aaa0b5e91f
   languageName: node
   linkType: hard
 
@@ -1875,7 +1856,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsii@npm:1.77.0, jsii@npm:^1.77.0":
+"jsii@npm:1.77.0, jsii@npm:^1.75.0, jsii@npm:^1.77.0":
   version: 1.77.0
   resolution: "jsii@npm:1.77.0"
   dependencies:
@@ -1895,29 +1876,6 @@ __metadata:
   bin:
     jsii: bin/jsii
   checksum: b3d754fa363aaad52175be920ea794bace82f746ac6742ad7f063b5e86fbea50faeb7b04007f9975e53a6dd8879e957c2243cd32734c6fb063385b849c2c0690
-  languageName: node
-  linkType: hard
-
-"jsii@npm:^1.75.0":
-  version: 1.76.0
-  resolution: "jsii@npm:1.76.0"
-  dependencies:
-    "@jsii/check-node": 1.76.0
-    "@jsii/spec": ^1.76.0
-    case: ^1.6.3
-    chalk: ^4
-    fast-deep-equal: ^3.1.3
-    fs-extra: ^10.1.0
-    log4js: ^6.7.1
-    semver: ^7.3.8
-    semver-intersect: ^1.4.0
-    sort-json: ^2.0.1
-    spdx-license-list: ^6.6.0
-    typescript: ~3.9.10
-    yargs: ^16.2.0
-  bin:
-    jsii: bin/jsii
-  checksum: ac10c2f1f65f779ea17d929c8761915e455fa452788e04e198a0609f383a5cdc49586e2e585983b961ce95974b79f9e898e087db18dbb3cb76724e1b4eec9982
   languageName: node
   linkType: hard
 
@@ -2029,20 +1987,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"log4js@npm:^6.7.0, log4js@npm:^6.7.1":
-  version: 6.8.0
-  resolution: "log4js@npm:6.8.0"
-  dependencies:
-    date-format: ^4.0.14
-    debug: ^4.3.4
-    flatted: ^3.2.7
-    rfdc: ^1.3.0
-    streamroller: ^3.1.5
-  checksum: bab8e0434ff8d314338542c3305da2ab4e1b581fad8fef356776053dba8bd210839abc06fe83d0d4facdc27e8e890f05fd25f8ae7dc6dcab5635d75dd5d6c66f
-  languageName: node
-  linkType: hard
-
-"log4js@npm:^6.8.0":
+"log4js@npm:^6.7.0, log4js@npm:^6.8.0":
   version: 6.9.0
   resolution: "log4js@npm:6.9.0"
   dependencies:
