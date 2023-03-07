@@ -1020,7 +1020,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"codemaker@npm:^1.75.0, codemaker@npm:^1.76.0":
+"codemaker@npm:^1.75.0, codemaker@npm:^1.77.0":
   version: 1.77.0
   resolution: "codemaker@npm:1.77.0"
   dependencies:
@@ -1801,45 +1801,45 @@ __metadata:
   linkType: hard
 
 "jsii-pacmak@npm:^1.75.0, jsii-pacmak@npm:^1.76.0":
-  version: 1.76.0
-  resolution: "jsii-pacmak@npm:1.76.0"
+  version: 1.77.0
+  resolution: "jsii-pacmak@npm:1.77.0"
   dependencies:
-    "@jsii/check-node": 1.76.0
-    "@jsii/spec": ^1.76.0
+    "@jsii/check-node": 1.77.0
+    "@jsii/spec": ^1.77.0
     clone: ^2.1.2
-    codemaker: ^1.76.0
+    codemaker: ^1.77.0
     commonmark: ^0.30.0
     escape-string-regexp: ^4.0.0
     fs-extra: ^10.1.0
-    jsii-reflect: ^1.76.0
-    jsii-rosetta: ^1.76.0
+    jsii-reflect: ^1.77.0
+    jsii-rosetta: ^1.77.0
     semver: ^7.3.8
     spdx-license-list: ^6.6.0
     xmlbuilder: ^15.1.1
     yargs: ^16.2.0
   bin:
     jsii-pacmak: bin/jsii-pacmak
-  checksum: a8a00c29cbe8e730f8ce5808dfe0ee301cce18277ae054cf2795b82c22112ae5b9e5e7a0302c2fe349a8fba087111593e3135f7b22c959b1e8f6287874312f7b
+  checksum: 0f588a776945e2e90ab14205e961f4d5b462a4b0eab39411361bff4869e392d382f306678fc8562e283aaab3d6fc4916f2af034b4b3ec3dc473c6a4c34291b99
   languageName: node
   linkType: hard
 
-"jsii-reflect@npm:^1.76.0":
-  version: 1.76.0
-  resolution: "jsii-reflect@npm:1.76.0"
+"jsii-reflect@npm:^1.77.0":
+  version: 1.77.0
+  resolution: "jsii-reflect@npm:1.77.0"
   dependencies:
-    "@jsii/check-node": 1.76.0
-    "@jsii/spec": ^1.76.0
+    "@jsii/check-node": 1.77.0
+    "@jsii/spec": ^1.77.0
     chalk: ^4
     fs-extra: ^10.1.0
-    oo-ascii-tree: ^1.76.0
+    oo-ascii-tree: ^1.77.0
     yargs: ^16.2.0
   bin:
     jsii-tree: bin/jsii-tree
-  checksum: 83a78e294fa76ad2b7c30c1bc5ff846321c34a6005374d6595d06f38be51ea640cdaf880dbf25ccebc0fea875e01d0262fe467a8e6a4a21131d76fa62f5baaa6
+  checksum: c8fb1ce71744b66f28a1cfa510741fa66cb7dbc5182ad86ecebcfc12a5879efc348b3996a237aaf7487bd9e6d4f165f0dfd5f6719efe9d2af7b8e428c845db79
   languageName: node
   linkType: hard
 
-"jsii-rosetta@npm:^1.75.0, jsii-rosetta@npm:^1.76.0":
+"jsii-rosetta@npm:^1.75.0, jsii-rosetta@npm:^1.77.0":
   version: 1.77.0
   resolution: "jsii-rosetta@npm:1.77.0"
   dependencies:
@@ -2407,10 +2407,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"oo-ascii-tree@npm:^1.76.0":
-  version: 1.76.0
-  resolution: "oo-ascii-tree@npm:1.76.0"
-  checksum: 9e9ee3a05af244a94cd84b1fdd2c3dad2c9fcc50da27145540e0277f6dcf2e9120a140b2aba37edf0f9c035d61c67e22b15e5016ef2875e5be03ddc8da3c7f0d
+"oo-ascii-tree@npm:^1.77.0":
+  version: 1.77.0
+  resolution: "oo-ascii-tree@npm:1.77.0"
+  checksum: 0d6a0482843932ecad62f19f0afb4e800fb042e2bdb35e2da4d92edb168dc4628cf7e8372f718140a5f50c47f8264533ff7dba23bf93c3341a80131db107aacf
   languageName: node
   linkType: hard
 
