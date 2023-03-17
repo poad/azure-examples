@@ -1811,7 +1811,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsii-pacmak@npm:^1.75.0, jsii-pacmak@npm:^1.77.0":
+"jsii-pacmak@npm:^1.75.0, jsii-pacmak@npm:^1.78.1":
   version: 1.78.1
   resolution: "jsii-pacmak@npm:1.78.1"
   dependencies:
@@ -1893,21 +1893,21 @@ __metadata:
   linkType: hard
 
 "jsii-srcmak@npm:^0.1.826":
-  version: 0.1.854
-  resolution: "jsii-srcmak@npm:0.1.854"
+  version: 0.1.855
+  resolution: "jsii-srcmak@npm:0.1.855"
   dependencies:
     fs-extra: ^9.1.0
-    jsii: ^1.77.0
-    jsii-pacmak: ^1.77.0
+    jsii: ^1.78.1
+    jsii-pacmak: ^1.78.1
     ncp: ^2.0.0
     yargs: ^15.4.1
   bin:
     jsii-srcmak: bin/jsii-srcmak
-  checksum: 5832bb9b541a57a6d6ab2c358acdf3f18e19d6360117ee82fca4338b86e9e0b04d349cad09a64522352ed52c0380e4ebc33bebc62e69683e696c3aeea3ed9c9d
+  checksum: 90a49deb7729a1e4ed31ff0ae3e10d960b30c96bc1574fde6442e0b74743260d653aada319ef4b20c40f5bd0127c6782199cab039424bfbff5f2c210713c293a
   languageName: node
   linkType: hard
 
-"jsii@npm:1.77.0, jsii@npm:^1.75.0, jsii@npm:^1.77.0":
+"jsii@npm:1.77.0, jsii@npm:^1.75.0":
   version: 1.77.0
   resolution: "jsii@npm:1.77.0"
   dependencies:
@@ -1930,7 +1930,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsii@npm:1.78.1":
+"jsii@npm:1.78.1, jsii@npm:^1.78.1":
   version: 1.78.1
   resolution: "jsii@npm:1.78.1"
   dependencies:
