@@ -2353,9 +2353,9 @@ __metadata:
   linkType: hard
 
 "oo-ascii-tree@npm:^1.77.0":
-  version: 1.77.0
-  resolution: "oo-ascii-tree@npm:1.77.0"
-  checksum: 0d6a0482843932ecad62f19f0afb4e800fb042e2bdb35e2da4d92edb168dc4628cf7e8372f718140a5f50c47f8264533ff7dba23bf93c3341a80131db107aacf
+  version: 1.78.1
+  resolution: "oo-ascii-tree@npm:1.78.1"
+  checksum: 569f440fdba269ecfc0a319ca4887b4ac44bdc8d5775f0a0e14403d726b2f95fe7e1f3e6a8c97b0b427b868e8a7e07de7e90632ecae0accb664a01affd33fed3
   languageName: node
   linkType: hard
 
