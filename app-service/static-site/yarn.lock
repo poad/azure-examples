@@ -277,12 +277,31 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@jsii/check-node@npm:1.79.0":
+  version: 1.79.0
+  resolution: "@jsii/check-node@npm:1.79.0"
+  dependencies:
+    chalk: ^4.1.2
+    semver: ^7.3.8
+  checksum: fe49c8cf56feeacc2235daf3ec4d3441bb2f5f44eae942501fe904bee1288df5fc72d0e494a641b887edb1621d52b6b06afaddff877a415929c8ba09b505622d
+  languageName: node
+  linkType: hard
+
 "@jsii/spec@npm:1.78.1, @jsii/spec@npm:^1.78.1":
   version: 1.78.1
   resolution: "@jsii/spec@npm:1.78.1"
   dependencies:
     ajv: ^8.12.0
   checksum: f3dca993a4ce9259e238eda417849f6caa55b7d853841edd7d37f38ef0753cbf2a4cdb37c25f2d63157961d2ab9b58e0e47c30594211b62899a0ed944c8decfe
+  languageName: node
+  linkType: hard
+
+"@jsii/spec@npm:^1.79.0":
+  version: 1.79.0
+  resolution: "@jsii/spec@npm:1.79.0"
+  dependencies:
+    ajv: ^8.12.0
+  checksum: f3dea7105b97f003d3350472e7864327bc15bb2b5b1f7e3705392f619f63f21510c739857a681eb8945debcdd616b8a367599e5ec6b2e0a612665977a75f0526
   languageName: node
   linkType: hard
 
@@ -1805,18 +1824,18 @@ __metadata:
   linkType: hard
 
 "jsii-reflect@npm:^1.78.1":
-  version: 1.78.1
-  resolution: "jsii-reflect@npm:1.78.1"
+  version: 1.79.0
+  resolution: "jsii-reflect@npm:1.79.0"
   dependencies:
-    "@jsii/check-node": 1.78.1
-    "@jsii/spec": ^1.78.1
+    "@jsii/check-node": 1.79.0
+    "@jsii/spec": ^1.79.0
     chalk: ^4
     fs-extra: ^10.1.0
-    oo-ascii-tree: ^1.78.1
+    oo-ascii-tree: ^1.79.0
     yargs: ^16.2.0
   bin:
     jsii-tree: bin/jsii-tree
-  checksum: a322e87c99be52082c27272bfd2f5279e72d4fb2e57556e23e4c0d39ba878d361bcf07fb8e5933ed60ed2a9efcac54b3444743f77ea3bafb13adf1a83ae9094e
+  checksum: cdb2138c1e62e08df303ee08c35e4e26b43ad5ff29604c6cadb212dd819dbb46a44bebc4921ecd06417dc326b5808222187acb022d768691eb5c44fc4cd151fb
   languageName: node
   linkType: hard
 
@@ -2352,10 +2371,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"oo-ascii-tree@npm:^1.78.1":
-  version: 1.78.1
-  resolution: "oo-ascii-tree@npm:1.78.1"
-  checksum: 569f440fdba269ecfc0a319ca4887b4ac44bdc8d5775f0a0e14403d726b2f95fe7e1f3e6a8c97b0b427b868e8a7e07de7e90632ecae0accb664a01affd33fed3
+"oo-ascii-tree@npm:^1.79.0":
+  version: 1.79.0
+  resolution: "oo-ascii-tree@npm:1.79.0"
+  checksum: 58ee3820a5e36168a5365abdc658b7f11810a584b67a5218b34663348a0c19cfe24bf929f05d104e627c35cb9e899ec789090146354afa4155f3f0076982e736
   languageName: node
   linkType: hard
 
