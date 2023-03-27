@@ -287,21 +287,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jsii/spec@npm:1.79.0, @jsii/spec@npm:^1.79.0":
+"@jsii/spec@npm:1.79.0, @jsii/spec@npm:^1.78.1, @jsii/spec@npm:^1.79.0":
   version: 1.79.0
   resolution: "@jsii/spec@npm:1.79.0"
   dependencies:
     ajv: ^8.12.0
   checksum: f3dea7105b97f003d3350472e7864327bc15bb2b5b1f7e3705392f619f63f21510c739857a681eb8945debcdd616b8a367599e5ec6b2e0a612665977a75f0526
-  languageName: node
-  linkType: hard
-
-"@jsii/spec@npm:^1.78.1":
-  version: 1.78.1
-  resolution: "@jsii/spec@npm:1.78.1"
-  dependencies:
-    ajv: ^8.12.0
-  checksum: f3dca993a4ce9259e238eda417849f6caa55b7d853841edd7d37f38ef0753cbf2a4cdb37c25f2d63157961d2ab9b58e0e47c30594211b62899a0ed944c8decfe
   languageName: node
   linkType: hard
 
