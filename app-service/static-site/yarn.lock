@@ -1853,8 +1853,8 @@ __metadata:
   linkType: hard
 
 "jsii-srcmak@npm:^0.1.826":
-  version: 0.1.862
-  resolution: "jsii-srcmak@npm:0.1.862"
+  version: 0.1.865
+  resolution: "jsii-srcmak@npm:0.1.865"
   dependencies:
     fs-extra: ^9.1.0
     jsii: ^1.79.0
@@ -1863,7 +1863,7 @@ __metadata:
     yargs: ^15.4.1
   bin:
     jsii-srcmak: bin/jsii-srcmak
-  checksum: 4d91edd0680936ccddfef2be21eb9d135e28a77a0bb841fc5564f03814c356712df874adb38d4cb473f6d40aacc6ade12cb784b2ec1e6cfa762bd863cae139ec
+  checksum: 9e658145a21c27454d9352376b8e700dd5f5eda65807f8d8e58584dfc742ee60cb9f5bb57ea2f9e9590a4bff74a8b108fbd75009c6cb86621a97437aa72e2db6
   languageName: node
   linkType: hard
 
