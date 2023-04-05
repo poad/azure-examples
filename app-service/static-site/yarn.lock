@@ -1848,23 +1848,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsii-reflect@npm:^1.79.0":
-  version: 1.79.0
-  resolution: "jsii-reflect@npm:1.79.0"
-  dependencies:
-    "@jsii/check-node": 1.79.0
-    "@jsii/spec": ^1.79.0
-    chalk: ^4
-    fs-extra: ^10.1.0
-    oo-ascii-tree: ^1.79.0
-    yargs: ^16.2.0
-  bin:
-    jsii-tree: bin/jsii-tree
-  checksum: cdb2138c1e62e08df303ee08c35e4e26b43ad5ff29604c6cadb212dd819dbb46a44bebc4921ecd06417dc326b5808222187acb022d768691eb5c44fc4cd151fb
-  languageName: node
-  linkType: hard
-
-"jsii-reflect@npm:^1.80.0":
+"jsii-reflect@npm:^1.79.0, jsii-reflect@npm:^1.80.0":
   version: 1.80.0
   resolution: "jsii-reflect@npm:1.80.0"
   dependencies:
@@ -2457,7 +2441,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"oo-ascii-tree@npm:^1.79.0, oo-ascii-tree@npm:^1.80.0":
+"oo-ascii-tree@npm:^1.80.0":
   version: 1.80.0
   resolution: "oo-ascii-tree@npm:1.80.0"
   checksum: 29cf9b38cef12ede8b973ef9cd5dd4d8c9c8742fc3978235d651d1a7ecb92453972ee5e8a9c6670f2e734bb9abbde16db96a39de22b47a2eebf1c6074c22e4eb
