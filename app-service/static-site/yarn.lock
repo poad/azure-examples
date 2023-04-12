@@ -1862,8 +1862,8 @@ __metadata:
   linkType: hard
 
 "jsii-srcmak@npm:^0.1.826":
-  version: 0.1.879
-  resolution: "jsii-srcmak@npm:0.1.879"
+  version: 0.1.880
+  resolution: "jsii-srcmak@npm:0.1.880"
   dependencies:
     fs-extra: ^9.1.0
     jsii: ^1.80.0
@@ -1872,7 +1872,7 @@ __metadata:
     yargs: ^15.4.1
   bin:
     jsii-srcmak: bin/jsii-srcmak
-  checksum: b4b7555a4bc19c4524aeeb24b5e87785f6bd7ef100a1106d42d898d36e301796fc7353476c272b0136098bbe2bca5def354f2caa401f6ebcdd8cc85f83c28d18
+  checksum: 1c41546d7c2ae2451d079208addfa177fd2850d4d5b9687561cb43503df5bcace8da7e021aae78c251c1eacd33cb414fa8e788a94b41c674bbc6f84b37c8dc9d
   languageName: node
   linkType: hard
 
@@ -2191,9 +2191,9 @@ __metadata:
   linkType: hard
 
 "minipass@npm:^4.0.0":
-  version: 4.2.7
-  resolution: "minipass@npm:4.2.7"
-  checksum: 55669510e5ff681889ba30b3bebe7dc70eac687197c9fe119b4d6eee36d96755b240f11b75e81edc2b6f8ce8338154a26896fb0555ae34b4fa4c607d31557ee9
+  version: 4.2.8
+  resolution: "minipass@npm:4.2.8"
+  checksum: 7f4914d5295a9a30807cae5227a37a926e6d910c03f315930fde52332cf0575dfbc20295318f91f0baf0e6bb11a6f668e30cde8027dea7a11b9d159867a3c830
   languageName: node
   linkType: hard
 
