@@ -410,16 +410,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cdktf/cli-core@npm:0.16.0":
-  version: 0.16.0
-  resolution: "@cdktf/cli-core@npm:0.16.0"
+"@cdktf/cli-core@npm:0.16.1":
+  version: 0.16.1
+  resolution: "@cdktf/cli-core@npm:0.16.1"
   dependencies:
-    "@cdktf/commons": 0.16.0
-    "@cdktf/hcl2cdk": 0.16.0
-    "@cdktf/hcl2json": 0.16.0
+    "@cdktf/commons": 0.16.1
+    "@cdktf/hcl2cdk": 0.16.1
+    "@cdktf/hcl2json": 0.16.1
     "@cdktf/node-pty-prebuilt-multiarch": 0.10.1-pre.10
     "@sentry/node": ^6.19.7
-    cdktf: 0.16.0
+    cdktf: 0.16.1
     codemaker: ^1.79.0
     constructs: ^10.0.25
     cross-spawn: ^7.0.3
@@ -435,17 +435,17 @@ __metadata:
     yargs: ^17.6
     yoga-layout-prebuilt: ^1.10.0
     zod: ^1.11.17
-  checksum: 260f5903c2f5808f71a897894b2054f4c7472ec645a13ba3bbabd4a6bde2c3d5563298d0639a0b43ff214790dce20f83396e2d9778256a7cc782e3a271fe8977
+  checksum: f399ecd5d8fc5fe48ddb6046455b3e38dcf5a9033c5010fec4ea94ee95c6f447ba9ffe9bf63c2e22cdf0e2ff1081d70a044a9e3d4335bc2a3a82f8e2e3839546
   languageName: node
   linkType: hard
 
-"@cdktf/commons@npm:0.16.0":
-  version: 0.16.0
-  resolution: "@cdktf/commons@npm:0.16.0"
+"@cdktf/commons@npm:0.16.1":
+  version: 0.16.1
+  resolution: "@cdktf/commons@npm:0.16.1"
   dependencies:
     "@npmcli/ci-detect": ^1.4.0
     "@sentry/node": ^6.19.7
-    cdktf: 0.16.0
+    cdktf: 0.16.1
     codemaker: ^1.76.0
     constructs: ^10.0.25
     cross-spawn: ^7.0.3
@@ -457,20 +457,20 @@ __metadata:
     ts-jest: ^29.0.5
     typescript: ^5.0.2
     uuid: ^8.3.2
-  checksum: 1089c024d065be499baaffc455d38529c43ce1a787d788ef541a3a63cbdb1e8e967cc180440a6dd2ea975852334a844c0e626566ce51fcdcbb618b48f4084811
+  checksum: 54a1ca72724291227074d9f585cf7c2f4103d45a85f85185f4e3b11aca4366a4e36dc38c255b8848eab9101b1d21ca42473795133693bf7542bcc2e0e0d35591
   languageName: node
   linkType: hard
 
-"@cdktf/hcl2cdk@npm:0.16.0":
-  version: 0.16.0
-  resolution: "@cdktf/hcl2cdk@npm:0.16.0"
+"@cdktf/hcl2cdk@npm:0.16.1":
+  version: 0.16.1
+  resolution: "@cdktf/hcl2cdk@npm:0.16.1"
   dependencies:
     "@babel/generator": ^7.21.4
     "@babel/template": ^7.20.7
     "@babel/types": ^7.21.4
-    "@cdktf/commons": 0.16.0
-    "@cdktf/hcl2json": 0.16.0
-    "@cdktf/provider-generator": 0.16.0
+    "@cdktf/commons": 0.16.1
+    "@cdktf/hcl2json": 0.16.1
+    "@cdktf/provider-generator": 0.16.1
     camelcase: ^6.3.0
     deep-equal: ^2.2.0
     glob: 9.3.4
@@ -480,16 +480,16 @@ __metadata:
     prettier: ^2.8.6
     reserved-words: ^0.1.2
     zod: ^3.21.4
-  checksum: 44a01b400c4e671f974fa010bcb7754b11fe20878bfef76fbd455c7514714bcb2c6bed6ad2bfdbe8d3cd40e022b2a1ba982cb061b28f8c341c52197bba85c3dc
+  checksum: b87a76330443ad09e3ca2d002b65b2206efc00e1c75912945c79366d8acd769003f7be6e546101a803a6897f79c00514906cbc8899fcf2642a258a3d99cd6e2f
   languageName: node
   linkType: hard
 
-"@cdktf/hcl2json@npm:0.16.0":
-  version: 0.16.0
-  resolution: "@cdktf/hcl2json@npm:0.16.0"
+"@cdktf/hcl2json@npm:0.16.1":
+  version: 0.16.1
+  resolution: "@cdktf/hcl2json@npm:0.16.1"
   dependencies:
     fs-extra: ^11.1.1
-  checksum: 341bb797d32a308c890c181606315d6b3d2b754d00876739fae0496bb3cec42a975958fb11c4b8908eeef4f914f3d12a65d293f9a164604350d8ed29caa50527
+  checksum: 0054a0d520dcfbf7ac39fea1cb758aa84a1de5611d29d7f21581376a61755f0c2275309b874e1daad9de0c8e89369bd21e8d3c59103487af5065374a1d84e657
   languageName: node
   linkType: hard
 
@@ -514,18 +514,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cdktf/provider-generator@npm:0.16.0":
-  version: 0.16.0
-  resolution: "@cdktf/provider-generator@npm:0.16.0"
+"@cdktf/provider-generator@npm:0.16.1":
+  version: 0.16.1
+  resolution: "@cdktf/provider-generator@npm:0.16.1"
   dependencies:
-    "@cdktf/commons": 0.16.0
-    "@cdktf/hcl2json": 0.16.0
+    "@cdktf/commons": 0.16.1
+    "@cdktf/hcl2json": 0.16.1
     "@types/node": 16.18.23
     codemaker: ^1.76.0
     deepmerge: ^4.2.2
     fs-extra: ^8.1.0
     jsii-srcmak: ^0.1.867
-  checksum: 4da21fb92eb17192a9134d5fb34ec2d78dfa16d2212b4344fc278255e67d827cb66f40bac054576e6630ebc65bc01f53d4ea2cb5858902bc707283615252f720
+  checksum: 182032e4bbdfbc455043e811d305a64522df1611eb2e98c51f92ad5e99d18920fa24a47d8cbfd6d6c50c4cd85a09a61428ea20808882eee72de58d3460cccb2d
   languageName: node
   linkType: hard
 
@@ -1795,15 +1795,15 @@ __metadata:
   linkType: hard
 
 "cdktf-cli@npm:*":
-  version: 0.16.0
-  resolution: "cdktf-cli@npm:0.16.0"
+  version: 0.16.1
+  resolution: "cdktf-cli@npm:0.16.1"
   dependencies:
-    "@cdktf/cli-core": 0.16.0
-    "@cdktf/commons": 0.16.0
-    "@cdktf/hcl2cdk": 0.16.0
-    "@cdktf/hcl2json": 0.16.0
+    "@cdktf/cli-core": 0.16.1
+    "@cdktf/commons": 0.16.1
+    "@cdktf/hcl2cdk": 0.16.1
+    "@cdktf/hcl2json": 0.16.1
     "@sentry/node": ^6.19.7
-    cdktf: 0.16.0
+    cdktf: 0.16.1
     codemaker: ^1.76.0
     constructs: ^10.0.25
     cross-spawn: ^7.0.3
@@ -1821,11 +1821,11 @@ __metadata:
     zod: ^1.11.17
   bin:
     cdktf: bundle/bin/cdktf
-  checksum: 2ba22b1fe39a1870c7eec37adcb6fabdd7b6b9b809459a56d681d7f9b45243cd3948dd30214528d352588dcbd287c1b2759205b0f2184d5fd7aec487bf5c3dd3
+  checksum: aa1ea4862ec8c7fa0fe7f9f151396482d23ee7f488a39a7242a0d840060024fc82b1db8ddff6a8f4555dacfde4d7f875805698958465a61aaa660a7606a074cf
   languageName: node
   linkType: hard
 
-"cdktf@npm:*":
+"cdktf@npm:*, cdktf@npm:0.16.1":
   version: 0.16.1
   resolution: "cdktf@npm:0.16.1"
   dependencies:
@@ -1835,19 +1835,6 @@ __metadata:
   peerDependencies:
     constructs: ^10.0.25
   checksum: e4d3d03fd9bf034e785a63006cf5f7c855c1d7fd63dedaa298d7c612c6db4be1b50fc20e2bb094ef7b622ebc16aa5c9a3e0e3643b48c6d52f7845aa1f4308ebb
-  languageName: node
-  linkType: hard
-
-"cdktf@npm:0.16.0":
-  version: 0.16.0
-  resolution: "cdktf@npm:0.16.0"
-  dependencies:
-    archiver: 5.3.1
-    json-stable-stringify: ^1.0.2
-    semver: ^7.3.8
-  peerDependencies:
-    constructs: ^10.0.25
-  checksum: d2f42d866577ab26a5067a3e067ff6780fa4d6dfce261cc831970a8b697797c72d738446a1f0c4e54f6c593fb01cc505888d39f81d5d91f65bdaf120b0c2ac84
   languageName: node
   linkType: hard
 
