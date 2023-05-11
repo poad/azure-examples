@@ -871,7 +871,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jsii/spec@npm:1.80.0, @jsii/spec@npm:^1.80.0":
+"@jsii/check-node@npm:1.81.0":
+  version: 1.81.0
+  resolution: "@jsii/check-node@npm:1.81.0"
+  dependencies:
+    chalk: ^4.1.2
+    semver: ^7.5.0
+  checksum: 200f63e113b942aa31886ea8e2fbc38c922486bdfc060e92a2feb63f8787f30af483b5425db5654250974a004467c349f737ff0414b0141b281010a9fd7fe9b4
+  languageName: node
+  linkType: hard
+
+"@jsii/spec@npm:1.81.0, @jsii/spec@npm:^1.81.0":
+  version: 1.81.0
+  resolution: "@jsii/spec@npm:1.81.0"
+  dependencies:
+    ajv: ^8.12.0
+  checksum: 8259f45e10ca0a41fd1b5243361cf6c9a6476138784ce39c61a99fa5b8b05d016a96792a4b76b9033d15e2fa7ebdc02e445dfbf95ff107c45ecac7a0a2b117c0
+  languageName: node
+  linkType: hard
+
+"@jsii/spec@npm:^1.80.0":
   version: 1.80.0
   resolution: "@jsii/spec@npm:1.80.0"
   dependencies:
@@ -1311,7 +1330,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@xmldom/xmldom@npm:^0.8.6, @xmldom/xmldom@npm:^0.8.7":
+"@xmldom/xmldom@npm:^0.8.7":
   version: 0.8.7
   resolution: "@xmldom/xmldom@npm:0.8.7"
   checksum: 593d4429c2281ee7799adcb6ff8604b68cf30ce0721537e3e380287b423e67c7ac197d90987f932b4fd3febc409ded8435706e7f90fbba6e22e08740477341d1
@@ -3856,16 +3875,16 @@ __metadata:
   linkType: hard
 
 "jsii-rosetta@npm:^1.80.0":
-  version: 1.80.0
-  resolution: "jsii-rosetta@npm:1.80.0"
+  version: 1.81.0
+  resolution: "jsii-rosetta@npm:1.81.0"
   dependencies:
-    "@jsii/check-node": 1.80.0
-    "@jsii/spec": 1.80.0
-    "@xmldom/xmldom": ^0.8.6
+    "@jsii/check-node": 1.81.0
+    "@jsii/spec": 1.81.0
+    "@xmldom/xmldom": ^0.8.7
     commonmark: ^0.30.0
     fast-glob: ^3.2.12
-    jsii: 1.80.0
-    semver: ^7.3.8
+    jsii: 1.81.0
+    semver: ^7.5.0
     semver-intersect: ^1.4.0
     stream-json: ^1.7.5
     typescript: ~3.9.10
@@ -3873,7 +3892,7 @@ __metadata:
     yargs: ^16.2.0
   bin:
     jsii-rosetta: bin/jsii-rosetta
-  checksum: b01045292a7665e3c8c6e8ef27a89ba3408c6c6fd39a877b49e38534b4539c31b0f5d3642f3e7e659d3ada14d3e471d11a15fb71fae766e4a1c2cce46ff89547
+  checksum: cfa284a507306cb13ce064365a9788e7276d7346dcd937afd0c33afb635b8a85bc37af5efac9b674365771dccfc78c71533e17408c5efda691fc234d50cad2ed
   languageName: node
   linkType: hard
 
@@ -3915,18 +3934,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsii@npm:1.80.0, jsii@npm:^1.80.0":
-  version: 1.80.0
-  resolution: "jsii@npm:1.80.0"
+"jsii@npm:1.81.0":
+  version: 1.81.0
+  resolution: "jsii@npm:1.81.0"
   dependencies:
-    "@jsii/check-node": 1.80.0
-    "@jsii/spec": ^1.80.0
+    "@jsii/check-node": 1.81.0
+    "@jsii/spec": ^1.81.0
     case: ^1.6.3
     chalk: ^4
     fast-deep-equal: ^3.1.3
     fs-extra: ^10.1.0
     log4js: ^6.9.1
-    semver: ^7.3.8
+    semver: ^7.5.0
     semver-intersect: ^1.4.0
     sort-json: ^2.0.1
     spdx-license-list: ^6.6.0
@@ -3934,7 +3953,7 @@ __metadata:
     yargs: ^16.2.0
   bin:
     jsii: bin/jsii
-  checksum: 4e04a707d1e3fc59737db67bdf3627b103f906f1a13be590133d53e2dc706b1122251154399856f45cfc918fe3c8f4fcf273ba0d5ef6a4ef65e6a21ddd3142f6
+  checksum: 84b8754476c1c0853ba89868d35e0326eb880d1521ff863d7b421cd5ba57ced16823782b5c96b7784e87ba3c93813b3e632608b61247b38609d9ea983f2a099a
   languageName: node
   linkType: hard
 
@@ -3958,6 +3977,29 @@ __metadata:
   bin:
     jsii: bin/jsii
   checksum: a54f441025f9f4571d7a1e2cd75b20a12d70640b9d8c1c251c1bdd03f706f3d359bd25ec980450ed5c58547c95985a61815053ec103e74550eb65f58e76bf848
+  languageName: node
+  linkType: hard
+
+"jsii@npm:^1.80.0":
+  version: 1.80.0
+  resolution: "jsii@npm:1.80.0"
+  dependencies:
+    "@jsii/check-node": 1.80.0
+    "@jsii/spec": ^1.80.0
+    case: ^1.6.3
+    chalk: ^4
+    fast-deep-equal: ^3.1.3
+    fs-extra: ^10.1.0
+    log4js: ^6.9.1
+    semver: ^7.3.8
+    semver-intersect: ^1.4.0
+    sort-json: ^2.0.1
+    spdx-license-list: ^6.6.0
+    typescript: ~3.9.10
+    yargs: ^16.2.0
+  bin:
+    jsii: bin/jsii
+  checksum: 4e04a707d1e3fc59737db67bdf3627b103f906f1a13be590133d53e2dc706b1122251154399856f45cfc918fe3c8f4fcf273ba0d5ef6a4ef65e6a21ddd3142f6
   languageName: node
   linkType: hard
 
