@@ -1189,9 +1189,9 @@ __metadata:
   linkType: hard
 
 "@tsconfig/node16@npm:^1.0.2":
-  version: 1.0.3
-  resolution: "@tsconfig/node16@npm:1.0.3"
-  checksum: 3a8b657dd047495b7ad23437d6afd20297ce90380ff0bdee93fc7d39a900dbd8d9e26e53ff6b465e7967ce2adf0b218782590ce9013285121e6a5928fbd6819f
+  version: 1.0.4
+  resolution: "@tsconfig/node16@npm:1.0.4"
+  checksum: 202319785901f942a6e1e476b872d421baec20cf09f4b266a1854060efbf78cde16a4d256e8bc949d31e6cd9a90f1e8ef8fb06af96a65e98338a2b6b0de0a0ff
   languageName: node
   linkType: hard
 
@@ -2058,9 +2058,9 @@ __metadata:
   linkType: hard
 
 "constructs@npm:*, constructs@npm:^10.0.25":
-  version: 10.2.19
-  resolution: "constructs@npm:10.2.19"
-  checksum: db38ecd1fc914545c81fff9301a8636cb7fc4f7e9c8e58042f3cedcd4e13305c0679a19a1581b691d0a9b55892e144330b46633fa5ad2220003e8ff5eba46202
+  version: 10.2.20
+  resolution: "constructs@npm:10.2.20"
+  checksum: 4ee332f5426b9e32d0e18bdb10d090a14bb7a9f1a5ca4bec5103a8c77933334befdee4c3bb4d8d9794f7d3d10ff1949da11b67a29a497ea66aea02e3db1206d1
   languageName: node
   linkType: hard
 
@@ -3911,8 +3911,8 @@ __metadata:
   linkType: hard
 
 "jsii-srcmak@npm:^0.1.867":
-  version: 0.1.906
-  resolution: "jsii-srcmak@npm:0.1.906"
+  version: 0.1.907
+  resolution: "jsii-srcmak@npm:0.1.907"
   dependencies:
     fs-extra: ^9.1.0
     jsii: ^1.80.0
@@ -3921,7 +3921,7 @@ __metadata:
     yargs: ^15.4.1
   bin:
     jsii-srcmak: bin/jsii-srcmak
-  checksum: 29eaafbf0fc2044a5a3642feed43b69a50e81d8868de798521dbb3ad2f705f43c92caed76a7425ae9af2ff6140ef7c7e4e1435c471d5b7ac5f363a6e75983db4
+  checksum: ddcae80d31f4d5718d8cbf14da6de004578b2d20ae4173335985f6def6f6a9d6dc9aa61e4430ba1bb9b534d376026d29b8fd27d0db68fd56b87ac1fa98379f32
   languageName: node
   linkType: hard
 
@@ -5652,12 +5652,12 @@ __metadata:
   linkType: hard
 
 "typescript@npm:next":
-  version: 5.1.0-dev.20230511
-  resolution: "typescript@npm:5.1.0-dev.20230511"
+  version: 5.1.0-dev.20230512
+  resolution: "typescript@npm:5.1.0-dev.20230512"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: c70558749c2ee6201bbd7cf37fb2f4c9e16375ce62b888d3c7b870a77aae80976530ea06619ebd2c8cb42c96c02bd0730923ad5043841047f917f58ec18e936f
+  checksum: 7a7abe8f6a9217752cee2578bbfc781f7e0e190df2e3e2aa96da71d197c23b7bd161603655592466660af423909554e06ed4ecc6bb58d4bda5a89d973ab8255b
   languageName: node
   linkType: hard
 
@@ -5682,12 +5682,12 @@ __metadata:
   linkType: hard
 
 "typescript@patch:typescript@next#~builtin<compat/typescript>":
-  version: 5.1.0-dev.20230511
-  resolution: "typescript@patch:typescript@npm%3A5.1.0-dev.20230511#~builtin<compat/typescript>::version=5.1.0-dev.20230511&hash=77c9e2"
+  version: 5.1.0-dev.20230512
+  resolution: "typescript@patch:typescript@npm%3A5.1.0-dev.20230512#~builtin<compat/typescript>::version=5.1.0-dev.20230512&hash=77c9e2"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 13fa0d1f3f9953bb32e234145d0503f3b7f39e2aa6978f54831dbd3c00d6aaad0e10787b8c8b8c50b2e9add6a2069217cfbc450c542c3fa975fa01d2aeb0b55c
+  checksum: 673538495b420778b732154bd5001baa7236a1f32eea29eeca8772fd9bde03b7eecb95fff1c29270da358a4b4aeac62cc13bf0ba5f45f0f20038688d87234bec
   languageName: node
   linkType: hard
 
