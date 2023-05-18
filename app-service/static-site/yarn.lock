@@ -1261,9 +1261,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 20.1.7
-  resolution: "@types/node@npm:20.1.7"
-  checksum: b722794290d22db1741e739c256876ca774b76ea2d647d9ec9d52c49b1b01049cc6f6332499a01ac81d641e8d078b33e4c5c59e409db80390ac6b8d7ef0c08a7
+  version: 20.2.0
+  resolution: "@types/node@npm:20.2.0"
+  checksum: 9b937367448a07482af14e3518125ae531bff99e16d51e0945f4f93dbd7051d8a270811bdeb57f0b52c629fb0c9c401a238a7352dfbc87e26495b6f0f59cbdb6
   languageName: node
   linkType: hard
 
@@ -1781,9 +1781,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001449":
-  version: 1.0.30001487
-  resolution: "caniuse-lite@npm:1.0.30001487"
-  checksum: b5a9e72ec165765fb3e07913cc389685ce8a30ac48967f99baec773a4353d2037fb534241e87b3c95d40a5081079be2263710b784883183bb2998b73f7202233
+  version: 1.0.30001488
+  resolution: "caniuse-lite@npm:1.0.30001488"
+  checksum: ef0caf2914f9fca700b75d22921f500241f4e988ded9985e62737136031787052185d8136a65a3a6d6d12b559cf75ab99f5488931f8bd060f1b7810a2c1ee1d1
   languageName: node
   linkType: hard
 
@@ -2048,9 +2048,9 @@ __metadata:
   linkType: hard
 
 "constructs@npm:*, constructs@npm:^10.0.25":
-  version: 10.2.26
-  resolution: "constructs@npm:10.2.26"
-  checksum: a80185207408cbd9910cfbfcdc843be8e1bc7fe03d9edbf2dae78e7313a710abe5481d5c8652cf67802bb30044127e32541cb011377aff6b7734fa381705e1ff
+  version: 10.2.27
+  resolution: "constructs@npm:10.2.27"
+  checksum: 40c0509f979b26cab769a42a861836cbbb7caefe2c3861def63f6a59bb68482b1c8833990dbfae346f650bcf1b04b31396196d3ceb6965f1240181d65aab7c69
   languageName: node
   linkType: hard
 
@@ -2288,9 +2288,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.284":
-  version: 1.4.397
-  resolution: "electron-to-chromium@npm:1.4.397"
-  checksum: d3551c0624d4eb29a514ef5e2161beb62c06c359c5340e765d349ea114e0eaf6a13eb4adc655d7eec880b0edcb493118888ce07b37e92476baf05ec5a96e99a3
+  version: 1.4.399
+  resolution: "electron-to-chromium@npm:1.4.399"
+  checksum: 51995e6e4dd6d2f630d56b21bd0ae47d8078dc7414b9648e644ba11fad99631da742ffd7a0f8af0abcb0bdb1749a678f95c87ead9b604fbc4625395b4236c94a
   languageName: node
   linkType: hard
 
@@ -5617,9 +5617,9 @@ __metadata:
   linkType: hard
 
 "tslib@npm:^2.4.0":
-  version: 2.5.0
-  resolution: "tslib@npm:2.5.0"
-  checksum: ae3ed5f9ce29932d049908ebfdf21b3a003a85653a9a140d614da6b767a93ef94f460e52c3d787f0e4f383546981713f165037dc2274df212ea9f8a4541004e1
+  version: 2.5.1
+  resolution: "tslib@npm:2.5.1"
+  checksum: 535e41e956b32d21aeff007a2c74989d1a6bf3fecb2b0141d80e5b9920bf90e23b4f0cd3772704bc03637c762dbdc1a314d75a407dd7189afbe3e83d80df9392
   languageName: node
   linkType: hard
 
@@ -5657,12 +5657,12 @@ __metadata:
   linkType: hard
 
 "typescript@npm:next":
-  version: 5.2.0-dev.20230516
-  resolution: "typescript@npm:5.2.0-dev.20230516"
+  version: 5.2.0-dev.20230518
+  resolution: "typescript@npm:5.2.0-dev.20230518"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: f9a3c94e1905731b3bb3d90b986969e2db14cc237d8169ed28e0cb79879e9842c0e3052b532b2af3fd30004789376f540f800fa426788473dbcf231e41a5b783
+  checksum: a176728effa6965b93a8dd9a9e13473770701374183050b541314d35ce2807ea9fbf38e489618db4290b1193dabc14b5fca9d40c85b83245371f7f702ae54a8f
   languageName: node
   linkType: hard
 
@@ -5687,12 +5687,12 @@ __metadata:
   linkType: hard
 
 "typescript@patch:typescript@next#~builtin<compat/typescript>":
-  version: 5.2.0-dev.20230516
-  resolution: "typescript@patch:typescript@npm%3A5.2.0-dev.20230516#~builtin<compat/typescript>::version=5.2.0-dev.20230516&hash=77c9e2"
+  version: 5.2.0-dev.20230518
+  resolution: "typescript@patch:typescript@npm%3A5.2.0-dev.20230518#~builtin<compat/typescript>::version=5.2.0-dev.20230518&hash=77c9e2"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 4b5eb21f29a0828bb7af1c9c1c7a7fa028571efb3015f115a914d09ed90ceab18f7d44bd1921bf078e5cfbea6c8017441a184988f7d65ebf90828b74e60dbcfc
+  checksum: 399853760646387a8fab3531fb211b679566f86fb16f6c9d259567061610f038da061c5831305d13f40babdc62c6cfd515dd74dcc4ffc253b2693c3a45da4ec2
   languageName: node
   linkType: hard
 
