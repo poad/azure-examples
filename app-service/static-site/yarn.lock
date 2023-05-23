@@ -871,7 +871,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jsii/spec@npm:1.81.0, @jsii/spec@npm:^1.81.0":
+"@jsii/check-node@npm:1.82.0":
+  version: 1.82.0
+  resolution: "@jsii/check-node@npm:1.82.0"
+  dependencies:
+    chalk: ^4.1.2
+    semver: ^7.5.1
+  checksum: 28fa879c2ba4754c22464b70b069be2168fe5969cccfeea85ddeac65b5a61727a3ca1fe4d03bf9a44ff5682713a73e6aebc5b5bcf7aae7652e0703dcdb5e4a98
+  languageName: node
+  linkType: hard
+
+"@jsii/spec@npm:1.82.0, @jsii/spec@npm:^1.82.0":
+  version: 1.82.0
+  resolution: "@jsii/spec@npm:1.82.0"
+  dependencies:
+    ajv: ^8.12.0
+  checksum: 605f292d529e00ea89dcdef0278fa125f07921a902838a7821bcd5a3898adfde55d3d71e568a5e65b52d617a07be2c1fec15a4c3177cda72d63ae034566d016a
+  languageName: node
+  linkType: hard
+
+"@jsii/spec@npm:^1.81.0":
   version: 1.81.0
   resolution: "@jsii/spec@npm:1.81.0"
   dependencies:
@@ -3864,16 +3883,16 @@ __metadata:
   linkType: hard
 
 "jsii-rosetta@npm:^1.81.0":
-  version: 1.81.0
-  resolution: "jsii-rosetta@npm:1.81.0"
+  version: 1.82.0
+  resolution: "jsii-rosetta@npm:1.82.0"
   dependencies:
-    "@jsii/check-node": 1.81.0
-    "@jsii/spec": 1.81.0
+    "@jsii/check-node": 1.82.0
+    "@jsii/spec": 1.82.0
     "@xmldom/xmldom": ^0.8.7
     commonmark: ^0.30.0
     fast-glob: ^3.2.12
-    jsii: 1.81.0
-    semver: ^7.5.0
+    jsii: 1.82.0
+    semver: ^7.5.1
     semver-intersect: ^1.4.0
     stream-json: ^1.7.5
     typescript: ~3.9.10
@@ -3881,7 +3900,7 @@ __metadata:
     yargs: ^16.2.0
   bin:
     jsii-rosetta: bin/jsii-rosetta
-  checksum: cfa284a507306cb13ce064365a9788e7276d7346dcd937afd0c33afb635b8a85bc37af5efac9b674365771dccfc78c71533e17408c5efda691fc234d50cad2ed
+  checksum: 975793e822dc82c7a48831bc7694055f2876544a4abed841871022de47d2dc8044cf89f689bd32a32061055e81756965cf6f7bcd31cdf62c452b017227e886a0
   languageName: node
   linkType: hard
 
@@ -3923,18 +3942,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsii@npm:1.81.0":
-  version: 1.81.0
-  resolution: "jsii@npm:1.81.0"
+"jsii@npm:1.82.0":
+  version: 1.82.0
+  resolution: "jsii@npm:1.82.0"
   dependencies:
-    "@jsii/check-node": 1.81.0
-    "@jsii/spec": ^1.81.0
+    "@jsii/check-node": 1.82.0
+    "@jsii/spec": ^1.82.0
     case: ^1.6.3
     chalk: ^4
     fast-deep-equal: ^3.1.3
     fs-extra: ^10.1.0
     log4js: ^6.9.1
-    semver: ^7.5.0
+    semver: ^7.5.1
     semver-intersect: ^1.4.0
     sort-json: ^2.0.1
     spdx-license-list: ^6.6.0
@@ -3942,7 +3961,7 @@ __metadata:
     yargs: ^16.2.0
   bin:
     jsii: bin/jsii
-  checksum: 84b8754476c1c0853ba89868d35e0326eb880d1521ff863d7b421cd5ba57ced16823782b5c96b7784e87ba3c93813b3e632608b61247b38609d9ea983f2a099a
+  checksum: dda434d4fea6572578c9cc54b7c2e9ce465440f744295b6d87d12d12ab6467d707f8cb0fba0d314bcda23d78740ce0c28979beda31a8626c478a546371b8ae9f
   languageName: node
   linkType: hard
 
