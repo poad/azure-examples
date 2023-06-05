@@ -201,12 +201,12 @@ __metadata:
   linkType: hard
 
 "@cdktf/provider-azurerm@npm:*":
-  version: 7.0.7
-  resolution: "@cdktf/provider-azurerm@npm:7.0.7"
+  version: 7.0.8
+  resolution: "@cdktf/provider-azurerm@npm:7.0.8"
   peerDependencies:
-    cdktf: ^0.16.0
+    cdktf: ^0.16.3
     constructs: ^10.0.0
-  checksum: 86e43154d5de8a7110c424fb87db23f833d33114b51bd462a75cf77fd66a24420b69f0f7796c37d6370a100d4d15533d171d6ed14299240688c99138e6d364ed
+  checksum: 9ed5c842b44ab837db05499b2af57a4ab7c71e2b8a21656be8c36173381395f0bb52ff25b122f7827d9e13022664a3025e49d813179f911ed9849e45417b6060
   languageName: node
   linkType: hard
 
@@ -636,7 +636,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@xmldom/xmldom@npm:^0.8.7":
+"@xmldom/xmldom@npm:^0.8.7, @xmldom/xmldom@npm:^0.8.8":
   version: 0.8.8
   resolution: "@xmldom/xmldom@npm:0.8.8"
   checksum: 5f5fc0482fcc599f62e3009516932a265e00f1bb2093fe2c76f3f8d9bfebdd13246f48d4132c9b301c7a573f0fa8712e56aa747dce75b179c2b73f1dde7b5f42
@@ -1317,9 +1317,9 @@ __metadata:
   linkType: hard
 
 "constructs@npm:*, constructs@npm:^10.0.25":
-  version: 10.2.40
-  resolution: "constructs@npm:10.2.40"
-  checksum: 56c06400c16033711ac62d442466e96aa8b0db8da8e2eea435f1dbe88fd953a6b04da610d826cf73b36c095e679e9bed2e7e9c0f7e2b5105a0e952745143222a
+  version: 10.2.43
+  resolution: "constructs@npm:10.2.43"
+  checksum: fe595f68f0ca44f7db934f5ae5929e8b345bd6d8235c3ba2dac1f1b8f97f550ffa05de4071370481f2b05a80876bce4d1c511b73d1100c6cd8feaf156470aa40
   languageName: node
   linkType: hard
 
@@ -2739,25 +2739,25 @@ __metadata:
   linkType: hard
 
 "jsii-rosetta@npm:^5.0.1":
-  version: 5.0.10
-  resolution: "jsii-rosetta@npm:5.0.10"
+  version: 5.1.0
+  resolution: "jsii-rosetta@npm:5.1.0"
   dependencies:
     "@jsii/check-node": 1.82.0
     "@jsii/spec": ^1.82.0
-    "@xmldom/xmldom": ^0.8.7
+    "@xmldom/xmldom": ^0.8.8
     chalk: ^4
     commonmark: ^0.30.0
     fast-glob: ^3.2.12
-    jsii: 5.0.x
+    jsii: 5.1.x
     semver: ^7.5.1
     semver-intersect: ^1.4.0
-    stream-json: ^1.7.5
-    typescript: ~5.0.4
+    stream-json: ^1.8.0
+    typescript: ~5.1.3
     workerpool: ^6.4.0
     yargs: ^17.7.2
   bin:
     jsii-rosetta: bin/jsii-rosetta
-  checksum: 46f956b0ccf21f7e63bcf8a6dc9162c72830f2a8aa16742d9f8ac6f88f114fc92580687f995b87b14c9b7209e76758e8a51efaa88d35ba914685174e5c85fbd3
+  checksum: 52d25f4ad287aed72f52d1e5d2496b9c0fbc4d5a5d4550ef75e94d571f324247d5fffbbfc4c13835220544f061697438105bf14a5bea9123ae23e678699b1b7d
   languageName: node
   linkType: hard
 
@@ -2799,7 +2799,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsii@npm:5.0.x, jsii@npm:^5.0.1, jsii@npm:~5.0.10":
+"jsii@npm:5.1.x, jsii@npm:^5.0.1":
+  version: 5.1.1
+  resolution: "jsii@npm:5.1.1"
+  dependencies:
+    "@jsii/check-node": 1.82.0
+    "@jsii/spec": ^1.82.0
+    case: ^1.6.3
+    chalk: ^4
+    downlevel-dts: ^0.11.0
+    fast-deep-equal: ^3.1.3
+    log4js: ^6.9.1
+    semver: ^7.5.1
+    semver-intersect: ^1.4.0
+    sort-json: ^2.0.1
+    spdx-license-list: ^6.6.0
+    typescript: ~5.1.3
+    yargs: ^17.7.2
+  bin:
+    jsii: bin/jsii
+  checksum: 93b8f7ead8d265265e4a8347e4f37ff4a70b4fd5dd200393215a0d7253d42313fd284c517bb08891bbc63a72028a0aa8125632b3af9545291c007595accf29a8
+  languageName: node
+  linkType: hard
+
+"jsii@npm:~5.0.10":
   version: 5.0.10
   resolution: "jsii@npm:5.0.10"
   dependencies:
@@ -4165,7 +4188,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stream-json@npm:^1.7.5":
+"stream-json@npm:^1.7.5, stream-json@npm:^1.8.0":
   version: 1.8.0
   resolution: "stream-json@npm:1.8.0"
   dependencies:
@@ -4393,9 +4416,9 @@ __metadata:
   linkType: hard
 
 "tslib@npm:^2.1.0, tslib@npm:^2.4.0":
-  version: 2.5.2
-  resolution: "tslib@npm:2.5.2"
-  checksum: 4d3c1e238b94127ed0e88aa0380db3c2ddae581dc0f4bae5a982345e9f50ee5eda90835b8bfba99b02df10a5734470be197158c36f9129ac49fdc14a6a9da222
+  version: 2.5.3
+  resolution: "tslib@npm:2.5.3"
+  checksum: 88902b309afaf83259131c1e13da1dceb0ad1682a213143a1346a649143924d78cf3760c448b84d796938fd76127183894f8d85cbb3bf9c4fddbfcc140c0003c
   languageName: node
   linkType: hard
 
@@ -4422,7 +4445,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:*":
+"typescript@npm:*, typescript@npm:~5.1.3":
   version: 5.1.3
   resolution: "typescript@npm:5.1.3"
   bin:
@@ -4433,12 +4456,12 @@ __metadata:
   linkType: hard
 
 "typescript@npm:next":
-  version: 5.2.0-dev.20230602
-  resolution: "typescript@npm:5.2.0-dev.20230602"
+  version: 5.2.0-dev.20230605
+  resolution: "typescript@npm:5.2.0-dev.20230605"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: cd58876b319e9573d9818a717aaa29c735823799861679bc53863cc16783550b208eb453b0880c6d59ee8053131b1c6a5b6b9e579ca026de426ec1781f86d734
+  checksum: 7366d77981c473065efec7cb709c4a191c1fd1ac97904a863b608e67ba4f91f5383a1ffa2254ec51ac12a1da8e9de40a0d4828b6020676e5485229e07cddb81d
   languageName: node
   linkType: hard
 
@@ -4462,7 +4485,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@*#~builtin<compat/typescript>":
+"typescript@patch:typescript@*#~builtin<compat/typescript>, typescript@patch:typescript@~5.1.3#~builtin<compat/typescript>":
   version: 5.1.3
   resolution: "typescript@patch:typescript@npm%3A5.1.3#~builtin<compat/typescript>::version=5.1.3&hash=5da071"
   bin:
@@ -4473,12 +4496,12 @@ __metadata:
   linkType: hard
 
 "typescript@patch:typescript@next#~builtin<compat/typescript>":
-  version: 5.2.0-dev.20230602
-  resolution: "typescript@patch:typescript@npm%3A5.2.0-dev.20230602#~builtin<compat/typescript>::version=5.2.0-dev.20230602&hash=5da071"
+  version: 5.2.0-dev.20230605
+  resolution: "typescript@patch:typescript@npm%3A5.2.0-dev.20230605#~builtin<compat/typescript>::version=5.2.0-dev.20230605&hash=5da071"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 848e1fe2f2a63a301ffa6ed8a1f8c9f37b5ecb24def042673a78ec74e99bcfd44881c5bce770918f7f745d885b15b40456ee9e71ac2d869df3d8b85bae50e395
+  checksum: 6b0cab0726d5dd4248db6ca43d338c8f632b94b52d8b0fe6acda3d378973e622d5a7026b9dfa07bc4a3938292369aacd2a0e7a2e1e361f5c1cf5c6d9c67dceb4
   languageName: node
   linkType: hard
 
