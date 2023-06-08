@@ -2687,7 +2687,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsii-pacmak@npm:^1.79.0, jsii-pacmak@npm:^1.82.0":
+"jsii-pacmak@npm:^1.79.0, jsii-pacmak@npm:^1.83.0":
   version: 1.83.0
   resolution: "jsii-pacmak@npm:1.83.0"
   dependencies:
@@ -2772,17 +2772,17 @@ __metadata:
   linkType: hard
 
 "jsii-srcmak@npm:^0.1.867":
-  version: 0.1.920
-  resolution: "jsii-srcmak@npm:0.1.920"
+  version: 0.1.922
+  resolution: "jsii-srcmak@npm:0.1.922"
   dependencies:
     fs-extra: ^9.1.0
     jsii: ~5.1.1
-    jsii-pacmak: ^1.82.0
+    jsii-pacmak: ^1.83.0
     ncp: ^2.0.0
     yargs: ^15.4.1
   bin:
     jsii-srcmak: bin/jsii-srcmak
-  checksum: f2f897d3e0bd4c744808df9755e8d2424cae4a87d17f526bdb12bba915f50b0406a11c982712cdde376ee8ce079045b8f8fe5ed4e6d74a0eb627aaadbc504e44
+  checksum: 8171763c02959cee903fe6d8f3de20bd0f1a284ad7f1bfcd284c632991fac9bd607e31d2a8f77d1170c3cf1422d84ac4fc2f536a1794e21693af7901a7b375fa
   languageName: node
   linkType: hard
 
@@ -4443,12 +4443,12 @@ __metadata:
   linkType: hard
 
 "typescript@npm:next":
-  version: 5.2.0-dev.20230607
-  resolution: "typescript@npm:5.2.0-dev.20230607"
+  version: 5.2.0-dev.20230608
+  resolution: "typescript@npm:5.2.0-dev.20230608"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 67bc4119303c25e94e60d7a4699151eb672d1416a7550273f551d7b68c08e04c24e9e60ba25e8e09f86aaab39c11eea7c676352ca866d4c75482b6bea63f4bca
+  checksum: fca9f3b7f1516d4636ab93113c0ec672bb8c96062fc29e65aba9564120818e60fcb4131a7c925a8219770e9652aac4f983560028ad3d74c027c67ae3a19f3733
   languageName: node
   linkType: hard
 
@@ -4473,12 +4473,12 @@ __metadata:
   linkType: hard
 
 "typescript@patch:typescript@next#~builtin<compat/typescript>":
-  version: 5.2.0-dev.20230607
-  resolution: "typescript@patch:typescript@npm%3A5.2.0-dev.20230607#~builtin<compat/typescript>::version=5.2.0-dev.20230607&hash=5da071"
+  version: 5.2.0-dev.20230608
+  resolution: "typescript@patch:typescript@npm%3A5.2.0-dev.20230608#~builtin<compat/typescript>::version=5.2.0-dev.20230608&hash=5da071"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 022357954231d2873a340ed03c25e39bca1bc118a8452a92656b93552ef1449a07076a60b05ecaea406b236da10cdf3778eea36bb307476e059674e3d9249948
+  checksum: 0e8c511430d6a765da40696bab0fbcacfa941182b479f27b8a25859a6219acbb7038b7b09cd7cc058c69e0118076d7ca02de2b1e4caffa98360a2ae72c2be47d
   languageName: node
   linkType: hard
 
