@@ -201,12 +201,12 @@ __metadata:
   linkType: hard
 
 "@cdktf/provider-azurerm@npm:*":
-  version: 7.0.8
-  resolution: "@cdktf/provider-azurerm@npm:7.0.8"
+  version: 7.0.9
+  resolution: "@cdktf/provider-azurerm@npm:7.0.9"
   peerDependencies:
     cdktf: ^0.16.3
     constructs: ^10.0.0
-  checksum: 9ed5c842b44ab837db05499b2af57a4ab7c71e2b8a21656be8c36173381395f0bb52ff25b122f7827d9e13022664a3025e49d813179f911ed9849e45417b6060
+  checksum: 3724ab9834675aa977c0a8562a7c49591bfed5fcaa23dbd6f19e11e55cea4db2be3c21865bbe3140b44a3a2ef68e98ea532a33060afb397980fe426a5ecb5366
   languageName: node
   linkType: hard
 
