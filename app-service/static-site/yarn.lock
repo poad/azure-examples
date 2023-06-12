@@ -3292,11 +3292,11 @@ __metadata:
   linkType: hard
 
 "node-abi@npm:^3.3.0":
-  version: 3.44.0
-  resolution: "node-abi@npm:3.44.0"
+  version: 3.45.0
+  resolution: "node-abi@npm:3.45.0"
   dependencies:
     semver: ^7.3.5
-  checksum: b617b54523c18848a6f94c018d731ac2f2c18a9e9eea2bb6c611fa300ce5669991380a1955d7ed186aeee2b6db1557fec48a2043b65d37e1edb2c99547f854c8
+  checksum: 18c4305d7de5f1132741a2a66ba652941518210d02c9268702abe97ce1c166db468b4fc3e85fff04b9c19218c2e47f4e295f9a46422dc834932f4e11443400cd
   languageName: node
   linkType: hard
 
