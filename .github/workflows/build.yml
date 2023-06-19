@@ -20,28 +20,23 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
+    - uses: pnpm/action-setup@v2
+      name: Install pnpm
+      id: pnpm-install
+      with:
+        version: 8.6.2
+        run_install: |
+          - recursive: true
+            cwd: app-service/static-site
+            args: [--no-frozen-lockfile, --strict-peer-dependencies]
+
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3.6.0
       with:
         node-version: ${{ matrix.node-version }}
-        check-latest: true
-        cache: yarn
-        cache-dependency-path: app-service/static-site/yarn.lock
-
-    - name: Get yarn cache directory path
-      id: yarn-cache-dir-path
-      run: echo "dir=$(yarn config get cacheFolder)" >> $GITHUB_OUTPUT
-
-    - uses: actions/cache@v3
-      id: yarn-cache
-      with:
-        path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-        key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-        restore-keys: |
-          ${{ runner.os }}-yarn-
 
     - working-directory: app-service/static-site
-      run: yarn install && yarn build
+      run: pnpm build
 
   configure:
     runs-on: ubuntu-latest

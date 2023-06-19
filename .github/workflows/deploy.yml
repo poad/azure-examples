@@ -17,6 +17,16 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
+    - uses: pnpm/action-setup@v2
+      name: Install pnpm
+      id: pnpm-install
+      with:
+        version: 8.6.2
+        run_install: |
+          - recursive: true
+            cwd: app-service/static-site
+            args: [--no-frozen-lockfile, --strict-peer-dependencies]
+
     - uses: hashicorp/setup-terraform@v2
       with:
         cli_config_credentials_token: ${{ secrets.TERRAFORM_CLOUD_TOKEN }}
@@ -34,27 +44,6 @@ jobs:
       with:
         node-version: 16.x
         check-latest: true
-
-    - name: Setup yarn
-      run: |
-        corepack enable
-        corepack prepare yarn@stable --activate
-
-    - name: Get yarn cache directory path
-      id: yarn-cache-dir-path
-      run: echo "dir=$(yarn config get cacheFolder)" >> $GITHUB_OUTPUT
-
-    - uses: actions/cache@v3
-      id: yarn-cache
-      with:
-        path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-        key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-        restore-keys: |
-          ${{ runner.os }}-yarn-
-
-    - name: yarn install
-      working-directory: app-service/static-site
-      run: yarn install
 
     - name: Deploy
       uses: hashicorp/terraform-cdk-action@v0.1.26
