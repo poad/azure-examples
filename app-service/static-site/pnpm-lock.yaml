@@ -129,7 +129,7 @@ packages:
       ink-use-stdout-dimensions: 1.0.5(ink@3.2.0)(react@17.0.2)
       jsii: 5.1.2
       jsii-pacmak: 1.84.0
-      jsii-srcmak: 0.1.935
+      jsii-srcmak: 0.1.936
       lodash.isequal: 4.5.0
       log4js: 6.9.1
       minimatch: 5.1.6
@@ -234,7 +234,7 @@ packages:
       codemaker: 1.84.0
       deepmerge: 4.3.1
       fs-extra: 8.1.0
-      jsii-srcmak: 0.1.935
+      jsii-srcmak: 0.1.936
     transitivePeerDependencies:
       - debug
       - supports-color
@@ -1280,7 +1280,7 @@ packages:
     dependencies:
       semver: 7.5.2
       shelljs: 0.8.5
-      typescript: 5.2.0-dev.20230621
+      typescript: 5.2.0-dev.20230622
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -2089,8 +2089,8 @@ packages:
       - supports-color
     dev: true
 
-  /jsii-srcmak@0.1.935:
-    resolution: {integrity: sha512-zp/S5INWz1+2hN0iRF6iDT1dNtzNvldlD6x2A9nJG839kUUaS1TOPleQZnUxhfJOduJ1HGC/B64swk3H/AeJjA==}
+  /jsii-srcmak@0.1.936:
+    resolution: {integrity: sha512-XjqG5VvOpytXCBg3ynrC6xDMPSvIoUc3hDP3GjjKGxgC0V7WenfebKdaATwjGwKFYe+3cQklnEab9LzPYSVk/Q==}
     hasBin: true
     dependencies:
       fs-extra: 9.1.0
@@ -3077,8 +3077,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.2.0-dev.20230621:
-    resolution: {integrity: sha512-8iIehsqwx8TrzBcPWAuXZ0Z4wF/+0CmwdbibftaivqXJlD3V4qWr26hn67r/UT/VNm67iO86XN45F8Viivvobw==}
+  /typescript@5.2.0-dev.20230622:
+    resolution: {integrity: sha512-rVTuiLuyezBKAEAvkvDRvO/tA+nk5DXwnWk3vpKXzDtuv7JJ22iBPkehusg9m5AQ6To+ZJ7+mFJ+mNE6yPr9zQ==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
