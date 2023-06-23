@@ -1,19 +1,15 @@
 lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
-
 dependencies:
   '@cdktf/provider-azurerm':
     specifier: ^8.0.0
-    version: 8.0.0(cdktf@0.17.0)(constructs@10.2.56)
+    version: 8.0.0(cdktf@0.17.0)(constructs@10.2.57)
   cdktf:
     specifier: ^0.17.0
-    version: 0.17.0(constructs@10.2.56)
+    version: 0.17.0(constructs@10.2.57)
   constructs:
-    specifier: ^10.2.56
-    version: 10.2.56
+    specifier: ^10.2.57
+    version: 10.2.57
 
 devDependencies:
   '@swc/core':
@@ -111,12 +107,12 @@ packages:
       '@cdktf/node-pty-prebuilt-multiarch': 0.10.1-pre.10
       '@sentry/node': 6.19.7
       archiver: 5.3.1
-      cdktf: 0.17.0(constructs@10.2.56)
+      cdktf: 0.17.0(constructs@10.2.57)
       chalk: 4.1.2
       chokidar: 3.5.3
       cli-spinners: 2.7.0
       codemaker: 1.84.0
-      constructs: 10.2.56
+      constructs: 10.2.57
       cross-fetch: 3.1.6
       cross-spawn: 7.0.3
       detect-port: 1.5.1
@@ -167,9 +163,9 @@ packages:
     dependencies:
       '@npmcli/ci-detect': 1.4.0
       '@sentry/node': 6.19.7
-      cdktf: 0.17.0(constructs@10.2.56)
+      cdktf: 0.17.0(constructs@10.2.57)
       codemaker: 1.84.0
-      constructs: 10.2.56
+      constructs: 10.2.57
       cross-spawn: 7.0.3
       follow-redirects: 1.15.2
       fs-extra: 8.1.0
@@ -218,15 +214,15 @@ packages:
       prebuild-install: 7.1.1
     dev: true
 
-  /@cdktf/provider-azurerm@8.0.0(cdktf@0.17.0)(constructs@10.2.56):
+  /@cdktf/provider-azurerm@8.0.0(cdktf@0.17.0)(constructs@10.2.57):
     resolution: {integrity: sha512-cqf0nz+lfqheBamR63PaXcx5J0rUOPcv83EofIRgzqyBhDhYhYA03gwvRMvEEWuEg4y5TzYfl6303bhCxYDqOg==}
     engines: {node: '>= 16.14.0'}
     peerDependencies:
       cdktf: ^0.17.0
       constructs: ^10.0.0
     dependencies:
-      cdktf: 0.17.0(constructs@10.2.56)
-      constructs: 10.2.56
+      cdktf: 0.17.0(constructs@10.2.57)
+      constructs: 10.2.57
     dev: false
 
   /@cdktf/provider-generator@0.17.0:
@@ -912,9 +908,9 @@ packages:
       '@cdktf/hcl2json': 0.17.0
       '@inquirer/prompts': 2.1.1
       '@sentry/node': 6.19.7
-      cdktf: 0.17.0(constructs@10.2.56)
+      cdktf: 0.17.0(constructs@10.2.57)
       codemaker: 1.84.0
-      constructs: 10.2.56
+      constructs: 10.2.57
       cross-spawn: 7.0.3
       https-proxy-agent: 5.0.1
       ink-select-input: 4.2.2(ink@3.2.0)(react@17.0.2)
@@ -941,13 +937,13 @@ packages:
       - utf-8-validate
     dev: true
 
-  /cdktf@0.17.0(constructs@10.2.56):
+  /cdktf@0.17.0(constructs@10.2.57):
     resolution: {integrity: sha512-4R57uBLBqeb8NgfKZdn/az8UE3yXxGHyzH6Xjsz1Oo9kNvSkPibX7YqNLUpuCgdYNVgU2fdaNoHj9h4LXc6iCw==}
     peerDependencies:
       constructs: ^10.0.25
     dependencies:
       archiver: 5.3.1
-      constructs: 10.2.56
+      constructs: 10.2.57
       json-stable-stringify: 1.0.2
       semver: 7.5.2
     bundledDependencies:
@@ -1123,8 +1119,8 @@ packages:
   /concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
 
-  /constructs@10.2.56:
-    resolution: {integrity: sha512-fUnw15SNkYxF+8lv9IaCPa0xWK04utS+3cILvr/MHn+tXwljkjGtiKPRTcL17G/9P/xfo59smJ1MC0d7EcOrkg==}
+  /constructs@10.2.57:
+    resolution: {integrity: sha512-4PP/2zMTI7JxNegz05l6Wk0maYOBS/hDTQUFGL/iL73hO0ztyyeefgB+zajHPE3RPqgexSQVddIGWPQ2cmMkvQ==}
     engines: {node: '>= 16.14.0'}
 
   /convert-to-spaces@1.0.2:
@@ -1284,7 +1280,7 @@ packages:
     dependencies:
       semver: 7.5.3
       shelljs: 0.8.5
-      typescript: 5.2.0-dev.20230622
+      typescript: 5.2.0-dev.20230623
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -3089,8 +3085,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.2.0-dev.20230622:
-    resolution: {integrity: sha512-rVTuiLuyezBKAEAvkvDRvO/tA+nk5DXwnWk3vpKXzDtuv7JJ22iBPkehusg9m5AQ6To+ZJ7+mFJ+mNE6yPr9zQ==}
+  /typescript@5.2.0-dev.20230623:
+    resolution: {integrity: sha512-IduDyLpZBJFdoFuHAXj0QfHwkT6GXtkki03deolpXnPG4R+wiVZGIyyzdS0lfVbFCVejcINPxxBs7ce6E5mp+A==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
@@ -3354,3 +3350,7 @@ packages:
   /zod@3.21.4:
     resolution: {integrity: sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==}
     dev: true
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
