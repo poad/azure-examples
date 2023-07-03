@@ -317,8 +317,8 @@ packages:
       chalk: 4.1.2
     dev: true
 
-  /@inquirer/password@1.1.2:
-    resolution: {integrity: sha512-Rhx7RsU7zB641+Mq2J5VUDYzCacVYVoJrlNRZlQJq5cQQlH4cQZbeH9GeIQarj4ZewTmwP5tBRKgO2lux8bTgg==}
+  /@inquirer/password@1.1.3:
+    resolution: {integrity: sha512-bGF0FFCMLyS4144SX3kqnaM9qpRQ5KFv/B3C3Ya/l/aTNu9+tTSP2y4z0AB8po8BfA9LTfDebcrlM0VFVTBxng==}
     engines: {node: '>=14.18.0'}
     dependencies:
       '@inquirer/input': 1.2.3
@@ -336,7 +336,7 @@ packages:
       '@inquirer/editor': 1.2.1
       '@inquirer/expand': 1.1.2
       '@inquirer/input': 1.2.3
-      '@inquirer/password': 1.1.2
+      '@inquirer/password': 1.1.3
       '@inquirer/rawlist': 1.2.2
       '@inquirer/select': 1.2.3
     dev: true
