@@ -326,8 +326,8 @@ packages:
       chalk: 4.1.2
     dev: true
 
-  /@inquirer/prompts@2.2.0:
-    resolution: {integrity: sha512-lMknC3XVRoyt63N/i82z/Xp+geKZYvFaDZ2toRYM4JHEqCjcGr5bo3uuLBydR+sr0i5P5ULgw3W5FksHo7JjcA==}
+  /@inquirer/prompts@2.3.0:
+    resolution: {integrity: sha512-x79tSDIZAibOl9WaBoOuyaQqNnisOO8Pk0qWyulP/nPaD/WkoRvkzk7hR4WTRmWAyE8CNbjdYgGltvd0qmvCGQ==}
     engines: {node: '>=14.18.0'}
     dependencies:
       '@inquirer/checkbox': 1.3.3
@@ -337,12 +337,12 @@ packages:
       '@inquirer/expand': 1.1.3
       '@inquirer/input': 1.2.3
       '@inquirer/password': 1.1.3
-      '@inquirer/rawlist': 1.2.2
+      '@inquirer/rawlist': 1.2.3
       '@inquirer/select': 1.2.3
     dev: true
 
-  /@inquirer/rawlist@1.2.2:
-    resolution: {integrity: sha512-FQZS/8Z1kcYBMbDoqfmMJamE1leO2/SFqsPxEkSdFqdz8VXx/1S8Ldhz7wDNkRUBhIGTTkOxCtNJUsfSwT4vfA==}
+  /@inquirer/rawlist@1.2.3:
+    resolution: {integrity: sha512-Rmb+5Ju7JHN1xTa1H7BwO5vsy3FqQz7kefEAGoZOawfeeB1zenJolb7LKVvv3nrpH16itDLl79sBTixokoe9lg==}
     engines: {node: '>=14.18.0'}
     dependencies:
       '@inquirer/core': 2.3.0
@@ -910,7 +910,7 @@ packages:
       '@cdktf/commons': 0.17.0
       '@cdktf/hcl2cdk': 0.17.0
       '@cdktf/hcl2json': 0.17.0
-      '@inquirer/prompts': 2.2.0
+      '@inquirer/prompts': 2.3.0
       '@sentry/node': 6.19.7
       cdktf: 0.17.0(constructs@10.2.67)
       codemaker: 1.84.0
