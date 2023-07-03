@@ -271,23 +271,6 @@ packages:
       chalk: 4.1.2
     dev: true
 
-  /@inquirer/core@2.2.0:
-    resolution: {integrity: sha512-YcSAyRTEJTzitg3yzEGabz0Jwmi8iO9QiLeDVY8LQLzY9AsLouuGRvUZ2Savp1T7AAYCMqDFLQirzB+eSux2Vg==}
-    engines: {node: '>=14.18.0'}
-    dependencies:
-      '@inquirer/type': 1.1.0
-      ansi-escapes: 4.3.2
-      chalk: 4.1.2
-      cli-spinners: 2.9.0
-      cli-width: 4.0.0
-      figures: 3.2.0
-      mute-stream: 1.0.0
-      run-async: 3.0.0
-      string-width: 4.2.3
-      strip-ansi: 6.0.1
-      wrap-ansi: 6.2.0
-    dev: true
-
   /@inquirer/core@2.3.0:
     resolution: {integrity: sha512-JoJtfplpSa0HOzsCaZA5gcUyibTlMb9h/+d9BiP55OHEB5l2jaQZ/hSnIgjVtyox1BhDYmppzUoa5n1BXc3+aQ==}
     engines: {node: '>=14.18.0'}
@@ -325,8 +308,8 @@ packages:
       figures: 3.2.0
     dev: true
 
-  /@inquirer/input@1.2.2:
-    resolution: {integrity: sha512-ZMwt3+ov5yQgIWgVhP0vUpGccL/RtH7Nls6vJhPrpA+TaU9KJArSEOWFqQNIXwvsbWjcSO3nE1fIwi63TsLt7Q==}
+  /@inquirer/input@1.2.3:
+    resolution: {integrity: sha512-JDe8Lnl++K+yvqHvMObjxO26/YXpOuJY2Eso5XiTA1TAfGHkQGuRFcemfUK5zuUwuLvYr2fOUiSFBJw+6+w59Q==}
     engines: {node: '>=14.18.0'}
     dependencies:
       '@inquirer/core': 2.3.0
@@ -338,7 +321,7 @@ packages:
     resolution: {integrity: sha512-Rhx7RsU7zB641+Mq2J5VUDYzCacVYVoJrlNRZlQJq5cQQlH4cQZbeH9GeIQarj4ZewTmwP5tBRKgO2lux8bTgg==}
     engines: {node: '>=14.18.0'}
     dependencies:
-      '@inquirer/input': 1.2.2
+      '@inquirer/input': 1.2.3
       '@inquirer/type': 1.1.0
       chalk: 4.1.2
     dev: true
@@ -349,10 +332,10 @@ packages:
     dependencies:
       '@inquirer/checkbox': 1.3.2
       '@inquirer/confirm': 2.0.3
-      '@inquirer/core': 2.2.0
+      '@inquirer/core': 2.3.0
       '@inquirer/editor': 1.2.1
       '@inquirer/expand': 1.1.2
-      '@inquirer/input': 1.2.2
+      '@inquirer/input': 1.2.3
       '@inquirer/password': 1.1.2
       '@inquirer/rawlist': 1.2.2
       '@inquirer/select': 1.2.3
@@ -1740,7 +1723,7 @@ packages:
       ink: '>=3.0.5'
       react: '>=16.8.2'
     dependencies:
-      cli-spinners: 2.7.0
+      cli-spinners: 2.9.0
       ink: 3.2.0(react@17.0.2)
       react: 17.0.2
     dev: true
