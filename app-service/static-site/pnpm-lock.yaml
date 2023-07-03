@@ -251,8 +251,8 @@ packages:
       '@jridgewell/trace-mapping': 0.3.9
     dev: true
 
-  /@inquirer/checkbox@1.3.2:
-    resolution: {integrity: sha512-9ZhpEXiwlXAJ7KvUiDqIy9L4mayOGcP9aDRLT6eiwguuFW1gXQTspteIxk/b6QGger1UXJrtXQpPS7A+PGzVuA==}
+  /@inquirer/checkbox@1.3.3:
+    resolution: {integrity: sha512-iiAQtwEuMJsQy70Ix4poNauWPLDb8bDo9vQGMGmBEVpAKV2wDOwNvgxSsst3sfPB29iMO2+4NkGCf7hxlMJayw==}
     engines: {node: '>=14.18.0'}
     dependencies:
       '@inquirer/core': 2.3.0
@@ -330,7 +330,7 @@ packages:
     resolution: {integrity: sha512-lMknC3XVRoyt63N/i82z/Xp+geKZYvFaDZ2toRYM4JHEqCjcGr5bo3uuLBydR+sr0i5P5ULgw3W5FksHo7JjcA==}
     engines: {node: '>=14.18.0'}
     dependencies:
-      '@inquirer/checkbox': 1.3.2
+      '@inquirer/checkbox': 1.3.3
       '@inquirer/confirm': 2.0.3
       '@inquirer/core': 2.3.0
       '@inquirer/editor': 1.2.1
