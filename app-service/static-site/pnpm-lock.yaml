@@ -76,8 +76,8 @@ packages:
       js-tokens: 4.0.0
     dev: true
 
-  /@babel/parser@7.22.6:
-    resolution: {integrity: sha512-EIQu22vNkceq3LbjAq7knDf/UmtI2qbcNI8GRBlijez6TpQLvSodJPYfydQmNA5buwkxxxa/PVI44jjYZ+/cLw==}
+  /@babel/parser@7.22.7:
+    resolution: {integrity: sha512-7NF8pOkHP5o2vpmGgNGcfAeCvOYhGLyA3Z4eBQkT1RJlWu47n63bCs93QfJ2hIAFCil7L5P2IWhs1oToVgrL0Q==}
     engines: {node: '>=6.0.0'}
     hasBin: true
     dependencies:
@@ -89,7 +89,7 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/code-frame': 7.22.5
-      '@babel/parser': 7.22.6
+      '@babel/parser': 7.22.7
       '@babel/types': 7.22.5
     dev: true
 
@@ -1284,7 +1284,7 @@ packages:
     dependencies:
       semver: 7.5.3
       shelljs: 0.8.5
-      typescript: 5.2.0-dev.20230706
+      typescript: 5.2.0-dev.20230707
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -3081,8 +3081,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.2.0-dev.20230706:
-    resolution: {integrity: sha512-ma5zu+mBAHLZbR+k61P/LbiAH2+epfZjztEHAEBz/HhvAF2Hp8/r1hqnBA947iwoBwqIi1se4uQXVH8Sggn9uw==}
+  /typescript@5.2.0-dev.20230707:
+    resolution: {integrity: sha512-uVIbqrU5EP4PAZfnN3VdGJ0B4wkmyzz/GbBfXbBBvp9YUdwvgZK0jM24LEgO8Cjes0sQf6gV16Dc6WiqCKLPGQ==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
