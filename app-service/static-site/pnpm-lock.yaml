@@ -47,8 +47,8 @@ packages:
       '@babel/highlight': 7.22.5
     dev: true
 
-  /@babel/generator@7.22.5:
-    resolution: {integrity: sha512-+lcUbnTRhd0jOewtFSedLyiPsD5tswKkbgcezOqqWFUVNEwoUTlpPOBmvhG7OXWLR4jMdv0czPGH5XbflnD1EA==}
+  /@babel/generator@7.22.7:
+    resolution: {integrity: sha512-p+jPjMG+SI8yvIaxGgeW24u7q9+5+TGpZh8/CuB7RhBKd7RCy8FayNEFNNKrNK/eUcY/4ExQqLmyrvBXKsIcwQ==}
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/types': 7.22.5
@@ -184,7 +184,7 @@ packages:
   /@cdktf/hcl2cdk@0.17.1:
     resolution: {integrity: sha512-89nf+/Or2jvQthTTDsza2R6uF1j6Y5TjaDz0bwY9La1QjH3wcyk9GJxniz2BYDf1UqdRugdcaVOkJjq54Fepxw==}
     dependencies:
-      '@babel/generator': 7.22.5
+      '@babel/generator': 7.22.7
       '@babel/template': 7.22.5
       '@babel/types': 7.22.5
       '@cdktf/commons': 0.17.1
@@ -1284,7 +1284,7 @@ packages:
     dependencies:
       semver: 7.5.3
       shelljs: 0.8.5
-      typescript: 5.2.0-dev.20230706
+      typescript: 5.2.0-dev.20230707
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -3081,8 +3081,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.2.0-dev.20230706:
-    resolution: {integrity: sha512-ma5zu+mBAHLZbR+k61P/LbiAH2+epfZjztEHAEBz/HhvAF2Hp8/r1hqnBA947iwoBwqIi1se4uQXVH8Sggn9uw==}
+  /typescript@5.2.0-dev.20230707:
+    resolution: {integrity: sha512-uVIbqrU5EP4PAZfnN3VdGJ0B4wkmyzz/GbBfXbBBvp9YUdwvgZK0jM24LEgO8Cjes0sQf6gV16Dc6WiqCKLPGQ==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
