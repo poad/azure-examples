@@ -23,8 +23,8 @@ devDependencies:
     specifier: ^0.5.1
     version: 0.5.1
   '@types/node':
-    specifier: ^20.4.0
-    version: 20.4.0
+    specifier: ^20.4.1
+    version: 20.4.1
   cdktf-cli:
     specifier: ^0.17.1
     version: 0.17.1(ink@3.2.0)(react@17.0.2)
@@ -33,7 +33,7 @@ devDependencies:
     version: 0.13.11
   ts-node:
     specifier: ^10.9.1
-    version: 10.9.1(@swc/core@1.3.68)(@types/node@20.4.0)(typescript@5.1.6)
+    version: 10.9.1(@swc/core@1.3.68)(@types/node@20.4.1)(typescript@5.1.6)
   typescript:
     specifier: ^5.1.6
     version: 5.1.6
@@ -131,7 +131,7 @@ packages:
       ink-spinner: 4.0.3(ink@3.2.0)(react@17.0.2)
       ink-testing-library: 2.1.0
       ink-use-stdout-dimensions: 1.0.5(ink@3.2.0)(react@17.0.2)
-      jsii: 5.1.5
+      jsii: 5.1.6
       jsii-pacmak: 1.84.0
       jsii-srcmak: 0.1.949
       lodash.isequal: 4.5.0
@@ -141,7 +141,7 @@ packages:
       open: 7.4.2
       parse-gitignore: 1.0.1
       pkg-up: 3.1.0
-      semver: 7.5.3
+      semver: 7.5.4
       sscaff: 1.2.274
       stream-buffers: 3.0.2
       strip-ansi: 6.0.1
@@ -192,10 +192,10 @@ packages:
       '@cdktf/provider-generator': 0.17.1
       camelcase: 6.3.0
       deep-equal: 2.2.1
-      glob: 10.3.1
+      glob: 10.3.3
       graphology: 0.25.1(graphology-types@0.24.7)
       graphology-types: 0.24.7
-      jsii-rosetta: 5.1.5
+      jsii-rosetta: 5.1.6
       prettier: 2.8.8
       reserved-words: 0.1.2
       zod: 3.21.4
@@ -429,7 +429,7 @@ packages:
     engines: {node: '>= 14.17.0'}
     dependencies:
       chalk: 4.1.2
-      semver: 7.5.3
+      semver: 7.5.4
     dev: true
 
   /@jsii/spec@1.84.0:
@@ -670,15 +670,15 @@ packages:
     resolution: {integrity: sha512-XAMpaw1s1+6zM+jn2tmw8MyaRDIJfXxqmIQIS0HfoGYPuf7dUWeiUKopwq13KFX9lEp1+THGtlaaYx39Nxr58g==}
     dev: true
 
-  /@types/node@20.4.0:
-    resolution: {integrity: sha512-jfT7iTf/4kOQ9S7CHV9BIyRaQqHu67mOjsIQBC3BKZvzvUB6zLxEwJ6sBE3ozcvP8kF6Uk5PXN0Q+c0dfhGX0g==}
+  /@types/node@20.4.1:
+    resolution: {integrity: sha512-JIzsAvJeA/5iY6Y/OxZbv1lUcc8dNSE77lb2gnBH+/PJ3lFR1Ccvgwl5JWnHAkNHcRsT0TbpVOsiMKZ1F/yyJg==}
     dev: true
 
   /@types/yauzl@2.10.0:
     resolution: {integrity: sha512-Cn6WYCm0tXv8p6k+A8PvbDG763EDpBoTzHdA+Q/MF6H3sapGjCm9NzoaJncJS9tUKSuCoDs9XHxYYsQDgxR6kw==}
     requiresBuild: true
     dependencies:
-      '@types/node': 20.4.0
+      '@types/node': 20.4.1
     dev: true
     optional: true
 
@@ -919,7 +919,7 @@ packages:
       https-proxy-agent: 5.0.1
       ink-select-input: 4.2.2(ink@3.2.0)(react@17.0.2)
       ink-table: 3.0.0(ink@3.2.0)(react@17.0.2)
-      jsii: 5.1.5
+      jsii: 5.1.6
       jsii-pacmak: 1.84.0
       minimatch: 5.1.6
       node-fetch: 2.6.12
@@ -1282,7 +1282,7 @@ packages:
     resolution: {integrity: sha512-vo835pntK7kzYStk7xUHDifiYJvXxVhUapt85uk2AI94gUUAQX9HNRtrcMHNSc3YHJUEHGbYIGsM99uIbgAtxw==}
     hasBin: true
     dependencies:
-      semver: 7.5.3
+      semver: 7.5.4
       shelljs: 0.8.5
       typescript: 5.2.0-dev.20230710
     dev: true
@@ -1570,15 +1570,15 @@ packages:
       is-glob: 4.0.3
     dev: true
 
-  /glob@10.3.1:
-    resolution: {integrity: sha512-9BKYcEeIs7QwlCYs+Y3GBvqAMISufUS0i2ELd11zpZjxI5V9iyRj0HgzB5/cLf2NY4vcYBTYzJ7GIui7j/4DOw==}
+  /glob@10.3.3:
+    resolution: {integrity: sha512-92vPiMb/iqpmEgsOoIDvTjc50wf9CCCvMzsi6W0JLPeUKE8TWP1a73PgqSrqy7iAZxaSD1YdzU7QZR5LF51MJw==}
     engines: {node: '>=16 || 14 >=14.17'}
     hasBin: true
     dependencies:
       foreground-child: 3.1.1
       jackspeak: 2.2.1
       minimatch: 9.0.3
-      minipass: 6.0.2
+      minipass: 7.0.1
       path-scurry: 1.10.1
     dev: true
 
@@ -1781,7 +1781,7 @@ packages:
       lodash: 4.17.21
       patch-console: 1.0.0
       react: 17.0.2
-      react-devtools-core: 4.27.8
+      react-devtools-core: 4.28.0
       react-reconciler: 0.26.2(react@17.0.2)
       scheduler: 0.20.2
       signal-exit: 3.0.7
@@ -2029,7 +2029,7 @@ packages:
       fs-extra: 10.1.0
       jsii-reflect: 1.84.0
       jsii-rosetta: 1.84.0
-      semver: 7.5.3
+      semver: 7.5.4
       spdx-license-list: 6.6.0
       xmlbuilder: 15.1.1
       yargs: 16.2.0
@@ -2061,7 +2061,7 @@ packages:
       commonmark: 0.30.0
       fast-glob: 3.3.0
       jsii: 1.84.0
-      semver: 7.5.3
+      semver: 7.5.4
       semver-intersect: 1.4.0
       stream-json: 1.8.0
       typescript: 3.9.10
@@ -2071,8 +2071,8 @@ packages:
       - supports-color
     dev: true
 
-  /jsii-rosetta@5.1.5:
-    resolution: {integrity: sha512-y5XmuxY/hJzc+AfvQ1T5MdPBgE3eMiPtGVYlZQHS1gTfUR2OypHSx5XLN/DfiOlkdyczMCUQ/utK71PhPB/cmQ==}
+  /jsii-rosetta@5.1.6:
+    resolution: {integrity: sha512-rBe0vu3UCDOBDx0U+Q8lmkRjnnh/6nV8lhVu/piiCfjI5U8pCYQBx4HwfdzQc4Cbmbo4YPFRl5HO9uprpx27sQ==}
     engines: {node: '>= 16.14.0'}
     hasBin: true
     dependencies:
@@ -2082,8 +2082,8 @@ packages:
       chalk: 4.1.2
       commonmark: 0.30.0
       fast-glob: 3.3.0
-      jsii: 5.1.5
-      semver: 7.5.3
+      jsii: 5.1.6
+      semver: 7.5.4
       semver-intersect: 1.4.0
       stream-json: 1.8.0
       typescript: 5.1.6
@@ -2098,7 +2098,7 @@ packages:
     hasBin: true
     dependencies:
       fs-extra: 9.1.0
-      jsii: 5.1.5
+      jsii: 5.1.6
       jsii-pacmak: 1.84.0
       ncp: 2.0.0
       yargs: 15.4.1
@@ -2118,7 +2118,7 @@ packages:
       fast-deep-equal: 3.1.3
       fs-extra: 10.1.0
       log4js: 6.9.1
-      semver: 7.5.3
+      semver: 7.5.4
       semver-intersect: 1.4.0
       sort-json: 2.0.1
       spdx-license-list: 6.6.0
@@ -2128,8 +2128,8 @@ packages:
       - supports-color
     dev: true
 
-  /jsii@5.1.5:
-    resolution: {integrity: sha512-21y6Jz5F1gK6JwEIndiimRO4NqF9sc8AuDLHXJW5XKq2LSxiHsdqrNW+W/w8smITPX6GlWNFuznWJjPJUMrd8w==}
+  /jsii@5.1.6:
+    resolution: {integrity: sha512-vnaONKxAuoureQmJjoXN6zMOLkLMpY3tbWwY17gVhox+1cPsnJriI+NPkGzFiVkiXaUNNU1lTnibb4thhTjElA==}
     engines: {node: '>= 16.14.0'}
     hasBin: true
     dependencies:
@@ -2140,7 +2140,7 @@ packages:
       downlevel-dts: 0.11.0
       fast-deep-equal: 3.1.3
       log4js: 6.9.1
-      semver: 7.5.3
+      semver: 7.5.4
       semver-intersect: 1.4.0
       sort-json: 2.0.1
       spdx-license-list: 6.6.0
@@ -2312,8 +2312,8 @@ packages:
     resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
     dev: true
 
-  /minipass@6.0.2:
-    resolution: {integrity: sha512-MzWSV5nYVT7mVyWCwn2o7JH13w2TBRmmSqSRCKzTw+lmft9X4z+3wjvs06Tzijo5z4W/kahUCDpRXTF+ZrmF/w==}
+  /minipass@7.0.1:
+    resolution: {integrity: sha512-NQ8MCKimInjVlaIqx51RKJJB7mINVkLTJbsZKmto4UAAOC/CWXES8PGaOgoBZyqoUsUA/U3DToGK7GJkkHbjJw==}
     engines: {node: '>=16 || 14 >=14.17'}
     dev: true
 
@@ -2347,7 +2347,7 @@ packages:
     resolution: {integrity: sha512-iwXuFrMAcFVi/ZoZiqq8BzAdsLw9kxDfTC0HMyjXfSL/6CSDAGD5UmR7azrAgWV1zKYq7dUUMj4owusBWKLsiQ==}
     engines: {node: '>=10'}
     dependencies:
-      semver: 7.5.3
+      semver: 7.5.4
     dev: true
 
   /node-fetch@2.6.12:
@@ -2508,7 +2508,7 @@ packages:
     engines: {node: '>=16 || 14 >=14.17'}
     dependencies:
       lru-cache: 10.0.0
-      minipass: 6.0.2
+      minipass: 7.0.1
     dev: true
 
   /pend@1.2.0:
@@ -2594,8 +2594,8 @@ packages:
       strip-json-comments: 2.0.1
     dev: true
 
-  /react-devtools-core@4.27.8:
-    resolution: {integrity: sha512-KwoH8/wN/+m5wTItLnsgVraGNmFrcTWR3k1VimP1HjtMMw4CNF+F5vg4S/0tzTEKIdpCi2R7mPNTC+/dswZMgw==}
+  /react-devtools-core@4.28.0:
+    resolution: {integrity: sha512-E3C3X1skWBdBzwpOUbmXG8SgH6BtsluSMe+s6rRcujNKG1DGi8uIfhdhszkgDpAsMoE55hwqRUzeXCmETDBpTg==}
     dependencies:
       shell-quote: 1.8.1
       ws: 7.5.9
@@ -2768,6 +2768,14 @@ packages:
     hasBin: true
     dependencies:
       lru-cache: 6.0.0
+
+  /semver@7.5.4:
+    resolution: {integrity: sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==}
+    engines: {node: '>=10'}
+    hasBin: true
+    dependencies:
+      lru-cache: 6.0.0
+    dev: true
 
   /set-blocking@2.0.0:
     resolution: {integrity: sha512-KiKBS8AnWGEyLzofFfmvKwpdPzqiy16LvQfK3yv/fVH7Bj13/wl3JSR1J+rfgRE9q7xUJK4qvgS8raSOeLUehw==}
@@ -3013,7 +3021,7 @@ packages:
     resolution: {integrity: sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==}
     dev: true
 
-  /ts-node@10.9.1(@swc/core@1.3.68)(@types/node@20.4.0)(typescript@5.1.6):
+  /ts-node@10.9.1(@swc/core@1.3.68)(@types/node@20.4.1)(typescript@5.1.6):
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
@@ -3033,7 +3041,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.4.0
+      '@types/node': 20.4.1
       acorn: 8.10.0
       acorn-walk: 8.2.0
       arg: 4.1.3
