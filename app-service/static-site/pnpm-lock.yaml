@@ -191,7 +191,7 @@ packages:
       '@cdktf/hcl2json': 0.17.1
       '@cdktf/provider-generator': 0.17.1
       camelcase: 6.3.0
-      deep-equal: 2.2.1
+      deep-equal: 2.2.2
       glob: 10.3.3
       graphology: 0.25.1(graphology-types@0.24.7)
       graphology-types: 0.24.7
@@ -1207,8 +1207,8 @@ packages:
       mimic-response: 3.1.0
     dev: true
 
-  /deep-equal@2.2.1:
-    resolution: {integrity: sha512-lKdkdV6EOGoVn65XaOsPdH4rMxTZOnmFyuIkMjM1i5HHCbfjC97dawgTAy0deYNfuqUqW+Q5VrVaQYtUpSd6yQ==}
+  /deep-equal@2.2.2:
+    resolution: {integrity: sha512-xjVyBf0w5vH0I42jdAZzOKVldmPgSulmiyPRywoyq7HXC9qdgo17kxJE+rdnif5Tz6+pIrpJI8dCpMNLIGkUiA==}
     dependencies:
       array-buffer-byte-length: 1.0.0
       call-bind: 1.0.2
@@ -1284,7 +1284,7 @@ packages:
     dependencies:
       semver: 7.5.4
       shelljs: 0.8.5
-      typescript: 5.2.0-dev.20230710
+      typescript: 5.2.0-dev.20230711
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -3089,8 +3089,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.2.0-dev.20230710:
-    resolution: {integrity: sha512-D4u4/pfdrIi94+F+iVzxzuzCk8bE/cbe4jng6Sce2Y1szj/QiBqN43X5lMrIbMR9Kb1G2AdWzYPrcNv/ButJGA==}
+  /typescript@5.2.0-dev.20230711:
+    resolution: {integrity: sha512-Pu1roPsNZOmZvIeoPHiwFqO31X+LQYLXjQgADk/wXu4qZ0/ovCuMVA3+3CYnrvsBecjLU9UN0pC4JFUyvfN6lA==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
