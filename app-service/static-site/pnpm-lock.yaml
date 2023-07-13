@@ -686,8 +686,8 @@ packages:
     resolution: {integrity: sha512-S9q47ByT2pPvD65IvrWp7qppVMpk9WGMbVq9wbWZOHg6tnXSD4vyhao6nOSBwwfDdV2p3Kx9evA9vI+XWTfDvw==}
     dev: true
 
-  /@xmldom/xmldom@0.8.8:
-    resolution: {integrity: sha512-0LNz4EY8B/8xXY86wMrQ4tz6zEHZv9ehFMJPm8u2gq5lQ71cfRKdaKyxfJAx5aUoyzx0qzgURblTisPGgz3d+Q==}
+  /@xmldom/xmldom@0.8.9:
+    resolution: {integrity: sha512-4VSbbcMoxc4KLjb1gs96SRmi7w4h1SF+fCoiK0XaQX62buCc1G5d0DC5bJ9xJBNPDSVCmIrcl8BiYxzjrqaaJA==}
     engines: {node: '>=10.0.0'}
     dev: true
 
@@ -1284,7 +1284,7 @@ packages:
     dependencies:
       semver: 7.5.4
       shelljs: 0.8.5
-      typescript: 5.2.0-dev.20230711
+      typescript: 5.2.0-dev.20230713
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -2057,7 +2057,7 @@ packages:
     dependencies:
       '@jsii/check-node': 1.84.0
       '@jsii/spec': 1.84.0
-      '@xmldom/xmldom': 0.8.8
+      '@xmldom/xmldom': 0.8.9
       commonmark: 0.30.0
       fast-glob: 3.3.0
       jsii: 1.84.0
@@ -2078,7 +2078,7 @@ packages:
     dependencies:
       '@jsii/check-node': 1.84.0
       '@jsii/spec': 1.84.0
-      '@xmldom/xmldom': 0.8.8
+      '@xmldom/xmldom': 0.8.9
       chalk: 4.1.2
       commonmark: 0.30.0
       fast-glob: 3.3.0
@@ -3081,8 +3081,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.2.0-dev.20230711:
-    resolution: {integrity: sha512-Pu1roPsNZOmZvIeoPHiwFqO31X+LQYLXjQgADk/wXu4qZ0/ovCuMVA3+3CYnrvsBecjLU9UN0pC4JFUyvfN6lA==}
+  /typescript@5.2.0-dev.20230713:
+    resolution: {integrity: sha512-A/crla7nXo4d7TVRlV4CUzxW218b2WupUrIMnnGBV1o0SQnckrszm0CUMRAYeKAB9lFIo/B1Gx1cBdvNQYiD4A==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
