@@ -1325,7 +1325,7 @@ packages:
     dependencies:
       semver: 7.5.4
       shelljs: 0.8.5
-      typescript: 5.2.0-dev.20230721
+      typescript: 5.2.0-dev.20230724
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -1435,8 +1435,8 @@ packages:
     resolution: {integrity: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==}
     dev: true
 
-  /fast-glob@3.3.0:
-    resolution: {integrity: sha512-ChDuvbOypPuNjO8yIDf36x7BlZX1smcUMTTcyoIjycexOxd6DFsKsg21qVBzEmr3G7fUKIRy2/psii+CIUt7FA==}
+  /fast-glob@3.3.1:
+    resolution: {integrity: sha512-kNFPyjhh5cKjrUltxs+wFx+ZkbRaxxmZ+X0ZU31SOsxCEtP9VPgtq2teZw1DebupL5GmDaNQ6yKMMVcM41iqDg==}
     engines: {node: '>=8.6.0'}
     dependencies:
       '@nodelib/fs.stat': 2.0.5
@@ -2096,7 +2096,7 @@ packages:
       '@jsii/spec': 1.85.0
       '@xmldom/xmldom': 0.8.10
       commonmark: 0.30.0
-      fast-glob: 3.3.0
+      fast-glob: 3.3.1
       jsii: 1.85.0
       semver: 7.5.4
       semver-intersect: 1.4.0
@@ -2118,7 +2118,7 @@ packages:
       '@xmldom/xmldom': 0.8.10
       chalk: 4.1.2
       commonmark: 0.30.0
-      fast-glob: 3.3.0
+      fast-glob: 3.3.1
       jsii: 5.1.8
       semver: 7.5.4
       semver-intersect: 1.4.0
@@ -3118,8 +3118,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.2.0-dev.20230721:
-    resolution: {integrity: sha512-xBP6NmF/Sk+4H5OM4eYRqyv2pTFjOyIFjaPaVlxXdgqKrysoyB5HkbtHu7GOP9/v5qGG6bd57CVOB/xFpmjxkA==}
+  /typescript@5.2.0-dev.20230724:
+    resolution: {integrity: sha512-imp5MKTFe3BmE+opYLWqglHjPJ3HQtmwcFX0zYKhky/m/ncUpMqnVnjZSoncvTkKGI8s4Ng88LqOEgvLa4brFg==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
