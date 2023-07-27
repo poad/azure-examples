@@ -26,8 +26,8 @@ devDependencies:
     specifier: ^20.4.5
     version: 20.4.5
   cdktf-cli:
-    specifier: ^0.17.2
-    version: 0.17.2(ink@3.2.0)(react@17.0.2)
+    specifier: ^0.17.3
+    version: 0.17.3(ink@3.2.0)(react@17.0.2)
   regenerator-runtime:
     specifier: ^0.13.11
     version: 0.13.11
@@ -102,16 +102,16 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@cdktf/cli-core@0.17.2(react@17.0.2):
-    resolution: {integrity: sha512-yYgYM11FiaZpDAiGubMCjwGTWjHYDPER+Hi9pCHSW4aze5U1R6oalHEZQ3N0pM904M8MqMOkfybTWZCvH8g68g==}
+  /@cdktf/cli-core@0.17.3(react@17.0.2):
+    resolution: {integrity: sha512-KgsibdYAB5MuC0wM2143kiKj/jUsAuCOTRzHfIakIUVd6xsLIOxMdWCTOPbPhmcUPr0SHatFnjKD/d7y1A5Bow==}
     dependencies:
-      '@cdktf/commons': 0.17.2
-      '@cdktf/hcl2cdk': 0.17.2
-      '@cdktf/hcl2json': 0.17.2
+      '@cdktf/commons': 0.17.3
+      '@cdktf/hcl2cdk': 0.17.3
+      '@cdktf/hcl2json': 0.17.3
       '@cdktf/node-pty-prebuilt-multiarch': 0.10.1-pre.10
       '@sentry/node': 6.19.7
       archiver: 5.3.1
-      cdktf: 0.17.2(constructs@10.2.69)
+      cdktf: 0.17.3(constructs@10.2.69)
       chalk: 4.1.2
       chokidar: 3.5.3
       cli-spinners: 2.7.0
@@ -162,12 +162,12 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@cdktf/commons@0.17.2:
-    resolution: {integrity: sha512-5PKZZME6bE+imimsSZCQ0zgRfWzhXiXs5U0hx5/zQjUkUWaEGGw+KvLEVYQgswV3605LNa4HJo1ZjLKAx1j66w==}
+  /@cdktf/commons@0.17.3:
+    resolution: {integrity: sha512-5TZpuxjfYvmf1iXoel5HWz06Sf+5VYmZF/HeBmf03uHIAgDYJZZoyFp4wwH4lzT6pjr1uYBbyX49HTkLlmDbxQ==}
     dependencies:
       '@npmcli/ci-detect': 1.4.0
       '@sentry/node': 6.19.7
-      cdktf: 0.17.2(constructs@10.2.69)
+      cdktf: 0.17.3(constructs@10.2.69)
       codemaker: 1.85.0
       constructs: 10.2.69
       cross-spawn: 7.0.3
@@ -181,15 +181,15 @@ packages:
       - supports-color
     dev: true
 
-  /@cdktf/hcl2cdk@0.17.2:
-    resolution: {integrity: sha512-/ixxaVsIkAx0j9bmbuwyKFAgkRdaWWUGo0FAYEBFvh+bG37ZbppdMfhSrTnCUKAgbio8EW/mxxxozrnGaFPXDQ==}
+  /@cdktf/hcl2cdk@0.17.3:
+    resolution: {integrity: sha512-T49ptQ2L5c80hO8XSLESjHq5ILfXQsceK7oK6LFheOidvCFyQPH4EsKUGUazqiqB0/Loab4+tsp/ou2L2BMc6Q==}
     dependencies:
       '@babel/generator': 7.22.9
       '@babel/template': 7.22.5
       '@babel/types': 7.22.5
-      '@cdktf/commons': 0.17.2
-      '@cdktf/hcl2json': 0.17.2
-      '@cdktf/provider-generator': 0.17.2
+      '@cdktf/commons': 0.17.3
+      '@cdktf/hcl2json': 0.17.3
+      '@cdktf/provider-generator': 0.17.3
       camelcase: 6.3.0
       deep-equal: 2.2.2
       glob: 10.3.3
@@ -204,8 +204,8 @@ packages:
       - supports-color
     dev: true
 
-  /@cdktf/hcl2json@0.17.2:
-    resolution: {integrity: sha512-m0soZckmIz0yiMb4nul8MTDl9nE1xfowBOtuYCe9IbjfCEzX1XvD5MsL+w2PHWGAZ0FbFvQP1FIPOCR5TeeKHw==}
+  /@cdktf/hcl2json@0.17.3:
+    resolution: {integrity: sha512-lczep0P2adwv08bf3mF1ScKyAD/Y502QVxGrYm8+E+3cl11qtFVblFJXRcAS288Opnqz1X0ekN4YCmkPawETbg==}
     dependencies:
       fs-extra: 11.1.1
     dev: true
@@ -229,11 +229,11 @@ packages:
       constructs: 10.2.69
     dev: false
 
-  /@cdktf/provider-generator@0.17.2:
-    resolution: {integrity: sha512-asMWah2kXjNICJd3IlX0QV0loCt8hRPm+e0YNLLBmhxmqbuy8wh8MdoPBbHA83vtLEA8IZiPTPuQHUMTe7lNEQ==}
+  /@cdktf/provider-generator@0.17.3:
+    resolution: {integrity: sha512-HXzLVmn2Y+1OuoRkhIhUy8A3EikgnZUcuNHgyt0Z7+uUQ6qf0082iF5v7qrRbs+sZ7UvKyLIgy+bch+ZkskVpg==}
     dependencies:
-      '@cdktf/commons': 0.17.2
-      '@cdktf/hcl2json': 0.17.2
+      '@cdktf/commons': 0.17.3
+      '@cdktf/hcl2json': 0.17.3
       '@types/node': 16.18.23
       codemaker: 1.85.0
       deepmerge: 4.3.1
@@ -935,17 +935,17 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /cdktf-cli@0.17.2(ink@3.2.0)(react@17.0.2):
-    resolution: {integrity: sha512-7U2ow0vFqmKbCVABcXwCtIidtAXuvuLnea3Q06GA1km/GsoyEiqveOhHXkdIaAuf8SrHY8Ul+r0ALOiRLI/lWg==}
+  /cdktf-cli@0.17.3(ink@3.2.0)(react@17.0.2):
+    resolution: {integrity: sha512-wVOjzfwF4KUkGbdxuQ+/TfLuENbl0Lymp4Kz3cwbxXdEOOy//GlYjHIV+HA+kIl7bS6UtcyfKFXP3QDjjyb/3w==}
     hasBin: true
     dependencies:
-      '@cdktf/cli-core': 0.17.2(react@17.0.2)
-      '@cdktf/commons': 0.17.2
-      '@cdktf/hcl2cdk': 0.17.2
-      '@cdktf/hcl2json': 0.17.2
+      '@cdktf/cli-core': 0.17.3(react@17.0.2)
+      '@cdktf/commons': 0.17.3
+      '@cdktf/hcl2cdk': 0.17.3
+      '@cdktf/hcl2json': 0.17.3
       '@inquirer/prompts': 2.3.1
       '@sentry/node': 6.19.7
-      cdktf: 0.17.2(constructs@10.2.69)
+      cdktf: 0.17.3(constructs@10.2.69)
       codemaker: 1.85.0
       constructs: 10.2.69
       cross-spawn: 7.0.3
@@ -983,6 +983,19 @@ packages:
       constructs: 10.2.69
       json-stable-stringify: 1.0.2
       semver: 7.5.4
+    dev: false
+    bundledDependencies:
+      - archiver
+      - json-stable-stringify
+      - semver
+
+  /cdktf@0.17.3(constructs@10.2.69):
+    resolution: {integrity: sha512-bqAzuuYLc8sy0ZoKw/RnohS6SH6fwAhCsU31vxuEiwu0BVcCaExfjQVZx/iJgmF1TJqk/cu2fMCLUgT3PDAuhQ==}
+    peerDependencies:
+      constructs: ^10.0.25
+    dependencies:
+      constructs: 10.2.69
+    dev: true
     bundledDependencies:
       - archiver
       - json-stable-stringify
@@ -1317,7 +1330,7 @@ packages:
     dependencies:
       semver: 7.5.4
       shelljs: 0.8.5
-      typescript: 5.2.0-dev.20230726
+      typescript: 5.2.0-dev.20230727
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -1756,7 +1769,7 @@ packages:
       ink: '>=3.0.5'
       react: '>=16.8.2'
     dependencies:
-      cli-spinners: 2.7.0
+      cli-spinners: 2.9.0
       ink: 3.2.0(react@17.0.2)
       react: 17.0.2
     dev: true
@@ -2187,6 +2200,7 @@ packages:
     resolution: {integrity: sha512-eunSSaEnxV12z+Z73y/j5N37/In40GK4GmsSy+tEHJMxknvqnA7/djeYtAgW0GsWHUfg+847WJjKaEylk2y09g==}
     dependencies:
       jsonify: 0.0.1
+    dev: false
 
   /jsonfile@4.0.0:
     resolution: {integrity: sha512-m6F1R3z8jjlf2imQHS2Qez5sjKWQzbuuhuJ/FKYFRZvPE3PuHcSMVZzfsLhGVOkfd20obL5SWEBew5ShlquNxg==}
@@ -2204,6 +2218,7 @@ packages:
 
   /jsonify@0.0.1:
     resolution: {integrity: sha512-2/Ki0GcmuqSrgFyelQq9M05y7PS0mEwuIzrf3f1fPqkVDVRvZrPZtVSMHxdgo8Aq0sxAOb/cr2aqqA3LeWHVPg==}
+    dev: false
 
   /lazystream@1.0.1:
     resolution: {integrity: sha512-b94GiNHQNy6JNTrt5w6zNyffMrNkXZb3KTkCZJb2V1xaEGCk093vkZ2jk3tpaeP33/OiXC+WvK9AxUebnf5nbw==}
@@ -3110,8 +3125,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.2.0-dev.20230726:
-    resolution: {integrity: sha512-WXVjQVYHgcJwZh0r5TzBl42dzg6ap9VS0+8dm76/i0T/BhLnmC3CIBsLHZ5WQ3l1CqO/W5kSuywX94xVg98otA==}
+  /typescript@5.2.0-dev.20230727:
+    resolution: {integrity: sha512-HTNqxwU5roYnvWrrdTxKLREZ+fygKOpf7q2DAhfZntqgyQNxZzZdDypigMS8tNmeQN2X/ohbNzX9PnhHoCCmfw==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
