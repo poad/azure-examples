@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@cdktf/provider-azurerm':
-    specifier: ^9.0.4
-    version: 9.0.4(cdktf@0.17.3)(constructs@10.2.69)
+    specifier: ^9.0.5
+    version: 9.0.5(cdktf@0.17.3)(constructs@10.2.69)
   cdktf:
     specifier: ^0.17.3
     version: 0.17.3(constructs@10.2.69)
@@ -218,8 +218,8 @@ packages:
       prebuild-install: 7.1.1
     dev: true
 
-  /@cdktf/provider-azurerm@9.0.4(cdktf@0.17.3)(constructs@10.2.69):
-    resolution: {integrity: sha512-BJDSlvAd0xBov0/9nM2HC11mver7S9zjYIb3p6vTkVJTXBh/rLJrtdWSpbg7HOFrXkb+UsGWFUAWhL9reDcQdA==}
+  /@cdktf/provider-azurerm@9.0.5(cdktf@0.17.3)(constructs@10.2.69):
+    resolution: {integrity: sha512-GSuaLoEP3wh6UMgXmc3GBonnDq/tMFrC5f/NgMRvQteoZlGdn98gCP3s3wy9oiAhl+BeUT2sJtPivYFHSDeSjw==}
     engines: {node: '>= 16.14.0'}
     peerDependencies:
       cdktf: ^0.17.0
