@@ -193,7 +193,7 @@ packages:
       camelcase: 6.3.0
       deep-equal: 2.2.2
       glob: 10.3.3
-      graphology: 0.25.3(graphology-types@0.24.7)
+      graphology: 0.25.4(graphology-types@0.24.7)
       graphology-types: 0.24.7
       jsii-rosetta: 5.1.8
       prettier: 2.8.8
@@ -1317,7 +1317,7 @@ packages:
     dependencies:
       semver: 7.5.4
       shelljs: 0.8.5
-      typescript: 5.2.0-dev.20230801
+      typescript: 5.2.0-dev.20230802
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -1638,8 +1638,8 @@ packages:
     resolution: {integrity: sha512-tdcqOOpwArNjEr0gNQKCXwaNCWnQJrog14nJNQPeemcLnXQUUGrsCWpWkVKt46zLjcS6/KGoayeJfHHyPDlvwA==}
     dev: true
 
-  /graphology@0.25.3(graphology-types@0.24.7):
-    resolution: {integrity: sha512-Kg9xc+Dnxd3nMsF23nXqXUgbz3VI2mmsABlEBMlrDfamqKjpmfPDZvO9d8rHYv2i3WZz+SautNX9UkqFDxE8wA==}
+  /graphology@0.25.4(graphology-types@0.24.7):
+    resolution: {integrity: sha512-33g0Ol9nkWdD6ulw687viS8YJQBxqG5LWII6FI6nul0pq6iM2t5EKquOTFDbyTblRB3O9I+7KX4xI8u5ffekAQ==}
     peerDependencies:
       graphology-types: '>=0.24.0'
     dependencies:
@@ -3110,8 +3110,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.2.0-dev.20230801:
-    resolution: {integrity: sha512-f8FmzL+1+agawPPUzsd38vTiZD/z+RtGax/3+tzxsBP15O/4lMsliTEXRXF7ESC7a1s/f9HsNNRMne438PPZsw==}
+  /typescript@5.2.0-dev.20230802:
+    resolution: {integrity: sha512-rBvAnzaaMhwBAS2UaKejYhaED3VM74/xng/+xcVSst0PbkJBqggj19w/gwJ/4q07oOjKMgwunklsSjwe+iw2ZA==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
