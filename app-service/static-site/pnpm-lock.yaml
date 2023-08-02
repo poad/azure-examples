@@ -455,8 +455,23 @@ packages:
       semver: 7.5.4
     dev: true
 
+  /@jsii/check-node@1.86.0:
+    resolution: {integrity: sha512-MbtjcBOSopGmn1wnwJ/YvXY+zebcrWjg/MSkYdMSfC8Kj9PlBC1M4TxOdmUFNxtM2vZs6B6HGyOaObQigDvdpg==}
+    engines: {node: '>= 14.17.0'}
+    dependencies:
+      chalk: 4.1.2
+      semver: 7.5.4
+    dev: true
+
   /@jsii/spec@1.85.0:
     resolution: {integrity: sha512-RIBLbuKf7JOC54v1JnRuykwlL+qmOgivQM8LHJxiAsUKiuY5ypSzG0JyeoJ1+lMQ9zZ50Ho0HY1ZO+XH18ZgNg==}
+    engines: {node: '>= 14.17.0'}
+    dependencies:
+      ajv: 8.12.0
+    dev: true
+
+  /@jsii/spec@1.86.0:
+    resolution: {integrity: sha512-4aSVSKbE50LEJbky6bVvl4wmbZJqIJCQt+qFkUQzxbmbpM/K9iDTCD+EXMqHU1lRs33Wcu86MvDxtVCncXiNuQ==}
     engines: {node: '>= 14.17.0'}
     dependencies:
       ajv: 8.12.0
@@ -1317,7 +1332,7 @@ packages:
     dependencies:
       semver: 7.5.4
       shelljs: 0.8.5
-      typescript: 5.2.0-dev.20230801
+      typescript: 5.2.0-dev.20230802
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -2056,7 +2071,7 @@ packages:
       commonmark: 0.30.0
       escape-string-regexp: 4.0.0
       fs-extra: 10.1.0
-      jsii-reflect: 1.85.0
+      jsii-reflect: 1.86.0
       jsii-rosetta: 1.85.0
       semver: 7.5.4
       spdx-license-list: 6.6.0
@@ -2066,16 +2081,16 @@ packages:
       - supports-color
     dev: true
 
-  /jsii-reflect@1.85.0:
-    resolution: {integrity: sha512-4/2JTt7xVDp717JgxnWbroXPBkXBWd25WEgKkIBxqN5DxGpzd+EPNpNkgJmSOCK5DKl9g1FjCuTkcRw5qMIoEg==}
+  /jsii-reflect@1.86.0:
+    resolution: {integrity: sha512-LlaVKhMHPYN6pEutH83nesWS5VQuEOToy+GtXU8quYilVMQ6rAlo3LgzdBdQd+jSjROKDa/BgAkt4hWdGa5VLQ==}
     engines: {node: '>= 14.17.0'}
     hasBin: true
     dependencies:
-      '@jsii/check-node': 1.85.0
-      '@jsii/spec': 1.85.0
+      '@jsii/check-node': 1.86.0
+      '@jsii/spec': 1.86.0
       chalk: 4.1.2
       fs-extra: 10.1.0
-      oo-ascii-tree: 1.85.0
+      oo-ascii-tree: 1.86.0
       yargs: 16.2.0
     dev: true
 
@@ -2455,8 +2470,8 @@ packages:
       mimic-fn: 2.1.0
     dev: true
 
-  /oo-ascii-tree@1.85.0:
-    resolution: {integrity: sha512-5QKNfCtTeW5rcdKbd0owoZFzMxJ7oJl9I+FycBJ0/i8UVJYcZOKctN9TA82unIRgf/BrSaa0X3Nw0RJuiAnMfQ==}
+  /oo-ascii-tree@1.86.0:
+    resolution: {integrity: sha512-wT93XycBq+vZ9Q1vAIJiNt+1poO4Mj2rHol4cS1YHaQ1dzh3krc8b2XrkxrF68OH9qGyc/pxVH3b9LklaM1zpQ==}
     engines: {node: '>= 14.17.0'}
     dev: true
 
@@ -3110,8 +3125,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.2.0-dev.20230801:
-    resolution: {integrity: sha512-f8FmzL+1+agawPPUzsd38vTiZD/z+RtGax/3+tzxsBP15O/4lMsliTEXRXF7ESC7a1s/f9HsNNRMne438PPZsw==}
+  /typescript@5.2.0-dev.20230802:
+    resolution: {integrity: sha512-rBvAnzaaMhwBAS2UaKejYhaED3VM74/xng/+xcVSst0PbkJBqggj19w/gwJ/4q07oOjKMgwunklsSjwe+iw2ZA==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
