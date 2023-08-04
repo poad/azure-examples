@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@cdktf/provider-azurerm':
-    specifier: ^9.0.5
-    version: 9.0.5(cdktf@0.17.3)(constructs@10.2.69)
+    specifier: ^9.0.6
+    version: 9.0.6(cdktf@0.17.3)(constructs@10.2.69)
   cdktf:
     specifier: ^0.17.3
     version: 0.17.3(constructs@10.2.69)
@@ -218,8 +218,8 @@ packages:
       prebuild-install: 7.1.1
     dev: true
 
-  /@cdktf/provider-azurerm@9.0.5(cdktf@0.17.3)(constructs@10.2.69):
-    resolution: {integrity: sha512-GSuaLoEP3wh6UMgXmc3GBonnDq/tMFrC5f/NgMRvQteoZlGdn98gCP3s3wy9oiAhl+BeUT2sJtPivYFHSDeSjw==}
+  /@cdktf/provider-azurerm@9.0.6(cdktf@0.17.3)(constructs@10.2.69):
+    resolution: {integrity: sha512-GoeF4XWG7I+JjYnz3ZBgESFmcSpazjOOcG1zlHUzooQQMpbtATzp2M1dwM5YbOLrfq7ABu31QmXCAHI2iXRLWg==}
     engines: {node: '>= 16.14.0'}
     peerDependencies:
       cdktf: ^0.17.0
@@ -1325,7 +1325,7 @@ packages:
     dependencies:
       semver: 7.5.4
       shelljs: 0.8.5
-      typescript: 5.2.0-dev.20230803
+      typescript: 5.2.0-dev.20230804
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -3118,8 +3118,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.2.0-dev.20230803:
-    resolution: {integrity: sha512-DwCyutWHyT7Il7xpJCxtx4/S5F4qjAo2SE6QDRSLhEUtBFGwGHTHCvuyfm9KNrdwn67jGitdlw4gpbSTVVjoww==}
+  /typescript@5.2.0-dev.20230804:
+    resolution: {integrity: sha512-4g7zcF85Th+zpaMgR7CHzM1MqjJ0Fv3+2PUxzCUMW8tc7aRYGPtQBfnAyN0+yXChZaV6lVejmrh7hle1DMAEcw==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
