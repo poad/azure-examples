@@ -51,7 +51,7 @@ packages:
     resolution: {integrity: sha512-KtLMbmicyuK2Ak/FTCJVbDnkN1SlT8/kceFTiuDiiRUUSMnHMidxSCdG4ndkTOHHpoomWe/4xkvHkEOncwjYIw==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/types': 7.22.5
+      '@babel/types': 7.22.10
       '@jridgewell/gen-mapping': 0.3.3
       '@jridgewell/trace-mapping': 0.3.18
       jsesc: 2.5.2
@@ -81,7 +81,7 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
     dependencies:
-      '@babel/types': 7.22.5
+      '@babel/types': 7.22.10
     dev: true
 
   /@babel/template@7.22.5:
@@ -90,11 +90,11 @@ packages:
     dependencies:
       '@babel/code-frame': 7.22.5
       '@babel/parser': 7.22.7
-      '@babel/types': 7.22.5
+      '@babel/types': 7.22.10
     dev: true
 
-  /@babel/types@7.22.5:
-    resolution: {integrity: sha512-zo3MIHGOkPOfoRXitsgHLjEXmlDaD/5KU1Uzuc9GNiZPhSqVxVRtxuPaSBZDsYZ9qV88AjtMtWW7ww98loJ9KA==}
+  /@babel/types@7.22.10:
+    resolution: {integrity: sha512-obaoigiLrlDZ7TUQln/8m4mSqIW2QFeOrCQc9r+xsaHGNoplVNYlRVpsfE8Vj35GEm2ZH4ZhrNYogs/3fj85kg==}
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/helper-string-parser': 7.22.5
@@ -186,7 +186,7 @@ packages:
     dependencies:
       '@babel/generator': 7.22.9
       '@babel/template': 7.22.5
-      '@babel/types': 7.22.5
+      '@babel/types': 7.22.10
       '@cdktf/commons': 0.17.3
       '@cdktf/hcl2json': 0.17.3
       '@cdktf/provider-generator': 0.17.3
@@ -1325,7 +1325,7 @@ packages:
     dependencies:
       semver: 7.5.4
       shelljs: 0.8.5
-      typescript: 5.2.0-dev.20230807
+      typescript: 5.3.0-dev.20230808
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -3118,8 +3118,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.2.0-dev.20230807:
-    resolution: {integrity: sha512-sF8sZl3r/mpAdKAxASaWaoU+mNPF3g8OrZ601HraU2l4WEwAf6nO7sq0Bzl+Y3FV7sWjy+gb6kdM1CtLjVne/g==}
+  /typescript@5.3.0-dev.20230808:
+    resolution: {integrity: sha512-skwlatDWwjIHttX+Yg1vH1XRyFJWy8m1LxrP+3VEpAso05fW0y61dQbzqDzdtTjPKUDLf5um7IMwWBS6gVx08A==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
