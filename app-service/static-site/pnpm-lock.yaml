@@ -1317,7 +1317,7 @@ packages:
     dependencies:
       semver: 7.5.4
       shelljs: 0.8.5
-      typescript: 5.3.0-dev.20230816
+      typescript: 5.3.0-dev.20230817
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -2372,8 +2372,8 @@ packages:
     hasBin: true
     dev: true
 
-  /node-abi@3.46.0:
-    resolution: {integrity: sha512-LXvP3AqTIrtvH/jllXjkNVbYifpRbt9ThTtymSMSuHmhugQLAWr99QQFTm+ZRht9ziUvdGOgB+esme1C6iE6Lg==}
+  /node-abi@3.47.0:
+    resolution: {integrity: sha512-2s6B2CWZM//kPgwnuI0KrYwNjfdByE25zvAaEpq9IH4zcNsarH8Ihu/UuX6XMPEogDAxkuUFeZn60pXNHAqn3A==}
     engines: {node: '>=10'}
     dependencies:
       semver: 7.5.4
@@ -2580,7 +2580,7 @@ packages:
       minimist: 1.2.8
       mkdirp-classic: 0.5.3
       napi-build-utils: 1.0.2
-      node-abi: 3.46.0
+      node-abi: 3.47.0
       pump: 3.0.0
       rc: 1.2.8
       simple-get: 4.0.1
@@ -3110,8 +3110,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.3.0-dev.20230816:
-    resolution: {integrity: sha512-iEOudrx61DsbJn+z2bVX+/FldF7ILAuGwQYO2EvF4F33Q8DUV0KSkiikxUB83VVH8ExkwQHVNdtkr16wd2V71w==}
+  /typescript@5.3.0-dev.20230817:
+    resolution: {integrity: sha512-WbPb4NIGIcx8fQG4JPh54lALvzPUJTcDLCP9xVsrfOMrMAWswPqqekMZ7jVpasCOmYtC9e+oUCpW+jgVVcW7UQ==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
