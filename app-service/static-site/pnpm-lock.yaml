@@ -311,6 +311,25 @@ packages:
       wrap-ansi: 6.2.0
     dev: true
 
+  /@inquirer/core@3.1.2:
+    resolution: {integrity: sha512-lR2GaqBkp42Ew9BOAOqf2pSp+ymVES1qN8OC90WWh45yeoYLl0Ty1GyCxmkKqBJtq/+Ea1MF12AdFcZcpRNFsw==}
+    engines: {node: '>=14.18.0'}
+    dependencies:
+      '@inquirer/type': 1.1.2
+      '@types/mute-stream': 0.0.1
+      '@types/node': 20.5.0
+      '@types/wrap-ansi': 3.0.0
+      ansi-escapes: 4.3.2
+      chalk: 4.1.2
+      cli-spinners: 2.9.0
+      cli-width: 4.1.0
+      figures: 3.2.0
+      mute-stream: 1.0.0
+      run-async: 3.0.0
+      strip-ansi: 6.0.1
+      wrap-ansi: 6.2.0
+    dev: true
+
   /@inquirer/editor@1.2.6:
     resolution: {integrity: sha512-DTKL1eW2oufo21jz/qrAOELX4qJGNKjRQVzejj46pHhcSVE3ox1H/rf2Wkci4SdbsktPPsUSbYfL76InSQcK/g==}
     engines: {node: '>=14.18.0'}
@@ -321,12 +340,12 @@ packages:
       external-editor: 3.1.0
     dev: true
 
-  /@inquirer/expand@1.1.7:
-    resolution: {integrity: sha512-6t4xpw1iejWHTxQ6Y11c2/aqRWS9zHM8U8HShyt2xZDvs9GDIG77OIPi7+29M/6OK6LGUcqY3KxqSE4peaxdiw==}
+  /@inquirer/expand@1.1.8:
+    resolution: {integrity: sha512-fMPrIJCsIng8kIOlMbttEJJAG5injkttsESxZVyZMm2huo5/apuM1jibAIltvC4smc2GFpClXymWpKySX6raLw==}
     engines: {node: '>=14.18.0'}
     dependencies:
-      '@inquirer/core': 3.1.1
-      '@inquirer/type': 1.1.1
+      '@inquirer/core': 3.1.2
+      '@inquirer/type': 1.1.2
       chalk: 4.1.2
       figures: 3.2.0
     dev: true
@@ -358,7 +377,7 @@ packages:
       '@inquirer/confirm': 2.0.8
       '@inquirer/core': 2.3.1
       '@inquirer/editor': 1.2.6
-      '@inquirer/expand': 1.1.7
+      '@inquirer/expand': 1.1.8
       '@inquirer/input': 1.2.7
       '@inquirer/password': 1.1.7
       '@inquirer/rawlist': 1.2.7
@@ -387,6 +406,11 @@ packages:
 
   /@inquirer/type@1.1.1:
     resolution: {integrity: sha512-ACc2N1AnIYtg+bfnitna0OJ1rptWqa8apdDDRQnRWb0R5MEPGAgvqWaDbZahATXOnglqKDRIeHFEQfqxhM6p/g==}
+    engines: {node: '>=14.18.0'}
+    dev: true
+
+  /@inquirer/type@1.1.2:
+    resolution: {integrity: sha512-lowHTIBAE/bltg7/EchMDLfKUdT0BCyS2xzqgjsyKADybz2QZ0cLWtDXzjT1C6rdZI07Ng9jU4d2R9rDoU+6Hw==}
     engines: {node: '>=14.18.0'}
     dev: true
 
@@ -1317,7 +1341,7 @@ packages:
     dependencies:
       semver: 7.5.4
       shelljs: 0.8.5
-      typescript: 5.3.0-dev.20230817
+      typescript: 5.3.0-dev.20230818
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -1756,7 +1780,7 @@ packages:
       ink: '>=3.0.5'
       react: '>=16.8.2'
     dependencies:
-      cli-spinners: 2.7.0
+      cli-spinners: 2.9.0
       ink: 3.2.0(react@17.0.2)
       react: 17.0.2
     dev: true
@@ -3110,8 +3134,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.3.0-dev.20230817:
-    resolution: {integrity: sha512-WbPb4NIGIcx8fQG4JPh54lALvzPUJTcDLCP9xVsrfOMrMAWswPqqekMZ7jVpasCOmYtC9e+oUCpW+jgVVcW7UQ==}
+  /typescript@5.3.0-dev.20230818:
+    resolution: {integrity: sha512-inkObfKw5TVieNQdO9vTAAzUIKV6i2bjqpC28j1knVWvcxaBLtNGrPgxGVnhWB/LQ5AjMLvgkCM58kkamkRObQ==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
