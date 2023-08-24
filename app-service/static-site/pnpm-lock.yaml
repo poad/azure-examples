@@ -138,7 +138,7 @@ packages:
       lodash.isequal: 4.5.0
       log4js: 6.9.1
       minimatch: 5.1.6
-      node-fetch: 2.6.13
+      node-fetch: 2.7.0
       open: 7.4.2
       parse-gitignore: 1.0.1
       pkg-up: 3.1.0
@@ -960,7 +960,7 @@ packages:
       jsii: 5.1.11
       jsii-pacmak: 1.87.0
       minimatch: 5.1.6
-      node-fetch: 2.6.13
+      node-fetch: 2.7.0
       pidtree: 0.6.0
       pidusage: 3.0.2
       tunnel-agent: 0.6.0
@@ -1213,7 +1213,7 @@ packages:
   /cross-fetch@3.1.8:
     resolution: {integrity: sha512-cvA+JwZoU0Xq+h6WkMvAUqPEYy92Obet6UdKLfW60qn99ftItKjB5T+BkyWOFWe2pUyfQ+IJHmpOTznqk1M6Kg==}
     dependencies:
-      node-fetch: 2.6.13
+      node-fetch: 2.7.0
     transitivePeerDependencies:
       - encoding
     dev: true
@@ -1338,7 +1338,7 @@ packages:
     dependencies:
       semver: 7.5.4
       shelljs: 0.8.5
-      typescript: 5.3.0-dev.20230823
+      typescript: 5.3.0-dev.20230824
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -2400,8 +2400,8 @@ packages:
       semver: 7.5.4
     dev: true
 
-  /node-fetch@2.6.13:
-    resolution: {integrity: sha512-StxNAxh15zr77QvvkmveSQ8uCQ4+v5FkvNTj0OESmiHu+VRi/gXArXtkWMElOsOUNLtUEvI4yS+rdtOHZTwlQA==}
+  /node-fetch@2.7.0:
+    resolution: {integrity: sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==}
     engines: {node: 4.x || >=6.0.0}
     peerDependencies:
       encoding: ^0.1.0
@@ -3131,8 +3131,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.3.0-dev.20230823:
-    resolution: {integrity: sha512-IEFfTl67UgTTJzf+Ma4+0txDKzxzxtjNjyFjTm7c+yP5sff+atKe44mAjhCxX8wGjwRrFuhAUeHz1udmzBZ4ow==}
+  /typescript@5.3.0-dev.20230824:
+    resolution: {integrity: sha512-iiUWxGibzrRHEBLDJfVymsvpPKflf3cMrw0oQTMQoguFS2ikNlVlfQWAsYeHqGpRQc77nSQkzsE9rAHNHqvIjw==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
