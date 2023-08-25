@@ -23,12 +23,12 @@
     "constructs": "^10.2.69"
   },
   "devDependencies": {
-    "@swc/core": "^1.3.78",
+    "@swc/core": "^1.3.79",
     "@swc/helpers": "^0.5.1",
     "@types/node": "^20.5.6",
     "cdktf-cli": "^0.18.0",
     "regenerator-runtime": "^0.14.0",
     "ts-node": "^10.9.1",
-    "typescript": "^5.1.6"
+    "typescript": "^5.2.2"
   }
 }
