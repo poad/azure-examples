@@ -380,15 +380,15 @@ packages:
       '@inquirer/expand': 1.1.9
       '@inquirer/input': 1.2.8
       '@inquirer/password': 1.1.8
-      '@inquirer/rawlist': 1.2.8
+      '@inquirer/rawlist': 1.2.9
       '@inquirer/select': 1.2.9
     dev: true
 
-  /@inquirer/rawlist@1.2.8:
-    resolution: {integrity: sha512-nK6wOfv2RizGlix3RxrDDIv+0wdPE8IwoY0s5Q+vqHtDPTFn5nIQ05Z/FAik2tHVCfZdFpir+7bMs5PyhSjaVA==}
+  /@inquirer/rawlist@1.2.9:
+    resolution: {integrity: sha512-HqZeTP/F0l9LE0uCSbPHUbxVjoh8TLPzy8+BJzXyS9Na+XbbMOGN7KVNkNEGY+GH7X05jdOtd4gsO9DtAJUM2Q==}
     engines: {node: '>=14.18.0'}
     dependencies:
-      '@inquirer/core': 3.1.2
+      '@inquirer/core': 4.0.0
       '@inquirer/type': 1.1.2
       chalk: 4.1.2
     dev: true
