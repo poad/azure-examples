@@ -466,8 +466,23 @@ packages:
       semver: 7.5.4
     dev: true
 
+  /@jsii/check-node@1.88.0:
+    resolution: {integrity: sha512-AveFyqkJIb8qZvGk5nZal/8mEJB6lWhwqvAQLodHmqE3WzpmZD5+h+aspBVt0El5cEFRJ1k1mrQqhAnJCVpvxg==}
+    engines: {node: '>= 14.17.0'}
+    dependencies:
+      chalk: 4.1.2
+      semver: 7.5.4
+    dev: true
+
   /@jsii/spec@1.87.0:
     resolution: {integrity: sha512-fhTT3IYmjyRKvUUWffBIuGDVVfyKC+QfE1cMyExSHl7l6wk6unrxS8qsU23kaJ5bNQAnlc2+CE1HteY2SLbepg==}
+    engines: {node: '>= 14.17.0'}
+    dependencies:
+      ajv: 8.12.0
+    dev: true
+
+  /@jsii/spec@1.88.0:
+    resolution: {integrity: sha512-Q6xirxPM06TRW0GcsHa+tzPZLwe9I+mFYx5BaNMimcv21u6bQnxfynZMgNhHqvLYCmP37HWg0SboUYTa5JROzw==}
     engines: {node: '>= 14.17.0'}
     dependencies:
       ajv: 8.12.0
@@ -2102,7 +2117,7 @@ packages:
       escape-string-regexp: 4.0.0
       fs-extra: 10.1.0
       jsii-reflect: 1.87.0
-      jsii-rosetta: 1.87.0
+      jsii-rosetta: 1.88.0
       semver: 7.5.4
       spdx-license-list: 6.6.0
       xmlbuilder: 15.1.1
@@ -2124,17 +2139,17 @@ packages:
       yargs: 16.2.0
     dev: true
 
-  /jsii-rosetta@1.87.0:
-    resolution: {integrity: sha512-ry+HWSXwoMc0Y/zyYDKu8krBsdY6sHfYS+h/LqLbMiPmZZBx+m8j2/OgyAW0JVCoanmhoof+3je1xSTXPqeJfA==}
+  /jsii-rosetta@1.88.0:
+    resolution: {integrity: sha512-6xRRkwWUKFqDTnjgCXkB6v9dxA51KUD4Cd7InLB4qirMBDuMtyYhYVNc1yJbHPYs9gkN5/ao0dFk+1CQxt7T7g==}
     engines: {node: '>= 14.17.0'}
     hasBin: true
     dependencies:
-      '@jsii/check-node': 1.87.0
-      '@jsii/spec': 1.87.0
+      '@jsii/check-node': 1.88.0
+      '@jsii/spec': 1.88.0
       '@xmldom/xmldom': 0.8.10
       commonmark: 0.30.0
       fast-glob: 3.3.1
-      jsii: 1.87.0
+      jsii: 1.88.0
       semver: 7.5.4
       semver-intersect: 1.4.0
       stream-json: 1.8.0
@@ -2180,13 +2195,13 @@ packages:
       - supports-color
     dev: true
 
-  /jsii@1.87.0:
-    resolution: {integrity: sha512-yMb64s0L4Teu8wbuL7ixhLlqcbiLaPUHUiLCloSvfGfbFikayPQOTGUkIri3tZnAE26XskmgbZsStlc2tRfjBg==}
+  /jsii@1.88.0:
+    resolution: {integrity: sha512-WKfwHbcEI/j5OYDPexvkH8KKDcTZR7tIBFNTxu8h1Nh3G8xFT4hh3pObUUSMRCa6rsSF9EHGjS+AKC+TfpFGrQ==}
     engines: {node: '>= 14.17.0'}
     hasBin: true
     dependencies:
-      '@jsii/check-node': 1.87.0
-      '@jsii/spec': 1.87.0
+      '@jsii/check-node': 1.88.0
+      '@jsii/spec': 1.88.0
       case: 1.6.3
       chalk: 4.1.2
       fast-deep-equal: 3.1.3
