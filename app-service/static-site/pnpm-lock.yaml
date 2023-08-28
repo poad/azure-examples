@@ -340,11 +340,11 @@ packages:
       external-editor: 3.1.0
     dev: true
 
-  /@inquirer/expand@1.1.8:
-    resolution: {integrity: sha512-fMPrIJCsIng8kIOlMbttEJJAG5injkttsESxZVyZMm2huo5/apuM1jibAIltvC4smc2GFpClXymWpKySX6raLw==}
+  /@inquirer/expand@1.1.9:
+    resolution: {integrity: sha512-8XuyeEVAEDCuDfK4+LVsOKfIOaC/Hen5nq+yMgyoQi4DgG77uLFtzjFBgOC0+HTEOugznF66DoWskUOmIN4x5Q==}
     engines: {node: '>=14.18.0'}
     dependencies:
-      '@inquirer/core': 3.1.2
+      '@inquirer/core': 4.0.0
       '@inquirer/type': 1.1.2
       chalk: 4.1.2
       figures: 3.2.0
@@ -377,7 +377,7 @@ packages:
       '@inquirer/confirm': 2.0.10
       '@inquirer/core': 2.3.1
       '@inquirer/editor': 1.2.7
-      '@inquirer/expand': 1.1.8
+      '@inquirer/expand': 1.1.9
       '@inquirer/input': 1.2.8
       '@inquirer/password': 1.1.8
       '@inquirer/rawlist': 1.2.8
