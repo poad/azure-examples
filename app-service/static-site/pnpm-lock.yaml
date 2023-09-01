@@ -1343,7 +1343,7 @@ packages:
     dependencies:
       semver: 7.5.4
       shelljs: 0.8.5
-      typescript: 5.3.0-dev.20230831
+      typescript: 5.3.0-dev.20230901
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -2085,7 +2085,7 @@ packages:
       jsii-reflect: 1.88.0
       jsii-rosetta: 1.88.0
       semver: 7.5.4
-      spdx-license-list: 6.6.0
+      spdx-license-list: 6.7.0
       xmlbuilder: 15.1.1
       yargs: 16.2.0
     transitivePeerDependencies:
@@ -2176,7 +2176,7 @@ packages:
       semver: 7.5.4
       semver-intersect: 1.4.0
       sort-json: 2.0.1
-      spdx-license-list: 6.6.0
+      spdx-license-list: 6.7.0
       typescript: 3.9.10
       yargs: 16.2.0
     transitivePeerDependencies:
@@ -2198,7 +2198,7 @@ packages:
       semver: 7.5.4
       semver-intersect: 1.4.0
       sort-json: 2.0.1
-      spdx-license-list: 6.6.0
+      spdx-license-list: 6.7.0
       typescript: 5.1.6
       yargs: 17.7.2
     transitivePeerDependencies:
@@ -2901,8 +2901,8 @@ packages:
       minimist: 1.2.8
     dev: true
 
-  /spdx-license-list@6.6.0:
-    resolution: {integrity: sha512-vLwdf9AWgdJQmG8cai2HKfkInFsliKaCCOwXmdVonClIhdURTX61KdDOoXC1qcQ7gDaZj+CUTcrMJeAdnCtrKA==}
+  /spdx-license-list@6.7.0:
+    resolution: {integrity: sha512-NFqavuJxNsHdwSy/0PjmUpcc76XwlmHQRPjVVtE62qmSLhKJUnzSvJCkU9nrY6TsChfGU1xqGePriBkNtNRMiA==}
     engines: {node: '>=8'}
     dev: true
 
@@ -3142,8 +3142,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.3.0-dev.20230831:
-    resolution: {integrity: sha512-rF6KQ0q/AuevKbtHjFEZ7dXRGv0t6bIcmo2K1ypmwZmnqwcxcvDfHxBjQM0u3v//5rpHiqasPTC8nB7SMEwvOA==}
+  /typescript@5.3.0-dev.20230901:
+    resolution: {integrity: sha512-WF0nADzGdbBjQf948j5pSOko6uf7ax2KO1FqrPiX3RsQ99901TdBERuL5ivUu08KKOWV/+JyzUclUWIke5IwCw==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
