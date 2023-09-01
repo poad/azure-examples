@@ -2085,7 +2085,7 @@ packages:
       jsii-reflect: 1.88.0
       jsii-rosetta: 1.88.0
       semver: 7.5.4
-      spdx-license-list: 6.6.0
+      spdx-license-list: 6.7.0
       xmlbuilder: 15.1.1
       yargs: 16.2.0
     transitivePeerDependencies:
@@ -2176,7 +2176,7 @@ packages:
       semver: 7.5.4
       semver-intersect: 1.4.0
       sort-json: 2.0.1
-      spdx-license-list: 6.6.0
+      spdx-license-list: 6.7.0
       typescript: 3.9.10
       yargs: 16.2.0
     transitivePeerDependencies:
@@ -2198,7 +2198,7 @@ packages:
       semver: 7.5.4
       semver-intersect: 1.4.0
       sort-json: 2.0.1
-      spdx-license-list: 6.6.0
+      spdx-license-list: 6.7.0
       typescript: 5.1.6
       yargs: 17.7.2
     transitivePeerDependencies:
@@ -2901,8 +2901,8 @@ packages:
       minimist: 1.2.8
     dev: true
 
-  /spdx-license-list@6.6.0:
-    resolution: {integrity: sha512-vLwdf9AWgdJQmG8cai2HKfkInFsliKaCCOwXmdVonClIhdURTX61KdDOoXC1qcQ7gDaZj+CUTcrMJeAdnCtrKA==}
+  /spdx-license-list@6.7.0:
+    resolution: {integrity: sha512-NFqavuJxNsHdwSy/0PjmUpcc76XwlmHQRPjVVtE62qmSLhKJUnzSvJCkU9nrY6TsChfGU1xqGePriBkNtNRMiA==}
     engines: {node: '>=8'}
     dev: true
 
