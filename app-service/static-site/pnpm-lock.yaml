@@ -1175,7 +1175,7 @@ packages:
     engines: {node: '>= 10'}
     dependencies:
       buffer-crc32: 0.2.13
-      crc32-stream: 4.0.2
+      crc32-stream: 4.0.3
       normalize-path: 3.0.0
       readable-stream: 3.6.2
 
@@ -1204,8 +1204,8 @@ packages:
     engines: {node: '>=0.8'}
     hasBin: true
 
-  /crc32-stream@4.0.2:
-    resolution: {integrity: sha512-DxFZ/Hk473b/muq1VJ///PMNLj0ZMnzye9thBpmjpJKCc5eMgB95aK8zCGrGfQ90cWo561Te6HK9D+j4KPdM6w==}
+  /crc32-stream@4.0.3:
+    resolution: {integrity: sha512-NT7w2JVU7DFroFdYkeq8cywxrgjPHWkdX1wjpRQXPX5Asews3tA+Ght6lddQO5Mkumffp3X7GEqku3epj2toIw==}
     engines: {node: '>= 10'}
     dependencies:
       crc-32: 1.2.2
@@ -1343,7 +1343,7 @@ packages:
     dependencies:
       semver: 7.5.4
       shelljs: 0.8.5
-      typescript: 5.3.0-dev.20230901
+      typescript: 5.3.0-dev.20230904
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -3142,8 +3142,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.3.0-dev.20230901:
-    resolution: {integrity: sha512-WF0nADzGdbBjQf948j5pSOko6uf7ax2KO1FqrPiX3RsQ99901TdBERuL5ivUu08KKOWV/+JyzUclUWIke5IwCw==}
+  /typescript@5.3.0-dev.20230904:
+    resolution: {integrity: sha512-07NPNxXTmtOd0G5DnbDHee7Yh7VT6R8HzBiBkzx/PsyDIiD2/a14pbmex5xiDRvoLyUNJvNG1S6p48f+Qk0FMQ==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
