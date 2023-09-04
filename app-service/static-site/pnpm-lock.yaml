@@ -1170,8 +1170,8 @@ packages:
       string.prototype.repeat: 0.2.0
     dev: true
 
-  /compress-commons@4.1.1:
-    resolution: {integrity: sha512-QLdDLCKNV2dtoTorqgxngQCMA+gWXkM/Nwu7FpeBhk/RdkzimqC3jueb/FDmaZeXh+uby1jkBqE3xArsLBE5wQ==}
+  /compress-commons@4.1.2:
+    resolution: {integrity: sha512-D3uMHtGc/fcO1Gt1/L7i1e33VOvD4A9hfQLP+6ewd+BvG/gQ84Yh4oftEhAdjSMgBgwGL+jsppT7JYNpo6MHHg==}
     engines: {node: '>= 10'}
     dependencies:
       buffer-crc32: 0.2.13
@@ -1343,7 +1343,7 @@ packages:
     dependencies:
       semver: 7.5.4
       shelljs: 0.8.5
-      typescript: 5.3.0-dev.20230901
+      typescript: 5.3.0-dev.20230904
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -3142,8 +3142,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.3.0-dev.20230901:
-    resolution: {integrity: sha512-WF0nADzGdbBjQf948j5pSOko6uf7ax2KO1FqrPiX3RsQ99901TdBERuL5ivUu08KKOWV/+JyzUclUWIke5IwCw==}
+  /typescript@5.3.0-dev.20230904:
+    resolution: {integrity: sha512-07NPNxXTmtOd0G5DnbDHee7Yh7VT6R8HzBiBkzx/PsyDIiD2/a14pbmex5xiDRvoLyUNJvNG1S6p48f+Qk0FMQ==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
@@ -3396,7 +3396,7 @@ packages:
     engines: {node: '>= 10'}
     dependencies:
       archiver-utils: 2.1.0
-      compress-commons: 4.1.1
+      compress-commons: 4.1.2
       readable-stream: 3.6.2
 
   /zod@1.11.17:
