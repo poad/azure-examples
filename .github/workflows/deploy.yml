@@ -21,7 +21,7 @@ jobs:
       name: Install pnpm
       id: pnpm-install
       with:
-        version: 8.6.2
+        version: latest
         run_install: |
           - recursive: true
             cwd: app-service/static-site
@@ -39,10 +39,10 @@ jobs:
         subscription-id: ${{ secrets.ARM_SUBSCRIPTION_ID }}
         allow-no-subscriptions: true
 
-    - name: Use Node.js 16.x
+    - name: Use Node.js 18.x
       uses: actions/setup-node@v3.8.1
       with:
-        node-version: 16.x
+        node-version: 18.x
         check-latest: true
 
     - name: Deploy
