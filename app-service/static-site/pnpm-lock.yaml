@@ -52,7 +52,7 @@ packages:
     resolution: {integrity: sha512-Zu9oWARBqeVOW0dZOjXc3JObrzuqothQ3y/n1kUtrjCoCPLkXUwMvOo/F/TCfoHMbWIFlWwpZtkZVb9ga4U2pA==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/types': 7.22.15
+      '@babel/types': 7.22.17
       '@jridgewell/gen-mapping': 0.3.3
       '@jridgewell/trace-mapping': 0.3.19
       jsesc: 2.5.2
@@ -82,7 +82,7 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
     dependencies:
-      '@babel/types': 7.22.15
+      '@babel/types': 7.22.17
     dev: true
 
   /@babel/template@7.22.15:
@@ -91,11 +91,11 @@ packages:
     dependencies:
       '@babel/code-frame': 7.22.13
       '@babel/parser': 7.22.16
-      '@babel/types': 7.22.15
+      '@babel/types': 7.22.17
     dev: true
 
-  /@babel/types@7.22.15:
-    resolution: {integrity: sha512-X+NLXr0N8XXmN5ZsaQdm9U2SSC3UbIYq/doL++sueHOTisgZHoKaQtZxGuV2cUPQHMfjKEfg/g6oy7Hm6SKFtA==}
+  /@babel/types@7.22.17:
+    resolution: {integrity: sha512-YSQPHLFtQNE5xN9tHuZnzu8vPr61wVTBZdfv1meex1NBosa4iT05k/Jw06ddJugi4bk7The/oSwQGFcksmEJQg==}
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/helper-string-parser': 7.22.5
@@ -187,7 +187,7 @@ packages:
     dependencies:
       '@babel/generator': 7.22.15
       '@babel/template': 7.22.15
-      '@babel/types': 7.22.15
+      '@babel/types': 7.22.17
       '@cdktf/commons': 0.18.0
       '@cdktf/hcl2json': 0.18.0
       '@cdktf/provider-generator': 0.18.0
@@ -1358,7 +1358,7 @@ packages:
     dependencies:
       semver: 7.5.4
       shelljs: 0.8.5
-      typescript: 5.3.0-dev.20230907
+      typescript: 5.3.0-dev.20230911
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -3179,8 +3179,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.3.0-dev.20230907:
-    resolution: {integrity: sha512-8yegC0GyY5ug9184BxLq8fLDt08+g8jRfut0QSraLFoT13c39Z6fVoviDEeqJgbnIGVxzAEiNQLUslpKYCyUsg==}
+  /typescript@5.3.0-dev.20230911:
+    resolution: {integrity: sha512-2iI2l7OuGvU668gBje+JQKE8bsf7SH8w8ScwUkENHCcrbaDpXa/Oqfuwq5gdFM7SfVfp5p6c8kHZRMvL+kabJg==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
