@@ -1235,7 +1235,7 @@ packages:
     dependencies:
       semver: 7.5.4
       shelljs: 0.8.5
-      typescript: 5.3.0-dev.20230913
+      typescript: 5.3.0-dev.20230914
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -2012,7 +2012,7 @@ packages:
       semver-intersect: 1.4.0
       stream-json: 1.8.0
       typescript: 3.9.10
-      workerpool: 6.4.2
+      workerpool: 6.5.0
       yargs: 16.2.0
     transitivePeerDependencies:
       - supports-color
@@ -2034,7 +2034,7 @@ packages:
       semver-intersect: 1.4.0
       stream-json: 1.8.0
       typescript: 5.1.6
-      workerpool: 6.4.2
+      workerpool: 6.5.0
       yargs: 17.7.2
     transitivePeerDependencies:
       - supports-color
@@ -3056,8 +3056,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.3.0-dev.20230913:
-    resolution: {integrity: sha512-+1lrLCj/NdyBbWXK3ifRSzmg0pSg2WLDmzeXf1/vTOb84eV/TCJ1i9eOS4c40T3tzDSAOjP39x9/+unUakbuKA==}
+  /typescript@5.3.0-dev.20230914:
+    resolution: {integrity: sha512-fLOsSwW/WYEdqhxDb4iaJ2IkPmxMM6di8p++ey3SlOTaK0sdczIYVl9tlCxkajWOp0UnvBfO6Bxe+g9xxZMypw==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
@@ -3150,8 +3150,8 @@ packages:
       string-width: 4.2.3
     dev: true
 
-  /workerpool@6.4.2:
-    resolution: {integrity: sha512-MrDWwemtC4xNV22kbbZDQQQmxNX+yLm790sgYl2wVD3CWnK7LJY1youI/11wHorAjHjK+GEjUxUh74XoPU71uQ==}
+  /workerpool@6.5.0:
+    resolution: {integrity: sha512-r64Ea3glXY2RVzMeNxB+4J+0YHAVzUdV4cM5nHi4BBC2LvnO1pWFAIYKYuGcPElbg1/7eEiaPtZ/jzCjIUuGBg==}
     dev: true
 
   /wrap-ansi@6.2.0:
