@@ -439,8 +439,23 @@ packages:
       semver: 7.5.4
     dev: true
 
+  /@jsii/check-node@1.89.0:
+    resolution: {integrity: sha512-RMw19IEj6ch6oOGkBrAbtzwshrOXMKlfbX54S0hGrwR1qlSjNS9qqt4p+LRSpurhriEo7oHDegItNGUjPYoNXw==}
+    engines: {node: '>= 14.17.0'}
+    dependencies:
+      chalk: 4.1.2
+      semver: 7.5.4
+    dev: true
+
   /@jsii/spec@1.88.0:
     resolution: {integrity: sha512-Q6xirxPM06TRW0GcsHa+tzPZLwe9I+mFYx5BaNMimcv21u6bQnxfynZMgNhHqvLYCmP37HWg0SboUYTa5JROzw==}
+    engines: {node: '>= 14.17.0'}
+    dependencies:
+      ajv: 8.12.0
+    dev: true
+
+  /@jsii/spec@1.89.0:
+    resolution: {integrity: sha512-byzIC5M5FrEaW+GaPGQfPsobfwmEfzHvS7dh5d5fgY4VvvsHBkkhhF/H5xUG+1wQBcdBnqdKyp5CEFm8UEVfqg==}
     engines: {node: '>= 14.17.0'}
     dependencies:
       ajv: 8.12.0
@@ -1235,7 +1250,7 @@ packages:
     dependencies:
       semver: 7.5.4
       shelljs: 0.8.5
-      typescript: 5.3.0-dev.20230920
+      typescript: 5.3.0-dev.20230921
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -1975,7 +1990,7 @@ packages:
       escape-string-regexp: 4.0.0
       fs-extra: 10.1.0
       jsii-reflect: 1.88.0
-      jsii-rosetta: 1.88.0
+      jsii-rosetta: 1.89.0
       semver: 7.5.4
       spdx-license-list: 6.7.0
       xmlbuilder: 15.1.1
@@ -1997,17 +2012,17 @@ packages:
       yargs: 16.2.0
     dev: true
 
-  /jsii-rosetta@1.88.0:
-    resolution: {integrity: sha512-6xRRkwWUKFqDTnjgCXkB6v9dxA51KUD4Cd7InLB4qirMBDuMtyYhYVNc1yJbHPYs9gkN5/ao0dFk+1CQxt7T7g==}
+  /jsii-rosetta@1.89.0:
+    resolution: {integrity: sha512-1hmLO+LtZ6bf2uvYW45YaRBQJD+rVondVkWfT2Ex9xYrkxAsc4304TV2DoQILfZbkaUPezyJ3ejGFlMhliNG0g==}
     engines: {node: '>= 14.17.0'}
     hasBin: true
     dependencies:
-      '@jsii/check-node': 1.88.0
-      '@jsii/spec': 1.88.0
+      '@jsii/check-node': 1.89.0
+      '@jsii/spec': 1.89.0
       '@xmldom/xmldom': 0.8.10
       commonmark: 0.30.0
       fast-glob: 3.3.1
-      jsii: 1.88.0
+      jsii: 1.89.0
       semver: 7.5.4
       semver-intersect: 1.4.0
       stream-json: 1.8.0
@@ -2053,13 +2068,13 @@ packages:
       - supports-color
     dev: true
 
-  /jsii@1.88.0:
-    resolution: {integrity: sha512-WKfwHbcEI/j5OYDPexvkH8KKDcTZR7tIBFNTxu8h1Nh3G8xFT4hh3pObUUSMRCa6rsSF9EHGjS+AKC+TfpFGrQ==}
+  /jsii@1.89.0:
+    resolution: {integrity: sha512-NOeltDlkRSu7OXpNS8I4izFtcVKsMppn0pbqM07LWHXrNZT0Y7c/dDtuMyYRIDNcwB6aLtOzLHfls9rd6qrLyg==}
     engines: {node: '>= 14.17.0'}
     hasBin: true
     dependencies:
-      '@jsii/check-node': 1.88.0
-      '@jsii/spec': 1.88.0
+      '@jsii/check-node': 1.89.0
+      '@jsii/spec': 1.89.0
       case: 1.6.3
       chalk: 4.1.2
       fast-deep-equal: 3.1.3
@@ -3056,8 +3071,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.3.0-dev.20230920:
-    resolution: {integrity: sha512-XaiYm7T6bGo+5mbRsmFqujMbNz0BLRCTKXiG7Nuodxz/aB5XJhJ01s/9GOJ/BS2XcxBqMoTbrGf61OdqzYhpxg==}
+  /typescript@5.3.0-dev.20230921:
+    resolution: {integrity: sha512-TZnDMkY/mgooSXJv72Zxr71MvXYUKiH05lekDOB9FaScoHLGNDvqw6IrT6qXx/kD6eJFpW2gadIz1eJQeA/URw==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
