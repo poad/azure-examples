@@ -579,8 +579,8 @@ packages:
     resolution: {integrity: sha512-ltIpx+kM7g/MLRZfkbL7EsCEjfzCcScLpkg37eXEtx5kmrAKBkTJwd1GIAjDSL8wTpM6Hzn5YO4pSb91BEwu1g==}
     dev: true
 
-  /@types/yauzl@2.10.0:
-    resolution: {integrity: sha512-Cn6WYCm0tXv8p6k+A8PvbDG763EDpBoTzHdA+Q/MF6H3sapGjCm9NzoaJncJS9tUKSuCoDs9XHxYYsQDgxR6kw==}
+  /@types/yauzl@2.10.1:
+    resolution: {integrity: sha512-CHzgNU3qYBnp/O4S3yv2tXPlvMTq0YWSTVg2/JYLqWZGHwwgJGAwd00poay/11asPq8wLFwHzubyInqHIFmmiw==}
     requiresBuild: true
     dependencies:
       '@types/node': 20.6.3
@@ -1243,7 +1243,7 @@ packages:
     dependencies:
       semver: 7.5.4
       shelljs: 0.8.5
-      typescript: 5.3.0-dev.20230921
+      typescript: 5.3.0-dev.20230925
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -1344,7 +1344,7 @@ packages:
       get-stream: 5.2.0
       yauzl: 2.10.0
     optionalDependencies:
-      '@types/yauzl': 2.10.0
+      '@types/yauzl': 2.10.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3064,8 +3064,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.3.0-dev.20230921:
-    resolution: {integrity: sha512-TZnDMkY/mgooSXJv72Zxr71MvXYUKiH05lekDOB9FaScoHLGNDvqw6IrT6qXx/kD6eJFpW2gadIz1eJQeA/URw==}
+  /typescript@5.3.0-dev.20230925:
+    resolution: {integrity: sha512-Q8U1zNAGD0BSaVuaHmjhYB8sM5VyTcp0y6IM4Q3v40uLX3MysM5yLl6qSxzA3PTzXmQmahLy+08aM3cZA0hR5A==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
