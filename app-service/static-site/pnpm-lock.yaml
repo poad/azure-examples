@@ -1243,7 +1243,7 @@ packages:
     dependencies:
       semver: 7.5.4
       shelljs: 0.8.5
-      typescript: 5.3.0-dev.20230927
+      typescript: 5.3.0-dev.20230928
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -1535,7 +1535,7 @@ packages:
     hasBin: true
     dependencies:
       foreground-child: 3.1.1
-      jackspeak: 2.3.5
+      jackspeak: 2.3.6
       minimatch: 9.0.3
       minipass: 7.0.3
       path-scurry: 1.10.1
@@ -1951,8 +1951,8 @@ packages:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
     dev: true
 
-  /jackspeak@2.3.5:
-    resolution: {integrity: sha512-Ratx+B8WeXLAtRJn26hrhY8S1+Jz6pxPMrkrdkgb/NstTNiqMhX0/oFVu5wX+g5n6JlEu2LPsDJmY8nRP4+alw==}
+  /jackspeak@2.3.6:
+    resolution: {integrity: sha512-N3yCS/NegsOBokc8GAdM8UcmfsKiSS8cipheD/nivzr700H+nsMOxJjQnvwOcRYVuFkdH0wGUvW2WbXGmrZGbQ==}
     engines: {node: '>=14'}
     dependencies:
       '@isaacs/cliui': 8.0.2
@@ -3064,8 +3064,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.3.0-dev.20230927:
-    resolution: {integrity: sha512-FHoT/nbOZjlXfK1yYTtCVT6yOp7Y9Vab/8Do4KiEGl3jI6rxPD7d1ssB/5vlH4ZXZ//0DW96vsvp/OUyjxCqgA==}
+  /typescript@5.3.0-dev.20230928:
+    resolution: {integrity: sha512-s1YWephleBssMVVMHux7sjeC3hREYXcsXg1srPToovO5p9QrDzkulpKmGx3Q7fJz1z2jcptYzrMRlPO7udDMzQ==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
