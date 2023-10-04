@@ -254,8 +254,8 @@ packages:
       figures: 3.2.0
     dev: true
 
-  /@inquirer/confirm@2.0.13:
-    resolution: {integrity: sha512-MoobMgUxq0UCEcNm8O2zegEoSbf9DdYQfmW2csTcpIbLfrv3LfPTWoFcgY50cS8CXpP2o/Dog2GH03jWxzNIzg==}
+  /@inquirer/confirm@2.0.14:
+    resolution: {integrity: sha512-Elzo5VX5lO1q9xy8CChDtDQNVLaucufdZBAM12qdfX1L3NQ+TypnZytGmWDXHBTpBTwuhEuwxNvUw7B0HCURkw==}
     engines: {node: '>=14.18.0'}
     dependencies:
       '@inquirer/core': 5.1.0
@@ -347,7 +347,7 @@ packages:
     engines: {node: '>=14.18.0'}
     dependencies:
       '@inquirer/checkbox': 1.4.0
-      '@inquirer/confirm': 2.0.13
+      '@inquirer/confirm': 2.0.14
       '@inquirer/core': 2.3.1
       '@inquirer/editor': 1.2.11
       '@inquirer/expand': 1.1.13
