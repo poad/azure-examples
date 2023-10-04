@@ -303,8 +303,8 @@ packages:
       wrap-ansi: 6.2.0
     dev: true
 
-  /@inquirer/editor@1.2.11:
-    resolution: {integrity: sha512-5WcjiTZsr8utlmfOFcHIC0o2Mdg3nXUf1ij5IZtgJTFd8QOy7N/sfsZHW0p1wY+YSbX6Sxd+YyUCJ2t6xQiyqA==}
+  /@inquirer/editor@1.2.12:
+    resolution: {integrity: sha512-Y7zXQqcglPbbPkx0DPwx6HQFstJR5uex4hoQprjpdxSj8+Bf04+Og6mK/FNxoQbPvoNecegtmMGxDC+hVcMJZA==}
     engines: {node: '>=14.18.0'}
     dependencies:
       '@inquirer/core': 5.1.0
@@ -349,7 +349,7 @@ packages:
       '@inquirer/checkbox': 1.4.0
       '@inquirer/confirm': 2.0.14
       '@inquirer/core': 2.3.1
-      '@inquirer/editor': 1.2.11
+      '@inquirer/editor': 1.2.12
       '@inquirer/expand': 1.1.13
       '@inquirer/input': 1.2.13
       '@inquirer/password': 1.1.13
