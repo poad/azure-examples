@@ -20,8 +20,8 @@ devDependencies:
     specifier: ^20.8.2
     version: 20.8.2
   cdktf-cli:
-    specifier: ^0.18.1
-    version: 0.18.1(ink@3.2.0)(react@17.0.2)
+    specifier: ^0.18.2
+    version: 0.18.2(ink@3.2.0)(react@17.0.2)
   ts-node:
     specifier: ^10.9.1
     version: 10.9.1(@types/node@20.8.2)(typescript@5.2.2)
@@ -94,17 +94,17 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@cdktf/cli-core@0.18.1(react@17.0.2):
-    resolution: {integrity: sha512-VDJCakC3UWML0ggygvw2zZogFBF8q3wCR7UHeBwOVHGcd5d3I9Oyox12YQx2nRW+CDwzki3zy3yToyiEUOSdMw==}
+  /@cdktf/cli-core@0.18.2(react@17.0.2):
+    resolution: {integrity: sha512-deJzuZIJ829tzx0X1t1E1n6jeSCal2SoR1v9r9F6EFTlfAhU3uccj6z6e8RalnLKh4SMJWRtN8PsWzuGaBEN2Q==}
     dependencies:
-      '@cdktf/commons': 0.18.1
-      '@cdktf/hcl2cdk': 0.18.1
-      '@cdktf/hcl2json': 0.18.1
+      '@cdktf/commons': 0.18.2
+      '@cdktf/hcl2cdk': 0.18.2
+      '@cdktf/hcl2json': 0.18.2
       '@cdktf/node-pty-prebuilt-multiarch': 0.10.1-pre.10
-      '@cdktf/provider-schema': 0.18.1
-      '@sentry/node': 6.19.7
+      '@cdktf/provider-schema': 0.18.2
+      '@sentry/node': 7.73.0
       archiver: 5.3.2
-      cdktf: 0.18.1(constructs@10.2.70)
+      cdktf: 0.18.2(constructs@10.2.70)
       chalk: 4.1.2
       chokidar: 3.5.3
       cli-spinners: 2.7.0
@@ -155,11 +155,11 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@cdktf/commons@0.18.1:
-    resolution: {integrity: sha512-1DdQyimydP+Ex+n/o91Q+IA0TlHJ4b5AjNm2tZO0LBB1Tksn6up5eqA6DnxP2DcZR5j9fjZeaKbRO9FOWrr9jQ==}
+  /@cdktf/commons@0.18.2:
+    resolution: {integrity: sha512-9jLT7K6bkGWdy8wRbpZfmAnzDPczV9NBpGIS3vsKJCZwoipccmG2LD12DlbM3610IHISksya2AQLlLmJMsTnmA==}
     dependencies:
       '@sentry/node': 7.73.0
-      cdktf: 0.18.1(constructs@10.2.70)
+      cdktf: 0.18.2(constructs@10.2.70)
       ci-info: 3.9.0
       codemaker: 1.89.0
       constructs: 10.2.70
@@ -174,16 +174,16 @@ packages:
       - supports-color
     dev: true
 
-  /@cdktf/hcl2cdk@0.18.1:
-    resolution: {integrity: sha512-fG3NR2Fv3dRoTgZWSiaHML72+ikZPG/BSklxncr86t4WJfLAoYc5M88JX4B0ocCrYZtqADyE3ATLXFFOD4N3Cw==}
+  /@cdktf/hcl2cdk@0.18.2:
+    resolution: {integrity: sha512-/AdUWmg1EC++HrS2I/C8H3JV1m/JfK3ONGBY1efNlc3LO7TBKJssKWVBMtYp45IJD86m7rNBOeL1TD0AZ1KjrQ==}
     dependencies:
       '@babel/generator': 7.23.0
       '@babel/template': 7.22.15
       '@babel/types': 7.23.0
-      '@cdktf/commons': 0.18.1
-      '@cdktf/hcl2json': 0.18.1
-      '@cdktf/provider-generator': 0.18.1
-      '@cdktf/provider-schema': 0.18.1
+      '@cdktf/commons': 0.18.2
+      '@cdktf/hcl2json': 0.18.2
+      '@cdktf/provider-generator': 0.18.2
+      '@cdktf/provider-schema': 0.18.2
       camelcase: 6.3.0
       deep-equal: 2.2.2
       glob: 10.3.9
@@ -198,8 +198,8 @@ packages:
       - supports-color
     dev: true
 
-  /@cdktf/hcl2json@0.18.1:
-    resolution: {integrity: sha512-zsWgeMxzhJEthkl4SA6VHEd6A3Nx9Jq6mYNFDvB0RtRUFoLVNJuuzgvwyUoeuzgMuOGtU3DhyvfYS8THDJKzuQ==}
+  /@cdktf/hcl2json@0.18.2:
+    resolution: {integrity: sha512-TSuIMet9RSuXUWPz40ed/W4WMu92aHVnJ44lB5nap9E1PE8brr7FhnW32dFOy9m2H8WU4GAfSQ0k3GW6JitSig==}
     dependencies:
       fs-extra: 11.1.1
     dev: true
@@ -223,12 +223,12 @@ packages:
       constructs: 10.2.70
     dev: false
 
-  /@cdktf/provider-generator@0.18.1:
-    resolution: {integrity: sha512-BnAhXJIAgo6QgEV2xr098yI4sKzWILDe8lOciamlazt7t76ffHSsyhSOXkPwLvro6Hk0GiXQvTkyV2ELF7bW6g==}
+  /@cdktf/provider-generator@0.18.2:
+    resolution: {integrity: sha512-Qqfmwlz1t9Ie84CLkefxDR8a2bsacxbaEncO6NqzwYWaCu/K5TDDOqHjLKl1kv3mKjdZtJ0YLMJsMP0C49hKPg==}
     dependencies:
-      '@cdktf/commons': 0.18.1
-      '@cdktf/hcl2json': 0.18.1
-      '@cdktf/provider-schema': 0.18.1
+      '@cdktf/commons': 0.18.2
+      '@cdktf/hcl2json': 0.18.2
+      '@cdktf/provider-schema': 0.18.2
       '@types/node': 16.18.23
       codemaker: 1.89.0
       deepmerge: 4.3.1
@@ -239,10 +239,10 @@ packages:
       - supports-color
     dev: true
 
-  /@cdktf/provider-schema@0.18.1:
-    resolution: {integrity: sha512-t8aUKi28iz3SPAtsDqB8/02FpmHtF3/Yy0M9Adxe3mJK+R4A3nG5DHBvUAan4BFZFp01NHyC9dvrll6zMhe2HA==}
+  /@cdktf/provider-schema@0.18.2:
+    resolution: {integrity: sha512-UB3oxmh0GJ/NeubDKjF+gT8bsh7kcT+lCbG0OZwXPlTKBuaDRuS2InkvcUAlvhC7ML1+DqpTl5PsAaowuW46uA==}
     dependencies:
-      '@cdktf/commons': 0.18.1
+      '@cdktf/commons': 0.18.2
       fs-extra: 11.1.1
     transitivePeerDependencies:
       - debug
@@ -505,17 +505,6 @@ packages:
       tslib: 1.14.1
     dev: true
 
-  /@sentry/core@6.19.7:
-    resolution: {integrity: sha512-tOfZ/umqB2AcHPGbIrsFLcvApdTm9ggpi/kQZFkej7kMphjT+SGBiQfYtjyg9jcRW+ilAR4JXC9BGKsdEQ+8Vw==}
-    engines: {node: '>=6'}
-    dependencies:
-      '@sentry/hub': 6.19.7
-      '@sentry/minimal': 6.19.7
-      '@sentry/types': 6.19.7
-      '@sentry/utils': 6.19.7
-      tslib: 1.14.1
-    dev: true
-
   /@sentry/core@7.73.0:
     resolution: {integrity: sha512-9FEz4Gq848LOgVN2OxJGYuQqxv7cIVw69VlAzWHEm3njt8mjvlTq+7UiFsGRo84+59V2FQuHxzA7vVjl90WfSg==}
     engines: {node: '>=8'}
@@ -523,40 +512,6 @@ packages:
       '@sentry/types': 7.73.0
       '@sentry/utils': 7.73.0
       tslib: 1.14.1
-    dev: true
-
-  /@sentry/hub@6.19.7:
-    resolution: {integrity: sha512-y3OtbYFAqKHCWezF0EGGr5lcyI2KbaXW2Ik7Xp8Mu9TxbSTuwTe4rTntwg8ngPjUQU3SUHzgjqVB8qjiGqFXCA==}
-    engines: {node: '>=6'}
-    dependencies:
-      '@sentry/types': 6.19.7
-      '@sentry/utils': 6.19.7
-      tslib: 1.14.1
-    dev: true
-
-  /@sentry/minimal@6.19.7:
-    resolution: {integrity: sha512-wcYmSJOdvk6VAPx8IcmZgN08XTXRwRtB1aOLZm+MVHjIZIhHoBGZJYTVQS/BWjldsamj2cX3YGbGXNunaCfYJQ==}
-    engines: {node: '>=6'}
-    dependencies:
-      '@sentry/hub': 6.19.7
-      '@sentry/types': 6.19.7
-      tslib: 1.14.1
-    dev: true
-
-  /@sentry/node@6.19.7:
-    resolution: {integrity: sha512-gtmRC4dAXKODMpHXKfrkfvyBL3cI8y64vEi3fDD046uqYcrWdgoQsffuBbxMAizc6Ez1ia+f0Flue6p15Qaltg==}
-    engines: {node: '>=6'}
-    dependencies:
-      '@sentry/core': 6.19.7
-      '@sentry/hub': 6.19.7
-      '@sentry/types': 6.19.7
-      '@sentry/utils': 6.19.7
-      cookie: 0.4.2
-      https-proxy-agent: 5.0.1
-      lru_map: 0.3.3
-      tslib: 1.14.1
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /@sentry/node@7.73.0:
@@ -575,22 +530,9 @@ packages:
       - supports-color
     dev: true
 
-  /@sentry/types@6.19.7:
-    resolution: {integrity: sha512-jH84pDYE+hHIbVnab3Hr+ZXr1v8QABfhx39KknxqKWr2l0oEItzepV0URvbEhB446lk/S/59230dlUUIBGsXbg==}
-    engines: {node: '>=6'}
-    dev: true
-
   /@sentry/types@7.73.0:
     resolution: {integrity: sha512-/v8++bly8jW7r4cP2wswYiiVpn7eLLcqwnfPUMeCQze4zj3F3nTRIKc9BGHzU0V+fhHa3RwRC2ksqTGq1oJMDg==}
     engines: {node: '>=8'}
-    dev: true
-
-  /@sentry/utils@6.19.7:
-    resolution: {integrity: sha512-z95ECmE3i9pbWoXQrD/7PgkBAzJYR+iXtPuTkpBjDKs86O3mT+PXOT3BAn79w2wkn7/i3vOGD2xVr1uiMl26dA==}
-    engines: {node: '>=6'}
-    dependencies:
-      '@sentry/types': 6.19.7
-      tslib: 1.14.1
     dev: true
 
   /@sentry/utils@7.73.0:
@@ -898,17 +840,17 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /cdktf-cli@0.18.1(ink@3.2.0)(react@17.0.2):
-    resolution: {integrity: sha512-SkdH7oxXgsSfhVA8ooLfH7T0KvGd9yU7k4V4m68nR53AMtVb0vsAmoXPafhahVYH+yYaxAYNg/uMXqXr+5qlXA==}
+  /cdktf-cli@0.18.2(ink@3.2.0)(react@17.0.2):
+    resolution: {integrity: sha512-Href8hApBsCuvLz1bOiV5t13gkTbl4O457CeiBQmEjfFLg5myluA2nSMBSgCo0JGd/89sCbQXt1MdQU577qM2Q==}
     hasBin: true
     dependencies:
-      '@cdktf/cli-core': 0.18.1(react@17.0.2)
-      '@cdktf/commons': 0.18.1
-      '@cdktf/hcl2cdk': 0.18.1
-      '@cdktf/hcl2json': 0.18.1
+      '@cdktf/cli-core': 0.18.2(react@17.0.2)
+      '@cdktf/commons': 0.18.2
+      '@cdktf/hcl2cdk': 0.18.2
+      '@cdktf/hcl2json': 0.18.2
       '@inquirer/prompts': 2.3.1
-      '@sentry/node': 6.19.7
-      cdktf: 0.18.1(constructs@10.2.70)
+      '@sentry/node': 7.73.0
+      cdktf: 0.18.2(constructs@10.2.70)
       ci-info: 3.9.0
       codemaker: 1.89.0
       constructs: 10.2.70
@@ -953,8 +895,8 @@ packages:
       - json-stable-stringify
       - semver
 
-  /cdktf@0.18.1(constructs@10.2.70):
-    resolution: {integrity: sha512-DNh3gNAgfpgrP8jbuwPPZs2he3Ad6zL/L+BuTx1uUoTW3dURmRjXnHjoi6yrTUT6DHdxKsy/JQotD5mnMMHGpA==}
+  /cdktf@0.18.2(constructs@10.2.70):
+    resolution: {integrity: sha512-ohCsfFwEjXbF4bGbzkx/YB/aq6spceAPtKBXfdF/kNjUx1hVH28lQDS5ykJbnxAAnvrUA8FWz034buun7uPrdQ==}
     peerDependencies:
       constructs: ^10.0.25
     dependencies:
@@ -1147,11 +1089,6 @@ packages:
     engines: {node: '>= 4'}
     dev: true
 
-  /cookie@0.4.2:
-    resolution: {integrity: sha512-aSWTXFzaKWkvHO1Ny/s+ePFpvKsPnjc551iI41v3ny/ow6tBG5Vd+FuqGNhh1LxOmVzOlGUriIlOaokOvhaStA==}
-    engines: {node: '>= 0.6'}
-    dev: true
-
   /cookie@0.5.0:
     resolution: {integrity: sha512-YZ3GUyn/o8gfKJlnlX7g7xq4gyO6OSuhGPKaaGssGB2qgDUS0gPgtTvoyZLTt9Ab6dC4hfc9dV5arkvc/OCmrw==}
     engines: {node: '>= 0.6'}
@@ -1314,7 +1251,7 @@ packages:
     dependencies:
       semver: 7.5.4
       shelljs: 0.8.5
-      typescript: 5.3.0-dev.20231005
+      typescript: 5.3.0-dev.20231006
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -3135,8 +3072,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.3.0-dev.20231005:
-    resolution: {integrity: sha512-Twm3wBauTO94CSWbjXFMpsHsbaOUVssreq6pUo4wr8YsaIp0jim8EeCa9LfawFetQ+P4PODMmiM+uBhhWRVX0Q==}
+  /typescript@5.3.0-dev.20231006:
+    resolution: {integrity: sha512-jD5wAzdZhl5Emk89dTMb7EqlUmO+n+U/uldQsSMxYh1HQG9J5Ti63B6em7Ob7DgoT7pvbqFUBn3X7UxaBba1Tg==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
