@@ -460,8 +460,23 @@ packages:
       semver: 7.5.4
     dev: true
 
+  /@jsii/check-node@1.90.0:
+    resolution: {integrity: sha512-bHrSs/X0mX6rVgBySk6JB/VYiqIV0HkznthZ4lpLabrgTEistwBYXxTf1kgNzfmUbIt0EeETwxdLAY0sqHE/+A==}
+    engines: {node: '>= 14.17.0'}
+    dependencies:
+      chalk: 4.1.2
+      semver: 7.5.4
+    dev: true
+
   /@jsii/spec@1.89.0:
     resolution: {integrity: sha512-byzIC5M5FrEaW+GaPGQfPsobfwmEfzHvS7dh5d5fgY4VvvsHBkkhhF/H5xUG+1wQBcdBnqdKyp5CEFm8UEVfqg==}
+    engines: {node: '>= 14.17.0'}
+    dependencies:
+      ajv: 8.12.0
+    dev: true
+
+  /@jsii/spec@1.90.0:
+    resolution: {integrity: sha512-Uajku7MWhkfxd8Ux8+8lOzT6Oa/Td8HzmBYZb9kd9v04qEGBQH/tQkUr80Md7dvq6SbRUKevDenYNQ8qiHHxpg==}
     engines: {node: '>= 14.17.0'}
     dependencies:
       ajv: 8.12.0
@@ -719,7 +734,6 @@ packages:
       readdir-glob: 1.1.3
       tar-stream: 2.2.0
       zip-stream: 4.1.1
-    dev: false
 
   /archiver@5.3.2:
     resolution: {integrity: sha512-+25nxyyznAXF7Nef3y0EbBeqmGZgeN/BxHX29Rs39djAfaFalmQ89SE6CWyDCHzGL0yt/ycBtNOmGTW0FyGWNw==}
@@ -900,7 +914,10 @@ packages:
     peerDependencies:
       constructs: ^10.0.25
     dependencies:
+      archiver: 5.3.1
       constructs: 10.2.70
+      json-stable-stringify: 1.0.2
+      semver: 7.5.4
     dev: true
     bundledDependencies:
       - archiver
@@ -1251,7 +1268,7 @@ packages:
     dependencies:
       semver: 7.5.4
       shelljs: 0.8.5
-      typescript: 5.3.0-dev.20231006
+      typescript: 5.3.0-dev.20231008
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -1988,7 +2005,7 @@ packages:
       commonmark: 0.30.0
       escape-string-regexp: 4.0.0
       fs-extra: 10.1.0
-      jsii-reflect: 1.89.0
+      jsii-reflect: 1.90.0
       jsii-rosetta: 1.89.0
       semver: 7.5.4
       spdx-license-list: 6.7.0
@@ -1998,16 +2015,16 @@ packages:
       - supports-color
     dev: true
 
-  /jsii-reflect@1.89.0:
-    resolution: {integrity: sha512-05g0fUVot46rPGXYWzB3q4w2Cx2Ox7pzWfsGuIz6Kql/d9KoAFWMuGjwQbSbrI2I52RPKfTbM8wATzzp6Q5kdQ==}
+  /jsii-reflect@1.90.0:
+    resolution: {integrity: sha512-kYX9boDV1pUwX8A2HFQNtbypcRGY3MwEWFyXL+qKcXb8QrHuiDC4fEVYpI5oBxq5b7NZ8ePfPWAj9EtEpvKbnw==}
     engines: {node: '>= 14.17.0'}
     hasBin: true
     dependencies:
-      '@jsii/check-node': 1.89.0
-      '@jsii/spec': 1.89.0
+      '@jsii/check-node': 1.90.0
+      '@jsii/spec': 1.90.0
       chalk: 4.1.2
       fs-extra: 10.1.0
-      oo-ascii-tree: 1.89.0
+      oo-ascii-tree: 1.90.0
       yargs: 16.2.0
     dev: true
 
@@ -2141,7 +2158,6 @@ packages:
     resolution: {integrity: sha512-eunSSaEnxV12z+Z73y/j5N37/In40GK4GmsSy+tEHJMxknvqnA7/djeYtAgW0GsWHUfg+847WJjKaEylk2y09g==}
     dependencies:
       jsonify: 0.0.1
-    dev: false
 
   /jsonfile@4.0.0:
     resolution: {integrity: sha512-m6F1R3z8jjlf2imQHS2Qez5sjKWQzbuuhuJ/FKYFRZvPE3PuHcSMVZzfsLhGVOkfd20obL5SWEBew5ShlquNxg==}
@@ -2159,7 +2175,6 @@ packages:
 
   /jsonify@0.0.1:
     resolution: {integrity: sha512-2/Ki0GcmuqSrgFyelQq9M05y7PS0mEwuIzrf3f1fPqkVDVRvZrPZtVSMHxdgo8Aq0sxAOb/cr2aqqA3LeWHVPg==}
-    dev: false
 
   /lazystream@1.0.1:
     resolution: {integrity: sha512-b94GiNHQNy6JNTrt5w6zNyffMrNkXZb3KTkCZJb2V1xaEGCk093vkZ2jk3tpaeP33/OiXC+WvK9AxUebnf5nbw==}
@@ -2411,8 +2426,8 @@ packages:
       mimic-fn: 2.1.0
     dev: true
 
-  /oo-ascii-tree@1.89.0:
-    resolution: {integrity: sha512-HRFmdGyLTO/xUo9XNHwa8ColVVP6IEeeRKcxbzRIbgRpPcIiDGo99ShecJdkaXOyR+q4Wi6hiX5b7yrsBI/gxA==}
+  /oo-ascii-tree@1.90.0:
+    resolution: {integrity: sha512-LixRPYQJtgVfMi9gsUPB/zxrna4DqSe+M+iRGQBAq150BiPD33nWXOj/Je7uauGsOf+NkvRjZiD1P6yW/j8hsQ==}
     engines: {node: '>= 14.17.0'}
     dev: true
 
@@ -3072,8 +3087,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.3.0-dev.20231006:
-    resolution: {integrity: sha512-jD5wAzdZhl5Emk89dTMb7EqlUmO+n+U/uldQsSMxYh1HQG9J5Ti63B6em7Ob7DgoT7pvbqFUBn3X7UxaBba1Tg==}
+  /typescript@5.3.0-dev.20231008:
+    resolution: {integrity: sha512-yIhJnBiRy/xd23P14x7UA5p/41U1WFoZ0PohzZoAuyVNH2DlhtLxng9CI1zVYo6amjknPb4t4apAcImtPkyXYQ==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
