@@ -17,14 +17,14 @@ dependencies:
 
 devDependencies:
   '@types/node':
-    specifier: ^20.8.2
-    version: 20.8.2
+    specifier: ^20.8.3
+    version: 20.8.3
   cdktf-cli:
     specifier: ^0.18.2
     version: 0.18.2(ink@3.2.0)(react@17.0.2)
   ts-node:
     specifier: ^10.9.1
-    version: 10.9.1(@types/node@20.8.2)(typescript@5.2.2)
+    version: 10.9.1(@types/node@20.8.3)(typescript@5.2.2)
   typescript:
     specifier: ^5.2.2
     version: 5.2.2
@@ -282,7 +282,7 @@ packages:
     dependencies:
       '@inquirer/type': 1.1.5
       '@types/mute-stream': 0.0.1
-      '@types/node': 20.8.2
+      '@types/node': 20.8.3
       '@types/wrap-ansi': 3.0.0
       ansi-escapes: 4.3.2
       chalk: 4.1.2
@@ -302,7 +302,7 @@ packages:
     dependencies:
       '@inquirer/type': 1.1.5
       '@types/mute-stream': 0.0.2
-      '@types/node': 20.8.2
+      '@types/node': 20.8.3
       '@types/wrap-ansi': 3.0.0
       ansi-escapes: 4.3.2
       chalk: 4.1.2
@@ -562,21 +562,21 @@ packages:
   /@types/mute-stream@0.0.1:
     resolution: {integrity: sha512-0yQLzYhCqGz7CQPE3iDmYjhb7KMBFOP+tBkyw+/Y2YyDI5wpS7itXXxneN1zSsUwWx3Ji6YiVYrhAnpQGS/vkw==}
     dependencies:
-      '@types/node': 20.8.2
+      '@types/node': 20.8.3
     dev: true
 
   /@types/mute-stream@0.0.2:
     resolution: {integrity: sha512-FpiGjk6+IOrN0lZEfUUjdra1csU1VxwYFj4S0Zj+TJpu5x5mZW30RkEZojTadrNZHNmpCHgoE62IQZAH0OeuIA==}
     dependencies:
-      '@types/node': 20.8.2
+      '@types/node': 20.8.3
     dev: true
 
   /@types/node@16.18.23:
     resolution: {integrity: sha512-XAMpaw1s1+6zM+jn2tmw8MyaRDIJfXxqmIQIS0HfoGYPuf7dUWeiUKopwq13KFX9lEp1+THGtlaaYx39Nxr58g==}
     dev: true
 
-  /@types/node@20.8.2:
-    resolution: {integrity: sha512-Vvycsc9FQdwhxE3y3DzeIxuEJbWGDsnrxvMADzTDF/lcdR9/K+AQIeAghTQsHtotg/q0j3WEOYS/jQgSdWue3w==}
+  /@types/node@20.8.3:
+    resolution: {integrity: sha512-jxiZQFpb+NlH5kjW49vXxvxTjeeqlbsnTAdBTKpzEdPs9itay7MscYXz3Fo9VYFEsfQ6LJFitHad3faerLAjCw==}
     dev: true
 
   /@types/wrap-ansi@3.0.0:
@@ -587,7 +587,7 @@ packages:
     resolution: {integrity: sha512-CHzgNU3qYBnp/O4S3yv2tXPlvMTq0YWSTVg2/JYLqWZGHwwgJGAwd00poay/11asPq8wLFwHzubyInqHIFmmiw==}
     requiresBuild: true
     dependencies:
-      '@types/node': 20.8.2
+      '@types/node': 20.8.3
     dev: true
     optional: true
 
@@ -719,7 +719,6 @@ packages:
       readdir-glob: 1.1.3
       tar-stream: 2.2.0
       zip-stream: 4.1.1
-    dev: false
 
   /archiver@5.3.2:
     resolution: {integrity: sha512-+25nxyyznAXF7Nef3y0EbBeqmGZgeN/BxHX29Rs39djAfaFalmQ89SE6CWyDCHzGL0yt/ycBtNOmGTW0FyGWNw==}
@@ -900,7 +899,10 @@ packages:
     peerDependencies:
       constructs: ^10.0.25
     dependencies:
+      archiver: 5.3.1
       constructs: 10.2.70
+      json-stable-stringify: 1.0.2
+      semver: 7.5.4
     dev: true
     bundledDependencies:
       - archiver
@@ -1251,7 +1253,7 @@ packages:
     dependencies:
       semver: 7.5.4
       shelljs: 0.8.5
-      typescript: 5.3.0-dev.20231006
+      typescript: 5.3.0-dev.20231009
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -2141,7 +2143,6 @@ packages:
     resolution: {integrity: sha512-eunSSaEnxV12z+Z73y/j5N37/In40GK4GmsSy+tEHJMxknvqnA7/djeYtAgW0GsWHUfg+847WJjKaEylk2y09g==}
     dependencies:
       jsonify: 0.0.1
-    dev: false
 
   /jsonfile@4.0.0:
     resolution: {integrity: sha512-m6F1R3z8jjlf2imQHS2Qez5sjKWQzbuuhuJ/FKYFRZvPE3PuHcSMVZzfsLhGVOkfd20obL5SWEBew5ShlquNxg==}
@@ -2159,7 +2160,6 @@ packages:
 
   /jsonify@0.0.1:
     resolution: {integrity: sha512-2/Ki0GcmuqSrgFyelQq9M05y7PS0mEwuIzrf3f1fPqkVDVRvZrPZtVSMHxdgo8Aq0sxAOb/cr2aqqA3LeWHVPg==}
-    dev: false
 
   /lazystream@1.0.1:
     resolution: {integrity: sha512-b94GiNHQNy6JNTrt5w6zNyffMrNkXZb3KTkCZJb2V1xaEGCk093vkZ2jk3tpaeP33/OiXC+WvK9AxUebnf5nbw==}
@@ -3003,7 +3003,7 @@ packages:
     resolution: {integrity: sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==}
     dev: true
 
-  /ts-node@10.9.1(@types/node@20.8.2)(typescript@5.2.2):
+  /ts-node@10.9.1(@types/node@20.8.3)(typescript@5.2.2):
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
@@ -3022,7 +3022,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.8.2
+      '@types/node': 20.8.3
       acorn: 8.10.0
       acorn-walk: 8.2.0
       arg: 4.1.3
@@ -3072,8 +3072,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.3.0-dev.20231006:
-    resolution: {integrity: sha512-jD5wAzdZhl5Emk89dTMb7EqlUmO+n+U/uldQsSMxYh1HQG9J5Ti63B6em7Ob7DgoT7pvbqFUBn3X7UxaBba1Tg==}
+  /typescript@5.3.0-dev.20231009:
+    resolution: {integrity: sha512-0JwLa29peN3wK/3uUMHTr9bzLwJ7BIloeN3JTyHj0aeyoowNMJXjpVMSTu8geVzfP4RPL9vM/7iyVPrPBmLBaQ==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
