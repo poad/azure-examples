@@ -1255,7 +1255,7 @@ packages:
     dependencies:
       semver: 7.5.4
       shelljs: 0.8.5
-      typescript: 5.3.0-dev.20231013
+      typescript: 5.3.0-dev.20231016
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -2370,8 +2370,8 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
-  /object-inspect@1.12.3:
-    resolution: {integrity: sha512-geUvdk7c+eizMNUDkRpW1wJwgfOiOeHbxBR/hLXK1aT6zmVSO0jsQcs7fj6MGw89jC/cjGfLcNOrtMYtGqm81g==}
+  /object-inspect@1.13.0:
+    resolution: {integrity: sha512-HQ4J+ic8hKrgIt3mqk6cVOVrW2ozL4KdvHlqpBv9vDYWx9ysAgENAdvy4FoGF+KFdhR7nQTNm5J0ctAeOwn+3g==}
     dev: true
 
   /object-is@1.1.5:
@@ -2796,7 +2796,7 @@ packages:
     dependencies:
       call-bind: 1.0.2
       get-intrinsic: 1.2.1
-      object-inspect: 1.12.3
+      object-inspect: 1.13.0
     dev: true
 
   /signal-exit@3.0.7:
@@ -3074,8 +3074,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.3.0-dev.20231013:
-    resolution: {integrity: sha512-ZhuwwWpJ9Hec2JJaS0yOJOjkLDu6lm/PXjniirFFcFBArD5HA3K8P31XxPmwonBhk7oznUbhdIDu8LEYha9Kxw==}
+  /typescript@5.3.0-dev.20231016:
+    resolution: {integrity: sha512-1NaopFFSKTDFUHEkuN7xJfPMwXZFd1g+wKuMu2eh3rDHN7lhQMGDU08D2CnlLYK2xfNjgeb5qAWXQAdMbRLn3A==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
