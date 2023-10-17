@@ -102,7 +102,7 @@ packages:
       '@cdktf/hcl2json': 0.19.0
       '@cdktf/node-pty-prebuilt-multiarch': 0.10.1-pre.11
       '@cdktf/provider-schema': 0.19.0
-      '@sentry/node': 7.74.0
+      '@sentry/node': 7.74.1
       archiver: 5.3.2
       cdktf: 0.19.0(constructs@10.3.0)
       chalk: 4.1.2
@@ -124,7 +124,7 @@ packages:
       ink-spinner: 4.0.3(ink@3.2.0)(react@17.0.2)
       ink-testing-library: 2.1.0
       ink-use-stdout-dimensions: 1.0.5(ink@3.2.0)(react@17.0.2)
-      jsii: 5.2.14
+      jsii: 5.2.17
       jsii-pacmak: 1.90.0
       jsii-srcmak: 0.1.951
       lodash.isequal: 4.5.0
@@ -158,7 +158,7 @@ packages:
   /@cdktf/commons@0.19.0:
     resolution: {integrity: sha512-zhqGhx7PWa1lCa1B7RUH1qoln2emrGbGJ3kjRKMOxJxbTKdQBwFUbsaEOiOAVBm0ukTt2DX+VWQc8YPpMgSbgA==}
     dependencies:
-      '@sentry/node': 7.74.0
+      '@sentry/node': 7.74.1
       cdktf: 0.19.0(constructs@10.3.0)
       ci-info: 3.9.0
       codemaker: 1.90.0
@@ -189,7 +189,7 @@ packages:
       glob: 10.3.10
       graphology: 0.25.4(graphology-types@0.24.7)
       graphology-types: 0.24.7
-      jsii-rosetta: 5.1.13
+      jsii-rosetta: 5.2.0
       prettier: 2.8.8
       reserved-words: 0.1.2
       zod: 3.22.4
@@ -495,33 +495,33 @@ packages:
     dev: true
     optional: true
 
-  /@sentry-internal/tracing@7.74.0:
-    resolution: {integrity: sha512-JK6IRGgdtZjswGfaGIHNWIThffhOHzVIIaGmglui+VFIzOsOqePjoxaDV0MEvzafxXZD7eWqGE5RGuZ0n6HFVg==}
+  /@sentry-internal/tracing@7.74.1:
+    resolution: {integrity: sha512-nNaiZreQxCitG2PzYPaC7XtyA9OMsETGYMKAtiK4p62/uTmeYbsBva9BoNx1XeiHRwbrVQYRMKQ9nV5e2jS4/A==}
     engines: {node: '>=8'}
     dependencies:
-      '@sentry/core': 7.74.0
-      '@sentry/types': 7.74.0
-      '@sentry/utils': 7.74.0
+      '@sentry/core': 7.74.1
+      '@sentry/types': 7.74.1
+      '@sentry/utils': 7.74.1
       tslib: 2.6.2
     dev: true
 
-  /@sentry/core@7.74.0:
-    resolution: {integrity: sha512-83NRuqn7nDZkSVBN5yJQqcpXDG4yMYiB7TkYUKrGTzBpRy6KUOrkCdybuKk0oraTIGiGSe5WEwCFySiNgR9FzA==}
+  /@sentry/core@7.74.1:
+    resolution: {integrity: sha512-LvEhOSfdIvwkr+PdlrT/aA/iOLhkXrSkvjqAQyogE4ddCWeYfS0NoirxNt1EaxMBAWKhYZRqzkA7WA4LDLbzlA==}
     engines: {node: '>=8'}
     dependencies:
-      '@sentry/types': 7.74.0
-      '@sentry/utils': 7.74.0
+      '@sentry/types': 7.74.1
+      '@sentry/utils': 7.74.1
       tslib: 2.6.2
     dev: true
 
-  /@sentry/node@7.74.0:
-    resolution: {integrity: sha512-uBmW2/z0cz/WFIG74ZF7lSipO0XNzMf9yrdqnZXnGDYsUZE4I4QiqDN0hNi6fkTgf9MYRC8uFem2OkAvyPJ74Q==}
+  /@sentry/node@7.74.1:
+    resolution: {integrity: sha512-aMUQ2LFZF64FBr+cgjAqjT4OkpYBIC9lyWI8QqjEHqNho5+LGu18/iVrJPD4fgs4UhGdCuAiQjpC36MbmnIDZA==}
     engines: {node: '>=8'}
     dependencies:
-      '@sentry-internal/tracing': 7.74.0
-      '@sentry/core': 7.74.0
-      '@sentry/types': 7.74.0
-      '@sentry/utils': 7.74.0
+      '@sentry-internal/tracing': 7.74.1
+      '@sentry/core': 7.74.1
+      '@sentry/types': 7.74.1
+      '@sentry/utils': 7.74.1
       cookie: 0.5.0
       https-proxy-agent: 5.0.1
       lru_map: 0.3.3
@@ -530,16 +530,16 @@ packages:
       - supports-color
     dev: true
 
-  /@sentry/types@7.74.0:
-    resolution: {integrity: sha512-rI5eIRbUycWjn6s6o3yAjjWtIvYSxZDdnKv5je2EZINfLKcMPj1dkl6wQd2F4y7gLfD/N6Y0wZYIXC3DUdJQQg==}
+  /@sentry/types@7.74.1:
+    resolution: {integrity: sha512-2jIuPc+YKvXqZETwr2E8VYnsH1zsSUR/wkIvg1uTVeVNyoowJv+YsOtCdeGyL2AwiotUBSPKu7O1Lz0kq5rMOQ==}
     engines: {node: '>=8'}
     dev: true
 
-  /@sentry/utils@7.74.0:
-    resolution: {integrity: sha512-k3np8nuTPtx5KDODPtULfFln4UXdE56MZCcF19Jv6Ljxf+YN/Ady1+0Oi3e0XoSvFpWNyWnglauT7M65qCE6kg==}
+  /@sentry/utils@7.74.1:
+    resolution: {integrity: sha512-qUsqufuHYcy5gFhLZslLxA5kcEOkkODITXW3c7D+x+8iP/AJqa8v8CeUCVNS7RetHCuIeWAbbTClC4c411EwQg==}
     engines: {node: '>=8'}
     dependencies:
-      '@sentry/types': 7.74.0
+      '@sentry/types': 7.74.1
       tslib: 2.6.2
     dev: true
 
@@ -851,7 +851,7 @@ packages:
       '@cdktf/hcl2cdk': 0.19.0
       '@cdktf/hcl2json': 0.19.0
       '@inquirer/prompts': 2.3.1
-      '@sentry/node': 7.74.0
+      '@sentry/node': 7.74.1
       cdktf: 0.19.0(constructs@10.3.0)
       ci-info: 3.9.0
       codemaker: 1.90.0
@@ -860,7 +860,7 @@ packages:
       https-proxy-agent: 5.0.1
       ink-select-input: 4.2.2(ink@3.2.0)(react@17.0.2)
       ink-table: 3.0.0(ink@3.2.0)(react@17.0.2)
-      jsii: 5.2.14
+      jsii: 5.2.17
       jsii-pacmak: 1.90.0
       minimatch: 5.1.6
       node-fetch: 2.7.0
@@ -1690,7 +1690,7 @@ packages:
       ink: '>=3.0.5'
       react: '>=16.8.2'
     dependencies:
-      cli-spinners: 2.9.1
+      cli-spinners: 2.7.0
       ink: 3.2.0(react@17.0.2)
       react: 17.0.2
     dev: true
@@ -2034,22 +2034,22 @@ packages:
       - supports-color
     dev: true
 
-  /jsii-rosetta@5.1.13:
-    resolution: {integrity: sha512-EmtQU/Q5ex/e2XmysU1ZdEW3vK4feEPDXaivRj5Cf284fuEcWINcD38oPYog0XofPdqeBbf0n+EciBitoEhKGA==}
+  /jsii-rosetta@5.2.0:
+    resolution: {integrity: sha512-nUJ8b9IRViBtpIFvJPqQZ+TUJ+vnCOkuyWBpsQoo0CMS/CrAN2NuhBX3xidfP4o02ggAgPXjP8VIYgs0Zeyu1w==}
     engines: {node: '>= 16.14.0'}
     hasBin: true
     dependencies:
-      '@jsii/check-node': 1.88.0
+      '@jsii/check-node': 1.90.0
       '@jsii/spec': 1.90.0
       '@xmldom/xmldom': 0.8.10
       chalk: 4.1.2
       commonmark: 0.30.0
       fast-glob: 3.3.1
-      jsii: 5.1.12
+      jsii: 5.2.17
       semver: 7.5.4
       semver-intersect: 1.4.0
       stream-json: 1.8.0
-      typescript: 5.1.6
+      typescript: 5.2.2
       workerpool: 6.5.1
       yargs: 17.7.2
     transitivePeerDependencies:
@@ -2113,8 +2113,8 @@ packages:
       - supports-color
     dev: true
 
-  /jsii@5.2.14:
-    resolution: {integrity: sha512-ryFPgWC6gVx3xtKryusm5SmX0jzr0lgv/GcGxF0EL5zKDK007NpgeqkhKm7sLOHq41hXD0r9j0Rr3d3GLUD3Lg==}
+  /jsii@5.2.17:
+    resolution: {integrity: sha512-VYRMDr+2q4zexxQJsigU7np1nM5wsoXcj6z/nv7iuOCszSRONokzVbtBVbe8kOzHoIixAHTINasDXMGtRCWxQw==}
     engines: {node: '>= 16.14.0'}
     hasBin: true
     dependencies:
@@ -2330,8 +2330,8 @@ packages:
     hasBin: true
     dev: true
 
-  /node-abi@3.50.0:
-    resolution: {integrity: sha512-2Gxu7Eq7vnBIRfYSmqPruEllMM14FjOQFJSoqdGWthVn+tmwEXzmdPpya6cvvwf0uZA3F5N1fMFr9mijZBplFA==}
+  /node-abi@3.51.0:
+    resolution: {integrity: sha512-SQkEP4hmNWjlniS5zdnfIXTk1x7Ome85RDzHlTbBtzE97Gfwz/Ipw4v/Ryk20DWIy3yCNVLVlGKApCnmvYoJbA==}
     engines: {node: '>=10'}
     dependencies:
       semver: 7.5.4
@@ -2538,7 +2538,7 @@ packages:
       minimist: 1.2.8
       mkdirp-classic: 0.5.3
       napi-build-utils: 1.0.2
-      node-abi: 3.50.0
+      node-abi: 3.51.0
       pump: 3.0.0
       rc: 1.2.8
       simple-get: 4.0.1
