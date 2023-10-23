@@ -124,7 +124,7 @@ packages:
       ink-spinner: 4.0.3(ink@3.2.0)(react@17.0.2)
       ink-testing-library: 2.1.0
       ink-use-stdout-dimensions: 1.0.5(ink@3.2.0)(react@17.0.2)
-      jsii: 5.2.17
+      jsii: 5.2.20
       jsii-pacmak: 1.90.0
       jsii-srcmak: 0.1.951
       lodash.isequal: 4.5.0
@@ -189,7 +189,7 @@ packages:
       glob: 10.3.10
       graphology: 0.25.4(graphology-types@0.24.7)
       graphology-types: 0.24.7
-      jsii-rosetta: 5.2.0
+      jsii-rosetta: 5.2.1
       prettier: 2.8.8
       reserved-words: 0.1.2
       zod: 3.22.4
@@ -823,7 +823,7 @@ packages:
     resolution: {integrity: sha512-C3nQxfFZxFRVoJoGKKI8y3MOEo129NQ+FgQ08iye+Mk4zNZZGdjfs06bVTr+DBSlA66Q2VEcMki/cUCP4SercQ==}
     dependencies:
       function-bind: 1.1.2
-      get-intrinsic: 1.2.1
+      get-intrinsic: 1.2.2
       set-function-length: 1.1.1
     dev: true
 
@@ -860,7 +860,7 @@ packages:
       https-proxy-agent: 5.0.1
       ink-select-input: 4.2.2(ink@3.2.0)(react@17.0.2)
       ink-table: 3.0.0(ink@3.2.0)(react@17.0.2)
-      jsii: 5.2.17
+      jsii: 5.2.20
       jsii-pacmak: 1.90.0
       minimatch: 5.1.6
       node-fetch: 2.7.0
@@ -1175,7 +1175,7 @@ packages:
       array-buffer-byte-length: 1.0.0
       call-bind: 1.0.5
       es-get-iterator: 1.1.3
-      get-intrinsic: 1.2.1
+      get-intrinsic: 1.2.2
       is-arguments: 1.1.1
       is-array-buffer: 3.0.2
       is-date-object: 1.0.5
@@ -1206,9 +1206,9 @@ packages:
     resolution: {integrity: sha512-E7uGkTzkk1d0ByLeSc6ZsFS79Axg+m1P/VsgYsxHgiuc3tFSj+MjMIwe90FC4lOAZzNBdY7kkO2P2wKdsQ1vgQ==}
     engines: {node: '>= 0.4'}
     dependencies:
-      get-intrinsic: 1.2.1
+      get-intrinsic: 1.2.2
       gopd: 1.0.1
-      has-property-descriptors: 1.0.0
+      has-property-descriptors: 1.0.1
     dev: true
 
   /define-properties@1.2.1:
@@ -1216,7 +1216,7 @@ packages:
     engines: {node: '>= 0.4'}
     dependencies:
       define-data-property: 1.1.1
-      has-property-descriptors: 1.0.0
+      has-property-descriptors: 1.0.1
       object-keys: 1.1.1
     dev: true
 
@@ -1256,7 +1256,7 @@ packages:
     dependencies:
       semver: 7.5.4
       shelljs: 0.8.5
-      typescript: 5.3.0-dev.20231022
+      typescript: 5.3.0-dev.20231023
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -1284,7 +1284,7 @@ packages:
     resolution: {integrity: sha512-sPZmqHBe6JIiTfN5q2pEi//TwxmAFHwj/XEuYjTuse78i8KxaqMTTzxPoFKuzRpDpTJ+0NAbpfenkmH2rePtuw==}
     dependencies:
       call-bind: 1.0.5
-      get-intrinsic: 1.2.1
+      get-intrinsic: 1.2.2
       has-symbols: 1.0.3
       is-arguments: 1.1.1
       is-map: 2.0.2
@@ -1510,13 +1510,13 @@ packages:
     engines: {node: 6.* || 8.* || >= 10.*}
     dev: true
 
-  /get-intrinsic@1.2.1:
-    resolution: {integrity: sha512-2DcsyfABl+gVHEfCOaTrWgyt+tb6MSEGmKq+kI5HwLbIYgjgmMcV8KQ41uaKz1xxUcn9tJtgFbQUEVcEbd0FYw==}
+  /get-intrinsic@1.2.2:
+    resolution: {integrity: sha512-0gSo4ml/0j98Y3lngkFEot/zhiCeWsbYIlZ+uZOVgzLyLaUw7wxUL+nCTP0XJvJg1AXulJRI3UJi8GsbDuxdGA==}
     dependencies:
       function-bind: 1.1.2
-      has: 1.0.4
       has-proto: 1.0.1
       has-symbols: 1.0.3
+      hasown: 2.0.0
     dev: true
 
   /get-stream@5.2.0:
@@ -1567,7 +1567,7 @@ packages:
   /gopd@1.0.1:
     resolution: {integrity: sha512-d65bNlIadxvpb/A2abVdlqKqV563juRnZ1Wtk6s1sIR8uNsXR70xqIzVqxVf1eTqDunwT2MkczEeaezCKTZhwA==}
     dependencies:
-      get-intrinsic: 1.2.1
+      get-intrinsic: 1.2.2
     dev: true
 
   /graceful-fs@4.2.11:
@@ -1601,10 +1601,10 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /has-property-descriptors@1.0.0:
-    resolution: {integrity: sha512-62DVLZGoiEBDHQyqG4w9xCuZ7eJEwNmJRWw2VY84Oedb7WFcA27fiEVe8oUQx9hAUJ4ekurquucTGwsyO1XGdQ==}
+  /has-property-descriptors@1.0.1:
+    resolution: {integrity: sha512-VsX8eaIewvas0xnvinAe9bw4WfIeODpGYikiWYLH+dma0Jw6KHYqWiWfhQlgOVK8D6PvjubK5Uc4P0iIhIcNVg==}
     dependencies:
-      get-intrinsic: 1.2.1
+      get-intrinsic: 1.2.2
     dev: true
 
   /has-proto@1.0.1:
@@ -1622,11 +1622,6 @@ packages:
     engines: {node: '>= 0.4'}
     dependencies:
       has-symbols: 1.0.3
-    dev: true
-
-  /has@1.0.4:
-    resolution: {integrity: sha512-qdSAmqLF6209RFj4VVItywPMbm3vWylknmB3nvNiUIs72xAimcM8nVYxYr7ncvZq5qzk9MKIZR8ijqD/1QuYjQ==}
-    engines: {node: '>= 0.4.0'}
     dev: true
 
   /hasown@2.0.0:
@@ -1775,12 +1770,12 @@ packages:
       - utf-8-validate
     dev: true
 
-  /internal-slot@1.0.5:
-    resolution: {integrity: sha512-Y+R5hJrzs52QCG2laLn4udYVnxsfny9CpOhNhUvk/SSSVyF6T27FzRbF0sroPidSu3X8oEAkOn2K804mjpt6UQ==}
+  /internal-slot@1.0.6:
+    resolution: {integrity: sha512-Xj6dv+PsbtwyPpEflsejS+oIZxmMlV44zAhG479uYu89MsjcYOhCFnNyKrkJrihbsiasQyY0afoCl/9BLR65bg==}
     engines: {node: '>= 0.4'}
     dependencies:
-      get-intrinsic: 1.2.1
-      has: 1.0.4
+      get-intrinsic: 1.2.2
+      hasown: 2.0.0
       side-channel: 1.0.4
     dev: true
 
@@ -1801,7 +1796,7 @@ packages:
     resolution: {integrity: sha512-y+FyyR/w8vfIRq4eQcM1EYgSTnmHXPqaF+IgzgraytCFq5Xh8lllDVmAZolPJiZttZLeFSINPYMaEJ7/vWUa1w==}
     dependencies:
       call-bind: 1.0.5
-      get-intrinsic: 1.2.1
+      get-intrinsic: 1.2.2
       is-typed-array: 1.1.12
     dev: true
 
@@ -1948,7 +1943,7 @@ packages:
     resolution: {integrity: sha512-t2yVvttHkQktwnNNmBQ98AhENLdPUTDTE21uPqAQ0ARwQfGeQKRVS0NNurH7bTf7RrvcVn1OOge45CnBeHCSmg==}
     dependencies:
       call-bind: 1.0.5
-      get-intrinsic: 1.2.1
+      get-intrinsic: 1.2.2
     dev: true
 
   /is-wsl@2.2.0:
@@ -2044,8 +2039,8 @@ packages:
       - supports-color
     dev: true
 
-  /jsii-rosetta@5.2.0:
-    resolution: {integrity: sha512-nUJ8b9IRViBtpIFvJPqQZ+TUJ+vnCOkuyWBpsQoo0CMS/CrAN2NuhBX3xidfP4o02ggAgPXjP8VIYgs0Zeyu1w==}
+  /jsii-rosetta@5.2.1:
+    resolution: {integrity: sha512-X98IBiNZSIkwmYfZ0de2b3dh7/BVBW//j8a/CVwm55J1YXYW9r6M/uIqRvqihD0GXgPVRCUjLpM/6BDluNSA8w==}
     engines: {node: '>= 16.14.0'}
     hasBin: true
     dependencies:
@@ -2055,7 +2050,7 @@ packages:
       chalk: 4.1.2
       commonmark: 0.30.0
       fast-glob: 3.3.1
-      jsii: 5.2.17
+      jsii: 5.2.20
       semver: 7.5.4
       semver-intersect: 1.4.0
       stream-json: 1.8.0
@@ -2123,8 +2118,8 @@ packages:
       - supports-color
     dev: true
 
-  /jsii@5.2.17:
-    resolution: {integrity: sha512-VYRMDr+2q4zexxQJsigU7np1nM5wsoXcj6z/nv7iuOCszSRONokzVbtBVbe8kOzHoIixAHTINasDXMGtRCWxQw==}
+  /jsii@5.2.20:
+    resolution: {integrity: sha512-iXfSgEHGuE1OJBefZ7P3x+FwlEVaAV8M2blR6HWfg/IAmvBoCc1qbMPkQgUXRaXxH36HKR+BOFZ4n8QX0S2BXA==}
     engines: {node: '>= 16.14.0'}
     hasBin: true
     dependencies:
@@ -2769,9 +2764,9 @@ packages:
     engines: {node: '>= 0.4'}
     dependencies:
       define-data-property: 1.1.1
-      get-intrinsic: 1.2.1
+      get-intrinsic: 1.2.2
       gopd: 1.0.1
-      has-property-descriptors: 1.0.0
+      has-property-descriptors: 1.0.1
     dev: true
 
   /set-function-name@2.0.1:
@@ -2780,7 +2775,7 @@ packages:
     dependencies:
       define-data-property: 1.1.1
       functions-have-names: 1.2.3
-      has-property-descriptors: 1.0.0
+      has-property-descriptors: 1.0.1
     dev: true
 
   /shebang-command@2.0.0:
@@ -2813,7 +2808,7 @@ packages:
     resolution: {integrity: sha512-q5XPytqFEIKHkGdiMIrY10mvLRvnQh42/+GoBlFW3b2LXLE2xxJpZFdm94we0BaoV3RwJyGqg5wS7epxTv0Zvw==}
     dependencies:
       call-bind: 1.0.5
-      get-intrinsic: 1.2.1
+      get-intrinsic: 1.2.2
       object-inspect: 1.13.1
     dev: true
 
@@ -2877,7 +2872,7 @@ packages:
     resolution: {integrity: sha512-iCGQj+0l0HOdZ2AEeBADlsRC+vsnDsZsbdSiH1yNSjcfKM7fdpCMfqAL/dwF5BLiw/XhRft/Wax6zQbhq2BcjQ==}
     engines: {node: '>= 0.4'}
     dependencies:
-      internal-slot: 1.0.5
+      internal-slot: 1.0.6
     dev: true
 
   /stream-buffers@3.0.2:
@@ -3092,8 +3087,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.3.0-dev.20231022:
-    resolution: {integrity: sha512-g8ICZidqxW5HGoyFFTyMvbHd4EbZlTSXILKT71uyPagM4asj/3JRaOw0A+xgHSf4PrLHAGAbJ7P/JgtbgZNgcw==}
+  /typescript@5.3.0-dev.20231023:
+    resolution: {integrity: sha512-epSBdrSFF5apIzARZXsSC0BlNVGy7UO7FL1UJIKNDUIZuzlHVDFoAx1wAmV+dNn9AyIUY8LSion0D6QoIx5Dzw==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
