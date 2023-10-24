@@ -141,7 +141,7 @@ packages:
       tunnel-agent: 0.6.0
       uuid: 8.3.2
       xml-js: 1.6.11
-      xstate: 4.38.2
+      xstate: 4.38.3
       yargs: 17.7.2
       yoga-layout-prebuilt: 1.10.0
       zod: 1.11.17
@@ -1256,7 +1256,7 @@ packages:
     dependencies:
       semver: 7.5.4
       shelljs: 0.8.5
-      typescript: 5.3.0-dev.20231023
+      typescript: 5.3.0-dev.20231024
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -3087,8 +3087,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.3.0-dev.20231023:
-    resolution: {integrity: sha512-epSBdrSFF5apIzARZXsSC0BlNVGy7UO7FL1UJIKNDUIZuzlHVDFoAx1wAmV+dNn9AyIUY8LSion0D6QoIx5Dzw==}
+  /typescript@5.3.0-dev.20231024:
+    resolution: {integrity: sha512-g+l6xRJNUswhIYSkjTqICwdZofhieh3P7wLP+Zp1tPgF/EBDKDtG+JvMd/WchTd0GY00Tg3u41dbaySqDA9thw==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
@@ -3249,8 +3249,8 @@ packages:
     engines: {node: '>=8.0'}
     dev: true
 
-  /xstate@4.38.2:
-    resolution: {integrity: sha512-Fba/DwEPDLneHT3tbJ9F3zafbQXszOlyCJyQqqdzmtlY/cwE2th462KK48yaANf98jHlP6lJvxfNtN0LFKXPQg==}
+  /xstate@4.38.3:
+    resolution: {integrity: sha512-SH7nAaaPQx57dx6qvfcIgqKRXIh4L0A1iYEqim4s1u7c9VoCgzZc+63FY90AKU4ZzOC2cfJzTnpO4zK7fCUzzw==}
     dev: true
 
   /y18n@4.0.3:
