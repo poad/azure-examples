@@ -1256,7 +1256,7 @@ packages:
     dependencies:
       semver: 7.5.4
       shelljs: 0.8.5
-      typescript: 5.3.0-dev.20231024
+      typescript: 5.3.0-dev.20231025
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -2014,7 +2014,7 @@ packages:
       '@jsii/spec': 1.90.0
       chalk: 4.1.2
       fs-extra: 10.1.0
-      oo-ascii-tree: 1.90.0
+      oo-ascii-tree: 1.91.0
       yargs: 16.2.0
     dev: true
 
@@ -2416,8 +2416,8 @@ packages:
       mimic-fn: 2.1.0
     dev: true
 
-  /oo-ascii-tree@1.90.0:
-    resolution: {integrity: sha512-LixRPYQJtgVfMi9gsUPB/zxrna4DqSe+M+iRGQBAq150BiPD33nWXOj/Je7uauGsOf+NkvRjZiD1P6yW/j8hsQ==}
+  /oo-ascii-tree@1.91.0:
+    resolution: {integrity: sha512-pH4FFNLTO8VG+vNUm4AHmhLNjoSfQlO1UKIrzBGdeScppY785D93GVMH1XkCwbuO7pd9rrh6El5WF3a5QNvaww==}
     engines: {node: '>= 14.17.0'}
     dev: true
 
@@ -3087,8 +3087,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.3.0-dev.20231024:
-    resolution: {integrity: sha512-g+l6xRJNUswhIYSkjTqICwdZofhieh3P7wLP+Zp1tPgF/EBDKDtG+JvMd/WchTd0GY00Tg3u41dbaySqDA9thw==}
+  /typescript@5.3.0-dev.20231025:
+    resolution: {integrity: sha512-DW0GNkWzKHnI9lcYCVIw5SO5nzlaZ9iHAdcN7zCxt/OJsKg7s33xRtEa5nmPTIC5qvKzLLZboWWBJ+KRD9cKFw==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
