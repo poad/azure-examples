@@ -1253,7 +1253,7 @@ packages:
     dependencies:
       semver: 7.5.4
       shelljs: 0.8.5
-      typescript: 5.3.0-dev.20231025
+      typescript: 5.3.0-dev.20231026
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -1750,7 +1750,7 @@ packages:
       lodash: 4.17.21
       patch-console: 1.0.0
       react: 17.0.2
-      react-devtools-core: 4.28.4
+      react-devtools-core: 4.28.5
       react-reconciler: 0.26.2(react@17.0.2)
       scheduler: 0.20.2
       signal-exit: 3.0.7
@@ -2577,8 +2577,8 @@ packages:
       strip-json-comments: 2.0.1
     dev: true
 
-  /react-devtools-core@4.28.4:
-    resolution: {integrity: sha512-IUZKLv3CimeM07G3vX4H4loxVpByrzq3HvfTX7v9migalwvLs9ZY5D3S3pKR33U+GguYfBBdMMZyToFhsSE/iQ==}
+  /react-devtools-core@4.28.5:
+    resolution: {integrity: sha512-cq/o30z9W2Wb4rzBefjv5fBalHU0rJGZCHAkf/RHSBWSSYwh8PlQTqqOJmgIIbBtpj27T6FIPXeomIjZtCNVqA==}
     dependencies:
       shell-quote: 1.8.1
       ws: 7.5.9
@@ -3076,8 +3076,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.3.0-dev.20231025:
-    resolution: {integrity: sha512-DW0GNkWzKHnI9lcYCVIw5SO5nzlaZ9iHAdcN7zCxt/OJsKg7s33xRtEa5nmPTIC5qvKzLLZboWWBJ+KRD9cKFw==}
+  /typescript@5.3.0-dev.20231026:
+    resolution: {integrity: sha512-TPCRnvIO1nKy3PLJwVyXwZJAQ3silk51ktcvvk1NzYoPtS9p3xX7LNodMA6DDDndhbeMkjMlxb/PmPur2Z+zUQ==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
