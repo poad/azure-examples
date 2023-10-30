@@ -27,7 +27,7 @@ jobs:
             cwd: app-service/static-site
             args: [--no-frozen-lockfile, --strict-peer-dependencies]
 
-    - uses: hashicorp/setup-terraform@v2
+    - uses: hashicorp/setup-terraform@v3
       with:
         cli_config_credentials_token: ${{ secrets.TERRAFORM_CLOUD_TOKEN }}
 
