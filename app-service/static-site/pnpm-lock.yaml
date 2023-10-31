@@ -17,14 +17,14 @@ dependencies:
 
 devDependencies:
   '@types/node':
-    specifier: ^20.8.9
-    version: 20.8.9
+    specifier: ^20.8.10
+    version: 20.8.10
   cdktf-cli:
     specifier: ^0.19.0
     version: 0.19.0(ink@3.2.0)(react@17.0.2)
   ts-node:
     specifier: ^10.9.1
-    version: 10.9.1(@types/node@20.8.9)(typescript@5.2.2)
+    version: 10.9.1(@types/node@20.8.10)(typescript@5.2.2)
   typescript:
     specifier: ^5.2.2
     version: 5.2.2
@@ -102,7 +102,7 @@ packages:
       '@cdktf/hcl2json': 0.19.0
       '@cdktf/node-pty-prebuilt-multiarch': 0.10.1-pre.11
       '@cdktf/provider-schema': 0.19.0
-      '@sentry/node': 7.76.0
+      '@sentry/node': 7.77.0
       archiver: 5.3.2
       cdktf: 0.19.0(constructs@10.3.0)
       chalk: 4.1.2
@@ -124,7 +124,7 @@ packages:
       ink-spinner: 4.0.3(ink@3.2.0)(react@17.0.2)
       ink-testing-library: 2.1.0
       ink-use-stdout-dimensions: 1.0.5(ink@3.2.0)(react@17.0.2)
-      jsii: 5.2.20
+      jsii: 5.2.23
       jsii-pacmak: 1.91.0
       jsii-srcmak: 0.1.951
       lodash.isequal: 4.5.0
@@ -158,7 +158,7 @@ packages:
   /@cdktf/commons@0.19.0:
     resolution: {integrity: sha512-zhqGhx7PWa1lCa1B7RUH1qoln2emrGbGJ3kjRKMOxJxbTKdQBwFUbsaEOiOAVBm0ukTt2DX+VWQc8YPpMgSbgA==}
     dependencies:
-      '@sentry/node': 7.76.0
+      '@sentry/node': 7.77.0
       cdktf: 0.19.0(constructs@10.3.0)
       ci-info: 3.9.0
       codemaker: 1.91.0
@@ -282,7 +282,7 @@ packages:
     dependencies:
       '@inquirer/type': 1.1.5
       '@types/mute-stream': 0.0.1
-      '@types/node': 20.8.9
+      '@types/node': 20.8.10
       '@types/wrap-ansi': 3.0.0
       ansi-escapes: 4.3.2
       chalk: 4.1.2
@@ -302,7 +302,7 @@ packages:
     dependencies:
       '@inquirer/type': 1.1.5
       '@types/mute-stream': 0.0.2
-      '@types/node': 20.8.9
+      '@types/node': 20.8.10
       '@types/wrap-ansi': 3.0.0
       ansi-escapes: 4.3.2
       chalk: 4.1.2
@@ -503,46 +503,46 @@ packages:
     dev: true
     optional: true
 
-  /@sentry-internal/tracing@7.76.0:
-    resolution: {integrity: sha512-QQVIv+LS2sbGf/e5P2dRisHzXpy02dAcLqENLPG4sZ9otRaFNjdFYEqnlJ4qko+ORpJGQEQp/BX7Q/qzZQHlAg==}
+  /@sentry-internal/tracing@7.77.0:
+    resolution: {integrity: sha512-8HRF1rdqWwtINqGEdx8Iqs9UOP/n8E0vXUu3Nmbqj4p5sQPA7vvCfq+4Y4rTqZFc7sNdFpDsRION5iQEh8zfZw==}
     engines: {node: '>=8'}
     dependencies:
-      '@sentry/core': 7.76.0
-      '@sentry/types': 7.76.0
-      '@sentry/utils': 7.76.0
+      '@sentry/core': 7.77.0
+      '@sentry/types': 7.77.0
+      '@sentry/utils': 7.77.0
     dev: true
 
-  /@sentry/core@7.76.0:
-    resolution: {integrity: sha512-M+ptkCTeCNf6fn7p2MmEb1Wd9/JXUWxIT/0QEc+t11DNR4FYy1ZP2O9Zb3Zp2XacO7ORrlL3Yc+VIfl5JTgjfw==}
+  /@sentry/core@7.77.0:
+    resolution: {integrity: sha512-Tj8oTYFZ/ZD+xW8IGIsU6gcFXD/gfE+FUxUaeSosd9KHwBQNOLhZSsYo/tTVf/rnQI/dQnsd4onPZLiL+27aTg==}
     engines: {node: '>=8'}
     dependencies:
-      '@sentry/types': 7.76.0
-      '@sentry/utils': 7.76.0
+      '@sentry/types': 7.77.0
+      '@sentry/utils': 7.77.0
     dev: true
 
-  /@sentry/node@7.76.0:
-    resolution: {integrity: sha512-C+YZ5S5W9oTphdWTBgV+3nDdcV1ldnupIHylHzf2Co+xNtJ76V06N5NjdJ/l9+qvQjMn0DdSp7Uu7KCEeNBT/g==}
+  /@sentry/node@7.77.0:
+    resolution: {integrity: sha512-Ob5tgaJOj0OYMwnocc6G/CDLWC7hXfVvKX/ofkF98+BbN/tQa5poL+OwgFn9BA8ud8xKzyGPxGU6LdZ8Oh3z/g==}
     engines: {node: '>=8'}
     dependencies:
-      '@sentry-internal/tracing': 7.76.0
-      '@sentry/core': 7.76.0
-      '@sentry/types': 7.76.0
-      '@sentry/utils': 7.76.0
+      '@sentry-internal/tracing': 7.77.0
+      '@sentry/core': 7.77.0
+      '@sentry/types': 7.77.0
+      '@sentry/utils': 7.77.0
       https-proxy-agent: 5.0.1
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@sentry/types@7.76.0:
-    resolution: {integrity: sha512-vj6z+EAbVrKAXmJPxSv/clpwS9QjPqzkraMFk2hIdE/kii8s8kwnkBwTSpIrNc8GnzV3qYC4r3qD+BXDxAGPaw==}
+  /@sentry/types@7.77.0:
+    resolution: {integrity: sha512-nfb00XRJVi0QpDHg+JkqrmEBHsqBnxJu191Ded+Cs1OJ5oPXEW6F59LVcBScGvMqe+WEk1a73eH8XezwfgrTsA==}
     engines: {node: '>=8'}
     dev: true
 
-  /@sentry/utils@7.76.0:
-    resolution: {integrity: sha512-40jFD+yfQaKpFYINghdhovzec4IEpB7aAuyH/GtE7E0gLpcqnC72r55krEIVILfqIR2Mlr5OKUzyeoCyWAU/yw==}
+  /@sentry/utils@7.77.0:
+    resolution: {integrity: sha512-NmM2kDOqVchrey3N5WSzdQoCsyDkQkiRxExPaNI2oKQ/jMWHs9yt0tSy7otPBcXs0AP59ihl75Bvm1tDRcsp5g==}
     engines: {node: '>=8'}
     dependencies:
-      '@sentry/types': 7.76.0
+      '@sentry/types': 7.77.0
     dev: true
 
   /@tsconfig/node10@1.0.9:
@@ -564,21 +564,21 @@ packages:
   /@types/mute-stream@0.0.1:
     resolution: {integrity: sha512-0yQLzYhCqGz7CQPE3iDmYjhb7KMBFOP+tBkyw+/Y2YyDI5wpS7itXXxneN1zSsUwWx3Ji6YiVYrhAnpQGS/vkw==}
     dependencies:
-      '@types/node': 20.8.9
+      '@types/node': 20.8.10
     dev: true
 
   /@types/mute-stream@0.0.2:
     resolution: {integrity: sha512-FpiGjk6+IOrN0lZEfUUjdra1csU1VxwYFj4S0Zj+TJpu5x5mZW30RkEZojTadrNZHNmpCHgoE62IQZAH0OeuIA==}
     dependencies:
-      '@types/node': 20.8.9
+      '@types/node': 20.8.10
     dev: true
 
   /@types/node@18.11.19:
     resolution: {integrity: sha512-YUgMWAQBWLObABqrvx8qKO1enAvBUdjZOAWQ5grBAkp5LQv45jBvYKZ3oFS9iKRCQyFjqw6iuEa1vmFqtxYLZw==}
     dev: true
 
-  /@types/node@20.8.9:
-    resolution: {integrity: sha512-UzykFsT3FhHb1h7yD4CA4YhBHq545JC0YnEz41xkipN88eKQtL6rSgocL5tbAP6Ola9Izm/Aw4Ora8He4x0BHg==}
+  /@types/node@20.8.10:
+    resolution: {integrity: sha512-TlgT8JntpcbmKUFzjhsyhGfP2fsiz1Mv56im6enJ905xG1DAYesxJaeSbGqQmAw8OWPdhyJGhGSQGKRNJ45u9w==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -591,7 +591,7 @@ packages:
     resolution: {integrity: sha512-Km7XAtUIduROw7QPgvcft0lIupeG8a8rdKL8RiSyKvlE7dYY31fEn41HVuQsRFDuROA8tA4K2UVL+WdfFmErBA==}
     requiresBuild: true
     dependencies:
-      '@types/node': 20.8.9
+      '@types/node': 20.8.10
     dev: true
     optional: true
 
@@ -853,7 +853,7 @@ packages:
       '@cdktf/hcl2cdk': 0.19.0
       '@cdktf/hcl2json': 0.19.0
       '@inquirer/prompts': 2.3.1
-      '@sentry/node': 7.76.0
+      '@sentry/node': 7.77.0
       cdktf: 0.19.0(constructs@10.3.0)
       ci-info: 3.9.0
       codemaker: 1.91.0
@@ -862,7 +862,7 @@ packages:
       https-proxy-agent: 5.0.1
       ink-select-input: 4.2.2(ink@3.2.0)(react@17.0.2)
       ink-table: 3.0.0(ink@3.2.0)(react@17.0.2)
-      jsii: 5.2.20
+      jsii: 5.2.23
       jsii-pacmak: 1.91.0
       minimatch: 5.1.6
       node-fetch: 2.7.0
@@ -2047,7 +2047,7 @@ packages:
       chalk: 4.1.2
       commonmark: 0.30.0
       fast-glob: 3.3.1
-      jsii: 5.2.20
+      jsii: 5.2.23
       semver: 7.5.4
       semver-intersect: 1.4.0
       stream-json: 1.8.0
@@ -2115,12 +2115,12 @@ packages:
       - supports-color
     dev: true
 
-  /jsii@5.2.20:
-    resolution: {integrity: sha512-iXfSgEHGuE1OJBefZ7P3x+FwlEVaAV8M2blR6HWfg/IAmvBoCc1qbMPkQgUXRaXxH36HKR+BOFZ4n8QX0S2BXA==}
+  /jsii@5.2.23:
+    resolution: {integrity: sha512-OrQU4r4187z93ORCgjtMYKTomygNmIE8zMFqGohBjD4sCLqgzSB70O2KBTas8Hplz5iZULdxP3+6a8P3kr1MnQ==}
     engines: {node: '>= 16.14.0'}
     hasBin: true
     dependencies:
-      '@jsii/check-node': 1.90.0
+      '@jsii/check-node': 1.91.0
       '@jsii/spec': 1.91.0
       case: 1.6.3
       chalk: 4.1.2
@@ -3011,7 +3011,7 @@ packages:
     resolution: {integrity: sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==}
     dev: true
 
-  /ts-node@10.9.1(@types/node@20.8.9)(typescript@5.2.2):
+  /ts-node@10.9.1(@types/node@20.8.10)(typescript@5.2.2):
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
@@ -3030,7 +3030,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.8.9
+      '@types/node': 20.8.10
       acorn: 8.11.2
       acorn-walk: 8.3.0
       arg: 4.1.3
