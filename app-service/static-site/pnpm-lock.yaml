@@ -124,9 +124,9 @@ packages:
       ink-spinner: 4.0.3(ink@3.2.0)(react@17.0.2)
       ink-testing-library: 2.1.0
       ink-use-stdout-dimensions: 1.0.5(ink@3.2.0)(react@17.0.2)
-      jsii: 5.2.23
+      jsii: 5.2.25
       jsii-pacmak: 1.91.0
-      jsii-srcmak: 0.1.954
+      jsii-srcmak: 0.1.957
       lodash.isequal: 4.5.0
       log4js: 6.9.1
       minimatch: 5.1.6
@@ -189,7 +189,7 @@ packages:
       glob: 10.3.10
       graphology: 0.25.4(graphology-types@0.24.7)
       graphology-types: 0.24.7
-      jsii-rosetta: 5.2.1
+      jsii-rosetta: 5.2.2
       prettier: 2.8.8
       reserved-words: 0.1.2
       zod: 3.22.4
@@ -233,7 +233,7 @@ packages:
       codemaker: 1.91.0
       deepmerge: 4.3.1
       fs-extra: 8.1.0
-      jsii-srcmak: 0.1.954
+      jsii-srcmak: 0.1.957
     transitivePeerDependencies:
       - debug
       - supports-color
@@ -442,14 +442,6 @@ packages:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.1
       '@jridgewell/sourcemap-codec': 1.4.15
-    dev: true
-
-  /@jsii/check-node@1.90.0:
-    resolution: {integrity: sha512-bHrSs/X0mX6rVgBySk6JB/VYiqIV0HkznthZ4lpLabrgTEistwBYXxTf1kgNzfmUbIt0EeETwxdLAY0sqHE/+A==}
-    engines: {node: '>= 14.17.0'}
-    dependencies:
-      chalk: 4.1.2
-      semver: 7.5.4
     dev: true
 
   /@jsii/check-node@1.91.0:
@@ -854,7 +846,7 @@ packages:
       https-proxy-agent: 5.0.1
       ink-select-input: 4.2.2(ink@3.2.0)(react@17.0.2)
       ink-table: 3.0.0(ink@3.2.0)(react@17.0.2)
-      jsii: 5.2.23
+      jsii: 5.2.25
       jsii-pacmak: 1.91.0
       minimatch: 5.1.6
       node-fetch: 2.7.0
@@ -1444,7 +1436,7 @@ packages:
     dependencies:
       graceful-fs: 4.2.11
       jsonfile: 6.1.0
-      universalify: 2.0.0
+      universalify: 2.0.1
     dev: true
 
   /fs-extra@11.1.1:
@@ -1453,7 +1445,7 @@ packages:
     dependencies:
       graceful-fs: 4.2.11
       jsonfile: 6.1.0
-      universalify: 2.0.0
+      universalify: 2.0.1
     dev: true
 
   /fs-extra@8.1.0:
@@ -1472,7 +1464,7 @@ packages:
       at-least-node: 1.0.0
       graceful-fs: 4.2.11
       jsonfile: 6.1.0
-      universalify: 2.0.0
+      universalify: 2.0.1
     dev: true
 
   /fs.realpath@1.0.0:
@@ -2028,18 +2020,18 @@ packages:
       - supports-color
     dev: true
 
-  /jsii-rosetta@5.2.1:
-    resolution: {integrity: sha512-X98IBiNZSIkwmYfZ0de2b3dh7/BVBW//j8a/CVwm55J1YXYW9r6M/uIqRvqihD0GXgPVRCUjLpM/6BDluNSA8w==}
+  /jsii-rosetta@5.2.2:
+    resolution: {integrity: sha512-bMGJKdQLlvYXUawoY+6EMH/5RwOttNCiTxczaJlV27BpxWeqTYIYMAVcb+d+6FTNKvZ2AcbCjqlROW6RDONanQ==}
     engines: {node: '>= 16.14.0'}
     hasBin: true
     dependencies:
-      '@jsii/check-node': 1.90.0
+      '@jsii/check-node': 1.91.0
       '@jsii/spec': 1.91.0
       '@xmldom/xmldom': 0.8.10
       chalk: 4.1.2
       commonmark: 0.30.0
       fast-glob: 3.3.1
-      jsii: 5.2.23
+      jsii: 5.2.25
       semver: 7.5.4
       semver-intersect: 1.4.0
       stream-json: 1.8.0
@@ -2050,12 +2042,12 @@ packages:
       - supports-color
     dev: true
 
-  /jsii-srcmak@0.1.954:
-    resolution: {integrity: sha512-5OP3m/9VWoRZsB1iFasosv5QBVWQTcyWk7Di5yRJd8alWZzrLBMQ7MgQR3JYahBB5FGw4VD/BO76DtwF2smw8A==}
+  /jsii-srcmak@0.1.957:
+    resolution: {integrity: sha512-7z97oWy4NWfTu9B7Uo7jh0xIS7EJgnfD5mQGR2pg//SJh02jrhGJ1sGcicEttd46Nrt4I36WLztqfa1W3UDPYg==}
     hasBin: true
     dependencies:
       fs-extra: 9.1.0
-      jsii: 5.2.23
+      jsii: 5.2.25
       jsii-pacmak: 1.91.0
       ncp: 2.0.0
       yargs: 15.4.1
@@ -2085,8 +2077,8 @@ packages:
       - supports-color
     dev: true
 
-  /jsii@5.2.23:
-    resolution: {integrity: sha512-OrQU4r4187z93ORCgjtMYKTomygNmIE8zMFqGohBjD4sCLqgzSB70O2KBTas8Hplz5iZULdxP3+6a8P3kr1MnQ==}
+  /jsii@5.2.25:
+    resolution: {integrity: sha512-PvvWvtEuy0Fg4Y5xUJtlNk8CJ+si3DyaxXuzFv6M6C0VMIWUsFfhwB4Gd7YhsB5/PxoOyX9c9Q0kf1R6sULqHQ==}
     engines: {node: '>= 16.14.0'}
     hasBin: true
     dependencies:
@@ -2125,7 +2117,7 @@ packages:
   /jsonfile@6.1.0:
     resolution: {integrity: sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ==}
     dependencies:
-      universalify: 2.0.0
+      universalify: 2.0.1
     optionalDependencies:
       graceful-fs: 4.2.11
     dev: true
@@ -3055,8 +3047,8 @@ packages:
     engines: {node: '>= 4.0.0'}
     dev: true
 
-  /universalify@2.0.0:
-    resolution: {integrity: sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==}
+  /universalify@2.0.1:
+    resolution: {integrity: sha512-gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==}
     engines: {node: '>= 10.0.0'}
     dev: true
 
