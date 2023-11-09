@@ -9,6 +9,10 @@ updates:
     rebase-strategy: auto
     assignees:
       - poad
+    groups:
+      actions:
+        patterns:
+          - '＊'
 
   - package-ecosystem: npm
     directory: '/app-service/static-site/'
