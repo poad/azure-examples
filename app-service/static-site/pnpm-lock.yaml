@@ -43,7 +43,7 @@ packages:
     resolution: {integrity: sha512-lN85QRR+5IbYrMWM6Y4pE/noaQtg4pNiqeNGX60eqOfo6gtEj6uw/JagelB8vVztSd7R6M5n1+PQkDbHbBRU4g==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/types': 7.23.0
+      '@babel/types': 7.23.3
       '@jridgewell/gen-mapping': 0.3.3
       '@jridgewell/trace-mapping': 0.3.20
       jsesc: 2.5.2
@@ -73,7 +73,7 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
     dependencies:
-      '@babel/types': 7.23.0
+      '@babel/types': 7.23.3
     dev: true
 
   /@babel/template@7.22.15:
@@ -82,11 +82,11 @@ packages:
     dependencies:
       '@babel/code-frame': 7.22.13
       '@babel/parser': 7.23.0
-      '@babel/types': 7.23.0
+      '@babel/types': 7.23.3
     dev: true
 
-  /@babel/types@7.23.0:
-    resolution: {integrity: sha512-0oIyUfKoI3mSqMvsxBdclDwxXKXAUA8v/apZbc+iSyARYou1o8ZGDxbUYyLFoW2arqS2jDGqJuZvv1d/io1axg==}
+  /@babel/types@7.23.3:
+    resolution: {integrity: sha512-OZnvoH2l8PK5eUvEcUyCt/sXgr/h+UWpVuBbOljwcrAgUl6lpchoQ++PHGyQy1AtYnVA6CEq3y5xeEI10brpXw==}
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/helper-string-parser': 7.22.5
@@ -179,7 +179,7 @@ packages:
     dependencies:
       '@babel/generator': 7.23.0
       '@babel/template': 7.22.15
-      '@babel/types': 7.23.0
+      '@babel/types': 7.23.3
       '@cdktf/commons': 0.19.1
       '@cdktf/hcl2json': 0.19.1
       '@cdktf/provider-generator': 0.19.1
@@ -891,7 +891,10 @@ packages:
     peerDependencies:
       constructs: ^10.0.25
     dependencies:
+      archiver: 5.3.2
       constructs: 10.3.0
+      json-stable-stringify: 1.0.2
+      semver: 7.5.4
     dev: true
     bundledDependencies:
       - archiver
@@ -1237,7 +1240,7 @@ packages:
     dependencies:
       semver: 7.5.4
       shelljs: 0.8.5
-      typescript: 5.4.0-dev.20231108
+      typescript: 5.4.0-dev.20231109
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -2107,7 +2110,6 @@ packages:
     resolution: {integrity: sha512-eunSSaEnxV12z+Z73y/j5N37/In40GK4GmsSy+tEHJMxknvqnA7/djeYtAgW0GsWHUfg+847WJjKaEylk2y09g==}
     dependencies:
       jsonify: 0.0.1
-    dev: false
 
   /jsonfile@4.0.0:
     resolution: {integrity: sha512-m6F1R3z8jjlf2imQHS2Qez5sjKWQzbuuhuJ/FKYFRZvPE3PuHcSMVZzfsLhGVOkfd20obL5SWEBew5ShlquNxg==}
@@ -2125,7 +2127,6 @@ packages:
 
   /jsonify@0.0.1:
     resolution: {integrity: sha512-2/Ki0GcmuqSrgFyelQq9M05y7PS0mEwuIzrf3f1fPqkVDVRvZrPZtVSMHxdgo8Aq0sxAOb/cr2aqqA3LeWHVPg==}
-    dev: false
 
   /lazystream@1.0.1:
     resolution: {integrity: sha512-b94GiNHQNy6JNTrt5w6zNyffMrNkXZb3KTkCZJb2V1xaEGCk093vkZ2jk3tpaeP33/OiXC+WvK9AxUebnf5nbw==}
@@ -3034,8 +3035,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.4.0-dev.20231108:
-    resolution: {integrity: sha512-/DNtrqpbir9XaRxE6qwjhB94pCZzw/9R/PhB8309frJBEBGZ5qSDqstl7YYbhWbqs+zWpCCbwBjWDGlz8wn8GA==}
+  /typescript@5.4.0-dev.20231109:
+    resolution: {integrity: sha512-wX5CSyZbJ0xsgAe0Fyefs8eqEe7o7mp7Nv5EHydBYFpJI/FWZFc4rSF2mGNNZ/1D7JMQgwjCAkZd/2TTF3m/Uw==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
