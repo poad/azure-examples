@@ -39,8 +39,8 @@ packages:
       chalk: 2.4.2
     dev: true
 
-  /@babel/generator@7.23.4:
-    resolution: {integrity: sha512-esuS49Cga3HcThFNebGhlgsrVLkvhqvYDTzgjfFFlHJcIfLe5jFmRRfCQ1KuBfc4Jrtn3ndLgKWAKjBE+IraYQ==}
+  /@babel/generator@7.23.5:
+    resolution: {integrity: sha512-BPssCHrBD+0YrxviOa3QzpqwhNIXKEtOa2jQrm4FlmkC2apYgRnQcmPWiGZDlGxiNtltnUFolMe8497Esry+jA==}
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/types': 7.23.5
@@ -177,7 +177,7 @@ packages:
   /@cdktf/hcl2cdk@0.19.1:
     resolution: {integrity: sha512-oFMUadPnDrOaMSTX1dQPuk/GFtSrk9/6B4G4CAYp9iXumqK204U0wEZYDFFEz5ieYhR86n/8YxA1GOOr0DmRZA==}
     dependencies:
-      '@babel/generator': 7.23.4
+      '@babel/generator': 7.23.5
       '@babel/template': 7.22.15
       '@babel/types': 7.23.5
       '@cdktf/commons': 0.19.1
