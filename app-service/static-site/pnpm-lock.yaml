@@ -126,7 +126,7 @@ packages:
       ink-use-stdout-dimensions: 1.0.5(ink@3.2.0)(react@17.0.2)
       jsii: 5.2.35
       jsii-pacmak: 1.92.0
-      jsii-srcmak: 0.1.981
+      jsii-srcmak: 0.1.982
       lodash.isequal: 4.5.0
       log4js: 6.9.1
       minimatch: 5.1.6
@@ -233,7 +233,7 @@ packages:
       codemaker: 1.92.0
       deepmerge: 4.3.1
       fs-extra: 8.1.0
-      jsii-srcmak: 0.1.981
+      jsii-srcmak: 0.1.982
     transitivePeerDependencies:
       - debug
       - supports-color
@@ -890,7 +890,10 @@ packages:
     peerDependencies:
       constructs: ^10.0.25
     dependencies:
+      archiver: 5.3.2
       constructs: 10.3.0
+      json-stable-stringify: 1.1.0
+      semver: 7.5.4
     dev: true
     bundledDependencies:
       - archiver
@@ -2033,8 +2036,8 @@ packages:
       - supports-color
     dev: true
 
-  /jsii-srcmak@0.1.981:
-    resolution: {integrity: sha512-fXe0wUM9x21+SpkzYGHZUwWlPXHK6h4JK+NoC53e9hlk/ZU2sw2XVw0n2gW31rb54ceCznZjR4XyOr7pCwlDGQ==}
+  /jsii-srcmak@0.1.982:
+    resolution: {integrity: sha512-CCgXzgzuzaZ2LERKThLBU/tBVrXGwiE7KBzbwM6+1qLvEJHoGU1KR3dZC7OPMCnANuSxm5L/zec5GGWx1Mbj2A==}
     hasBin: true
     dependencies:
       fs-extra: 9.1.0
@@ -2102,7 +2105,6 @@ packages:
       isarray: 2.0.5
       jsonify: 0.0.1
       object-keys: 1.1.1
-    dev: false
 
   /jsonfile@4.0.0:
     resolution: {integrity: sha512-m6F1R3z8jjlf2imQHS2Qez5sjKWQzbuuhuJ/FKYFRZvPE3PuHcSMVZzfsLhGVOkfd20obL5SWEBew5ShlquNxg==}
@@ -2120,7 +2122,6 @@ packages:
 
   /jsonify@0.0.1:
     resolution: {integrity: sha512-2/Ki0GcmuqSrgFyelQq9M05y7PS0mEwuIzrf3f1fPqkVDVRvZrPZtVSMHxdgo8Aq0sxAOb/cr2aqqA3LeWHVPg==}
-    dev: false
 
   /lazystream@1.0.1:
     resolution: {integrity: sha512-b94GiNHQNy6JNTrt5w6zNyffMrNkXZb3KTkCZJb2V1xaEGCk093vkZ2jk3tpaeP33/OiXC+WvK9AxUebnf5nbw==}
