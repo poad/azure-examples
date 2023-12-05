@@ -102,7 +102,7 @@ packages:
       '@cdktf/hcl2json': 0.19.2
       '@cdktf/node-pty-prebuilt-multiarch': 0.10.1-pre.11
       '@cdktf/provider-schema': 0.19.2
-      '@sentry/node': 7.84.0
+      '@sentry/node': 7.85.0
       archiver: 5.3.2
       cdktf: 0.19.2(constructs@10.3.0)
       chalk: 4.1.2
@@ -158,7 +158,7 @@ packages:
   /@cdktf/commons@0.19.2:
     resolution: {integrity: sha512-5rOeb0cSREHQa5XVsGFEV6Ce8Zwo2WxE8GIhmGd/JzeSAByhK8scHFlD3+eENl83W/8lwIkm/nSl9oDHEkENIg==}
     dependencies:
-      '@sentry/node': 7.84.0
+      '@sentry/node': 7.85.0
       cdktf: 0.19.2(constructs@10.3.0)
       ci-info: 3.9.0
       codemaker: 1.92.0
@@ -487,46 +487,46 @@ packages:
     dev: true
     optional: true
 
-  /@sentry-internal/tracing@7.84.0:
-    resolution: {integrity: sha512-y9bGYA0OM6PEREfd+nk4UURZy29tpIw+7vQwpxWfEVs2fqq0/5TBFX/tKFb8AKUI9lVM8v0bcF0bNSCnuPQZHQ==}
+  /@sentry-internal/tracing@7.85.0:
+    resolution: {integrity: sha512-p3YMUwkPCy2su9cm/3+7QYR4RiMI0+07DU1BZtht9NLTzY2O87/yvUbn1v2yHR3vJQTy/+7N0ud9/mPBFznRQQ==}
     engines: {node: '>=8'}
     dependencies:
-      '@sentry/core': 7.84.0
-      '@sentry/types': 7.84.0
-      '@sentry/utils': 7.84.0
+      '@sentry/core': 7.85.0
+      '@sentry/types': 7.85.0
+      '@sentry/utils': 7.85.0
     dev: true
 
-  /@sentry/core@7.84.0:
-    resolution: {integrity: sha512-tbuwunbBx2kSex15IHCqHDnrMfIlqPc6w/76fwkGqokz3oh9GSEGlLICwmBWL8AypWimUg13IDtFpD0TJTriWA==}
+  /@sentry/core@7.85.0:
+    resolution: {integrity: sha512-DFDAc4tWmHN5IWhr7XbHCiyF1Xgb95jz8Uj/JTX9atlgodId1UIbER77qpEmH3eQGid/QBdqrlR98zCixgSbwg==}
     engines: {node: '>=8'}
     dependencies:
-      '@sentry/types': 7.84.0
-      '@sentry/utils': 7.84.0
+      '@sentry/types': 7.85.0
+      '@sentry/utils': 7.85.0
     dev: true
 
-  /@sentry/node@7.84.0:
-    resolution: {integrity: sha512-Xm3fIXT3TZOQi+6uQBavI8iOehD3PkY7v0y3hog0d4lQTH88vQK9BBsI+jZEq81Em+RG/u7vZNiFo6YMTnWF7Q==}
+  /@sentry/node@7.85.0:
+    resolution: {integrity: sha512-uiBtRW9G017NHoCXBlK3ttkTwHXLFyI8ndHpaObtyajKTv3ptGIThVEn7DuK7Pwor//RjwjSEEOa7WDK+FdMVQ==}
     engines: {node: '>=8'}
     dependencies:
-      '@sentry-internal/tracing': 7.84.0
-      '@sentry/core': 7.84.0
-      '@sentry/types': 7.84.0
-      '@sentry/utils': 7.84.0
+      '@sentry-internal/tracing': 7.85.0
+      '@sentry/core': 7.85.0
+      '@sentry/types': 7.85.0
+      '@sentry/utils': 7.85.0
       https-proxy-agent: 5.0.1
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@sentry/types@7.84.0:
-    resolution: {integrity: sha512-VqGLIF3JOUrk7yIXjLXJvAORkZL1e3dDX0Q1okRehwyt/5CRE+mdUTeJZkBo9P9mBwgMyvtwklzOGGrzjb4eMA==}
+  /@sentry/types@7.85.0:
+    resolution: {integrity: sha512-R5jR4XkK5tBU2jDiPdSVqzkmjYRr666bcGaFGUHB/xDQCjPsjk+pEmCCL+vpuWoaZmQJUE1hVU7rgnVX81w8zg==}
     engines: {node: '>=8'}
     dev: true
 
-  /@sentry/utils@7.84.0:
-    resolution: {integrity: sha512-qdUVuxnRBvaf05AU+28R+xYtZmi/Ymf8os3Njq9g4XuA+QEkZLbzmIpRK5W9Ja7vUtjOeg29Xgg43A8znde9LQ==}
+  /@sentry/utils@7.85.0:
+    resolution: {integrity: sha512-JZ7seNOLvhjAQ8GeB3GYknPQJkuhF88xAYOaESZP3xPOWBMFUN+IO4RqjMqMLFDniOwsVQS7GB/MfP+hxufieg==}
     engines: {node: '>=8'}
     dependencies:
-      '@sentry/types': 7.84.0
+      '@sentry/types': 7.85.0
     dev: true
 
   /@tsconfig/node10@1.0.9:
@@ -839,7 +839,7 @@ packages:
       '@cdktf/hcl2cdk': 0.19.2
       '@cdktf/hcl2json': 0.19.2
       '@inquirer/prompts': 2.3.1
-      '@sentry/node': 7.84.0
+      '@sentry/node': 7.85.0
       cdktf: 0.19.2(constructs@10.3.0)
       ci-info: 3.9.0
       codemaker: 1.92.0
@@ -1239,7 +1239,7 @@ packages:
     dependencies:
       semver: 7.5.4
       shelljs: 0.8.5
-      typescript: 5.4.0-dev.20231204
+      typescript: 5.4.0-dev.20231205
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -3034,8 +3034,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.4.0-dev.20231204:
-    resolution: {integrity: sha512-dU/o7cZDKWQcVda27Ht/d38BKIdswGgGI6S//+nmeFhU0LZ7gA5ldCORN0dtOFEwFR98d2TlonmMeNCcyVkqnQ==}
+  /typescript@5.4.0-dev.20231205:
+    resolution: {integrity: sha512-jeYaYMtVCDclulasTrZlhlF9k/Xu88FCpff6+BP3YVNbWefdRy/3nmmrAFVC/TqGSrLhhjSRHBn6bw49b9Jxdw==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
