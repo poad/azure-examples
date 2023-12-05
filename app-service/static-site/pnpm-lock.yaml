@@ -126,7 +126,7 @@ packages:
       ink-use-stdout-dimensions: 1.0.5(ink@3.2.0)(react@17.0.2)
       jsii: 5.2.38
       jsii-pacmak: 1.92.0
-      jsii-srcmak: 0.1.986
+      jsii-srcmak: 0.1.987
       lodash.isequal: 4.5.0
       log4js: 6.9.1
       minimatch: 5.1.6
@@ -233,7 +233,7 @@ packages:
       codemaker: 1.92.0
       deepmerge: 4.3.1
       fs-extra: 8.1.0
-      jsii-srcmak: 0.1.986
+      jsii-srcmak: 0.1.987
     transitivePeerDependencies:
       - debug
       - supports-color
@@ -2036,8 +2036,8 @@ packages:
       - supports-color
     dev: true
 
-  /jsii-srcmak@0.1.986:
-    resolution: {integrity: sha512-p31pe08B03C16+bq8GxNJ0q7OIhnMCsIe54WCrDPNzvDHa5NvZvOyKHQPVMDg3QyXQVy84wnhOuybjEiab9aSA==}
+  /jsii-srcmak@0.1.987:
+    resolution: {integrity: sha512-07Pg3GdPRANpKkoa5Fa4723UlzWDuPHLKy1Hq+imy4VbN3lD6UCcUFiaR/gDrVQ2cWaoHgXIYQLeYtcCQOYbsA==}
     hasBin: true
     dependencies:
       fs-extra: 9.1.0
