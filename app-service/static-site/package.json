@@ -26,6 +26,6 @@
     "@types/node": "^20.10.4",
     "cdktf-cli": "^0.19.2",
     "ts-node": "^10.9.1",
-    "typescript": "^5.3.2"
+    "typescript": "^5.3.3"
   }
 }
