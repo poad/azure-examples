@@ -1239,7 +1239,7 @@ packages:
     dependencies:
       semver: 7.5.4
       shelljs: 0.8.5
-      typescript: 5.4.0-dev.20231226
+      typescript: 5.4.0-dev.20231228
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -3056,8 +3056,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.4.0-dev.20231226:
-    resolution: {integrity: sha512-UHOgBgQgky4SUZ2Z0tFVgzulKJSJBUkAtcBggBJ3swOUyIwn3PJBvZxHLtK94lszCq/FCR9ozErD+UABxmXyYQ==}
+  /typescript@5.4.0-dev.20231228:
+    resolution: {integrity: sha512-LRdJTPnj+MTmEI+AYsKHdpxa2FhmBP8NbEDu0sQC8pYOggvnbg0W5idoFkJz5Y4TXLRPRbAgqemoJOCuwxLaBQ==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
