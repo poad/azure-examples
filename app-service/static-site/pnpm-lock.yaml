@@ -17,14 +17,14 @@ dependencies:
 
 devDependencies:
   '@types/node':
-    specifier: ^20.10.8
-    version: 20.10.8
+    specifier: ^20.11.0
+    version: 20.11.0
   cdktf-cli:
     specifier: ^0.19.2
     version: 0.19.2(ink@3.2.0)(react@17.0.2)
   ts-node:
     specifier: ^10.9.2
-    version: 10.9.2(@types/node@20.10.8)(typescript@5.3.3)
+    version: 10.9.2(@types/node@20.11.0)(typescript@5.3.3)
   typescript:
     specifier: ^5.3.3
     version: 5.3.3
@@ -102,7 +102,7 @@ packages:
       '@cdktf/hcl2json': 0.19.2
       '@cdktf/node-pty-prebuilt-multiarch': 0.10.1-pre.11
       '@cdktf/provider-schema': 0.19.2
-      '@sentry/node': 7.92.0
+      '@sentry/node': 7.93.0
       archiver: 5.3.2
       cdktf: 0.19.2(constructs@10.3.0)
       chalk: 4.1.2
@@ -158,7 +158,7 @@ packages:
   /@cdktf/commons@0.19.2:
     resolution: {integrity: sha512-5rOeb0cSREHQa5XVsGFEV6Ce8Zwo2WxE8GIhmGd/JzeSAByhK8scHFlD3+eENl83W/8lwIkm/nSl9oDHEkENIg==}
     dependencies:
-      '@sentry/node': 7.92.0
+      '@sentry/node': 7.93.0
       cdktf: 0.19.2(constructs@10.3.0)
       ci-info: 3.9.0
       codemaker: 1.94.0
@@ -282,7 +282,7 @@ packages:
     dependencies:
       '@inquirer/type': 1.1.5
       '@types/mute-stream': 0.0.1
-      '@types/node': 20.10.8
+      '@types/node': 20.11.0
       '@types/wrap-ansi': 3.0.0
       ansi-escapes: 4.3.2
       chalk: 4.1.2
@@ -302,7 +302,7 @@ packages:
     dependencies:
       '@inquirer/type': 1.1.5
       '@types/mute-stream': 0.0.4
-      '@types/node': 20.10.8
+      '@types/node': 20.11.0
       '@types/wrap-ansi': 3.0.0
       ansi-escapes: 4.3.2
       chalk: 4.1.2
@@ -495,46 +495,46 @@ packages:
     dev: true
     optional: true
 
-  /@sentry-internal/tracing@7.92.0:
-    resolution: {integrity: sha512-ur55vPcUUUWFUX4eVLNP71ohswK7ZZpleNZw9Y1GfLqyI+0ILQUwjtzqItJrdClvVsdRZJMRmDV40Hp9Lbb9mA==}
+  /@sentry-internal/tracing@7.93.0:
+    resolution: {integrity: sha512-DjuhmQNywPp+8fxC9dvhGrqgsUb6wI/HQp25lS2Re7VxL1swCasvpkg8EOYP4iBniVQ86QK0uITkOIRc5tdY1w==}
     engines: {node: '>=8'}
     dependencies:
-      '@sentry/core': 7.92.0
-      '@sentry/types': 7.92.0
-      '@sentry/utils': 7.92.0
+      '@sentry/core': 7.93.0
+      '@sentry/types': 7.93.0
+      '@sentry/utils': 7.93.0
     dev: true
 
-  /@sentry/core@7.92.0:
-    resolution: {integrity: sha512-1Tly7YB2I1byI5xb0Cwrxs56Rhww+6mQ7m9P7rTmdC3/ijOzbEoohtYIUPwcooCEarpbEJe/tAayRx6BrH2UbQ==}
+  /@sentry/core@7.93.0:
+    resolution: {integrity: sha512-vZQSUiDn73n+yu2fEcH+Wpm4GbRmtxmnXnYCPgM6IjnXqkVm3awWAkzrheADblx3kmxrRiOlTXYHw9NTWs56fg==}
     engines: {node: '>=8'}
     dependencies:
-      '@sentry/types': 7.92.0
-      '@sentry/utils': 7.92.0
+      '@sentry/types': 7.93.0
+      '@sentry/utils': 7.93.0
     dev: true
 
-  /@sentry/node@7.92.0:
-    resolution: {integrity: sha512-LZeQL1r6kikEoOzA9K61OmMl32/lK/6PzmFNDH6z7UYwQopCZgVA6IP+CZuln8K2ys5c9hCyF7ICQMysXfpNJA==}
+  /@sentry/node@7.93.0:
+    resolution: {integrity: sha512-nUXPCZQm5Y9Ipv7iWXLNp5dbuyi1VvbJ3RtlwD7utgsNkRYB4ixtKE9w2QU8DZZAjaEF6w2X94OkYH6C932FWw==}
     engines: {node: '>=8'}
     dependencies:
-      '@sentry-internal/tracing': 7.92.0
-      '@sentry/core': 7.92.0
-      '@sentry/types': 7.92.0
-      '@sentry/utils': 7.92.0
+      '@sentry-internal/tracing': 7.93.0
+      '@sentry/core': 7.93.0
+      '@sentry/types': 7.93.0
+      '@sentry/utils': 7.93.0
       https-proxy-agent: 5.0.1
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@sentry/types@7.92.0:
-    resolution: {integrity: sha512-APmSOuZuoRGpbPpPeYIbMSplPjiWNLZRQa73QiXuTflW4Tu/ItDlU8hOa2+A6JKVkJCuD2EN6yUrxDGSMyNXeg==}
+  /@sentry/types@7.93.0:
+    resolution: {integrity: sha512-UnzUccNakhFRA/esWBWP+0v7cjNg+RilFBQC03Mv9OEMaZaS29zSbcOGtRzuFOXXLBdbr44BWADqpz3VW0XaNw==}
     engines: {node: '>=8'}
     dev: true
 
-  /@sentry/utils@7.92.0:
-    resolution: {integrity: sha512-3nEfrQ1z28b/2zgFGANPh5yMVtgwXmrasZxTvKbrAj+KWJpjrJHrIR84r9W277J44NMeZ5RhRW2uoDmuBslPnA==}
+  /@sentry/utils@7.93.0:
+    resolution: {integrity: sha512-Iovj7tUnbgSkh/WrAaMrd5UuYjW7AzyzZlFDIUrwidsyIdUficjCG2OIxYzh76H6nYIx9SxewW0R54Q6XoB4uA==}
     engines: {node: '>=8'}
     dependencies:
-      '@sentry/types': 7.92.0
+      '@sentry/types': 7.93.0
     dev: true
 
   /@tsconfig/node10@1.0.9:
@@ -556,13 +556,13 @@ packages:
   /@types/mute-stream@0.0.1:
     resolution: {integrity: sha512-0yQLzYhCqGz7CQPE3iDmYjhb7KMBFOP+tBkyw+/Y2YyDI5wpS7itXXxneN1zSsUwWx3Ji6YiVYrhAnpQGS/vkw==}
     dependencies:
-      '@types/node': 20.10.8
+      '@types/node': 20.11.0
     dev: true
 
   /@types/mute-stream@0.0.4:
     resolution: {integrity: sha512-CPM9nzrCPPJHQNA9keH9CVkVI+WR5kMa+7XEs5jcGQ0VoAGnLv242w8lIVgwAEfmE4oufJRaTc9PNLQl0ioAow==}
     dependencies:
-      '@types/node': 20.10.8
+      '@types/node': 20.11.0
     dev: true
 
   /@types/node@18.18.8:
@@ -571,8 +571,8 @@ packages:
       undici-types: 5.26.5
     dev: true
 
-  /@types/node@20.10.8:
-    resolution: {integrity: sha512-f8nQs3cLxbAFc00vEU59yf9UyGUftkPaLGfvbVOIDdx2i1b8epBqj2aNGyP19fiyXWvlmZ7qC1XLjAzw/OKIeA==}
+  /@types/node@20.11.0:
+    resolution: {integrity: sha512-o9bjXmDNcF7GbM4CNQpmi+TutCgap/K3w1JyKgxAjqx41zp9qlIAVFi0IhCNsJcXolEqLWhbFbEeL0PvYm4pcQ==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -585,7 +585,7 @@ packages:
     resolution: {integrity: sha512-oJoftv0LSuaDZE3Le4DbKX+KS9G36NzOeSap90UIK0yMA/NhKJhqlSGtNDORNRaIbQfzjXDrQa0ytJ6mNRGz/Q==}
     requiresBuild: true
     dependencies:
-      '@types/node': 20.10.8
+      '@types/node': 20.11.0
     dev: true
     optional: true
 
@@ -847,7 +847,7 @@ packages:
       '@cdktf/hcl2cdk': 0.19.2
       '@cdktf/hcl2json': 0.19.2
       '@inquirer/prompts': 2.3.1
-      '@sentry/node': 7.92.0
+      '@sentry/node': 7.93.0
       cdktf: 0.19.2(constructs@10.3.0)
       ci-info: 3.9.0
       codemaker: 1.94.0
@@ -2977,7 +2977,7 @@ packages:
     resolution: {integrity: sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==}
     dev: true
 
-  /ts-node@10.9.2(@types/node@20.10.8)(typescript@5.3.3):
+  /ts-node@10.9.2(@types/node@20.11.0)(typescript@5.3.3):
     resolution: {integrity: sha512-f0FFpIdcHgn8zcPSbf1dRevwt047YMnaiJM3u2w2RewrB+fob/zePZcrOyQoLMMO7aBIddLcQIEK5dYjkLnGrQ==}
     hasBin: true
     peerDependencies:
@@ -2996,7 +2996,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.10.8
+      '@types/node': 20.11.0
       acorn: 8.11.3
       acorn-walk: 8.3.1
       arg: 4.1.3
