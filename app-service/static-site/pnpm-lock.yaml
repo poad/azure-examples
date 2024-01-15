@@ -916,7 +916,7 @@ packages:
     dependencies:
       function-bind: 1.1.2
       get-intrinsic: 1.2.2
-      set-function-length: 1.1.1
+      set-function-length: 1.2.0
 
   /camelcase@5.3.1:
     resolution: {integrity: sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==}
@@ -1349,7 +1349,7 @@ packages:
     dependencies:
       semver: 7.5.4
       shelljs: 0.8.5
-      typescript: 5.4.0-dev.20240112
+      typescript: 5.4.0-dev.20240114
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -2916,11 +2916,12 @@ packages:
     resolution: {integrity: sha512-KiKBS8AnWGEyLzofFfmvKwpdPzqiy16LvQfK3yv/fVH7Bj13/wl3JSR1J+rfgRE9q7xUJK4qvgS8raSOeLUehw==}
     dev: true
 
-  /set-function-length@1.1.1:
-    resolution: {integrity: sha512-VoaqjbBJKiWtg4yRcKBQ7g7wnGnLV3M8oLvVWwOk2PdYY6PEFegR1vezXR0tw6fZGF9csVakIRjrJiy2veSBFQ==}
+  /set-function-length@1.2.0:
+    resolution: {integrity: sha512-4DBHDoyHlM1IRPGYcoxexgh67y4ueR53FKV1yyxwFMY7aCqcN/38M1+SwZ/qJQ8iLv7+ck385ot4CcisOAPT9w==}
     engines: {node: '>= 0.4'}
     dependencies:
       define-data-property: 1.1.1
+      function-bind: 1.1.2
       get-intrinsic: 1.2.2
       gopd: 1.0.1
       has-property-descriptors: 1.0.1
@@ -3243,8 +3244,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.4.0-dev.20240112:
-    resolution: {integrity: sha512-jpdPO53r47ZiTebHw2O9jKp1ItTtwPe9kc62LGCZHEexROJn1MXChI7l/UmRtItOhOKwe2ZXOBlNMQh4YTMhIg==}
+  /typescript@5.4.0-dev.20240114:
+    resolution: {integrity: sha512-pd52BJdzc2yBS3VQme+n74BQCEFOi2Haj6TBvqn0cp81D3gCfM+sEctWUA+LcP2qfh/D/PfQ30NBLDCJfCAERw==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
