@@ -46,7 +46,7 @@ jobs:
         check-latest: true
 
     - name: Deploy
-      uses: hashicorp/terraform-cdk-action@v2.0.0
+      uses: hashicorp/terraform-cdk-action@v2.0.1
       env:
         CI: true
         ARM_USE_OIDC: true
