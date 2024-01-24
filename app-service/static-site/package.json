@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@types/node": "^20.11.6",
-    "cdktf-cli": "^0.20.1",
+    "cdktf-cli": "^0.20.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   }
