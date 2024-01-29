@@ -2212,7 +2212,7 @@ packages:
     hasBin: true
     dependencies:
       fs-extra: 9.1.0
-      jsii: 5.3.11
+      jsii: 5.3.12
       jsii-pacmak: 1.94.0
       ncp: 2.0.0
       yargs: 15.4.1
@@ -2277,8 +2277,8 @@ packages:
       - supports-color
     dev: true
 
-  /jsii@5.3.11:
-    resolution: {integrity: sha512-AhRb6bGYzQ4qeKn0dksJjRY/bQUz1zt/FwPPgb488P0Hr+taUbggNihebZEAzLZCJ3yH0ohgIgtQEAIx+NI/vA==}
+  /jsii@5.3.12:
+    resolution: {integrity: sha512-G2hWcEIfED1JuP6EwCFO94Ho4LO8j/na7A4I/ekdCEEmdLAFUvgXTZ4rRuZeiMLmvU0rKyb24r8V18gl+BbkNA==}
     engines: {node: '>= 18.12.0'}
     hasBin: true
     dependencies:
