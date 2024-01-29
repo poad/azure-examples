@@ -328,6 +328,26 @@ packages:
       wrap-ansi: 6.2.0
     dev: true
 
+  /@inquirer/core@6.0.0:
+    resolution: {integrity: sha512-fKi63Khkisgda3ohnskNf5uZJj+zXOaBvOllHsOkdsXRA/ubQLJQrZchFFi57NKbZzkTunXiBMdvWOv71alonw==}
+    engines: {node: '>=14.18.0'}
+    dependencies:
+      '@inquirer/type': 1.1.6
+      '@types/mute-stream': 0.0.4
+      '@types/node': 20.11.7
+      '@types/wrap-ansi': 3.0.0
+      ansi-escapes: 4.3.2
+      chalk: 4.1.2
+      cli-spinners: 2.9.2
+      cli-width: 4.1.0
+      figures: 3.2.0
+      mute-stream: 1.0.0
+      run-async: 3.0.0
+      signal-exit: 4.1.0
+      strip-ansi: 6.0.1
+      wrap-ansi: 6.2.0
+    dev: true
+
   /@inquirer/editor@1.2.13:
     resolution: {integrity: sha512-gBxjqt0B9GLN0j6M/tkEcmcIvB2fo9Cw0f5NRqDTkYyB9AaCzj7qvgG0onQ3GVPbMyMbbP4tWYxrBOaOdKpzNA==}
     engines: {node: '>=14.18.0'}
@@ -379,7 +399,7 @@ packages:
       '@inquirer/input': 1.2.14
       '@inquirer/password': 1.1.14
       '@inquirer/rawlist': 1.2.14
-      '@inquirer/select': 1.3.1
+      '@inquirer/select': 1.3.3
     dev: true
 
   /@inquirer/rawlist@1.2.14:
@@ -391,12 +411,12 @@ packages:
       chalk: 4.1.2
     dev: true
 
-  /@inquirer/select@1.3.1:
-    resolution: {integrity: sha512-EgOPHv7XOHEqiBwBJTyiMg9r57ySyW4oyYCumGp+pGyOaXQaLb2kTnccWI6NFd9HSi5kDJhF7YjA+3RfMQJ2JQ==}
+  /@inquirer/select@1.3.3:
+    resolution: {integrity: sha512-RzlRISXWqIKEf83FDC9ZtJ3JvuK1l7aGpretf41BCWYrvla2wU8W8MTRNMiPrPJ+1SIqrRC1nZdZ60hD9hRXLg==}
     engines: {node: '>=14.18.0'}
     dependencies:
-      '@inquirer/core': 5.1.1
-      '@inquirer/type': 1.1.5
+      '@inquirer/core': 6.0.0
+      '@inquirer/type': 1.1.6
       ansi-escapes: 4.3.2
       chalk: 4.1.2
       figures: 3.2.0
@@ -404,6 +424,11 @@ packages:
 
   /@inquirer/type@1.1.5:
     resolution: {integrity: sha512-wmwHvHozpPo4IZkkNtbYenem/0wnfI6hvOcGKmPEa0DwuaH5XUQzFqy6OpEpjEegZMhYIk8HDYITI16BPLtrRA==}
+    engines: {node: '>=14.18.0'}
+    dev: true
+
+  /@inquirer/type@1.1.6:
+    resolution: {integrity: sha512-OCKOpn0CrFDslR8s3who7hlr823zXTb1iShGCaaWgEJFfkIV0T9aLZV2QGnOuU78IrsPYLkr3oKx9dZwwCH3Rw==}
     engines: {node: '>=14.18.0'}
     dev: true
 
@@ -1364,7 +1389,7 @@ packages:
     dependencies:
       semver: 7.5.4
       shelljs: 0.8.5
-      typescript: 5.4.0-dev.20240126
+      typescript: 5.4.0-dev.20240129
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -3314,8 +3339,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.4.0-dev.20240126:
-    resolution: {integrity: sha512-rIWKkTB3e9TP5bXwW7NeixjfITOrZwFe7JvJbCPZsF3FFq1AASVkovR4fkBZBN+KKyPLZES4tPZRev2IOUB5Vg==}
+  /typescript@5.4.0-dev.20240129:
+    resolution: {integrity: sha512-MCwiuPLBvW2mJYE2/BIwY4xLsLMC+Ov69PFEavtpb5NdGTFcfPoqa++2co9E4GXU7lBjqjDncBs86qjmvcHtDQ==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
