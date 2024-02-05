@@ -1365,7 +1365,7 @@ packages:
     dependencies:
       semver: 7.5.4
       shelljs: 0.8.5
-      typescript: 5.4.0-dev.20240204
+      typescript: 5.4.0-dev.20240205
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -1389,8 +1389,8 @@ packages:
     resolution: {integrity: sha512-MyoZ0jgnLvB2X3Lg5HqpFmn1kybDiIfEQmKzTb5apr51Rb+T3KdmMiqa70T+bhGnyv7bQ6WMj2QMHpGMmlrUYQ==}
     dev: true
 
-  /es-errors@1.0.0:
-    resolution: {integrity: sha512-yHV74THqMJUyFKkHyN7hyENcEZM3Dj2a2IrdClY+IT4BFQHkIVwlh8s6uZfjsFydMdNHv0F5mWgAA3ajFbsvVQ==}
+  /es-errors@1.1.0:
+    resolution: {integrity: sha512-ka/z/Hxav2YGgkzSwOp1ugbUk6fgIX5gI69PfRHCvODD+LuVOnV1jHPBWXBNPZqX0O900p2I+IdM9sEbac0BNA==}
     engines: {node: '>= 0.4'}
 
   /es-get-iterator@1.1.3:
@@ -1636,7 +1636,7 @@ packages:
     resolution: {integrity: sha512-JIcZczvcMVE7AUOP+X72bh8HqHBRxFdz5PDHYtNG/lE3yk9b3KZBJlwFcTyPYjg3L4RLLmZJzvjxhaZVapxFrQ==}
     engines: {node: '>= 0.4'}
     dependencies:
-      es-errors: 1.0.0
+      es-errors: 1.1.0
       function-bind: 1.1.2
       has-proto: 1.0.1
       has-symbols: 1.0.3
@@ -3314,8 +3314,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.4.0-dev.20240204:
-    resolution: {integrity: sha512-Lkl32xcNKwZorSm0tQ2ap3nFZaIQKDDwlZJnlDR0lDrVkpvlDULFcSdncSTyGHh3p77+2mLIYoxfj2qeKpwBsA==}
+  /typescript@5.4.0-dev.20240205:
+    resolution: {integrity: sha512-waxaX9QSNlTxyhaeS398h73fWzOr0DOq2rV6ZQSDywcabZjxeiCv18hYDIZXRk4dT0Q0DxhbNAL/THzjKjtDlQ==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
