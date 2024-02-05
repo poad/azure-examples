@@ -1389,8 +1389,8 @@ packages:
     resolution: {integrity: sha512-MyoZ0jgnLvB2X3Lg5HqpFmn1kybDiIfEQmKzTb5apr51Rb+T3KdmMiqa70T+bhGnyv7bQ6WMj2QMHpGMmlrUYQ==}
     dev: true
 
-  /es-errors@1.1.0:
-    resolution: {integrity: sha512-ka/z/Hxav2YGgkzSwOp1ugbUk6fgIX5gI69PfRHCvODD+LuVOnV1jHPBWXBNPZqX0O900p2I+IdM9sEbac0BNA==}
+  /es-errors@1.3.0:
+    resolution: {integrity: sha512-Zf5H2Kxt2xjTvbJvP2ZWLEICxA6j+hAmMzIlypy4xcBg1vKVnx89Wy0GbS+kf5cwCVFFzdCFh2XSCFNULS6csw==}
     engines: {node: '>= 0.4'}
 
   /es-get-iterator@1.1.3:
@@ -1636,7 +1636,7 @@ packages:
     resolution: {integrity: sha512-JIcZczvcMVE7AUOP+X72bh8HqHBRxFdz5PDHYtNG/lE3yk9b3KZBJlwFcTyPYjg3L4RLLmZJzvjxhaZVapxFrQ==}
     engines: {node: '>= 0.4'}
     dependencies:
-      es-errors: 1.1.0
+      es-errors: 1.3.0
       function-bind: 1.1.2
       has-proto: 1.0.1
       has-symbols: 1.0.3
@@ -2212,7 +2212,7 @@ packages:
     hasBin: true
     dependencies:
       fs-extra: 9.1.0
-      jsii: 5.3.14
+      jsii: 5.3.15
       jsii-pacmak: 1.94.0
       ncp: 2.0.0
       yargs: 15.4.1
@@ -2277,8 +2277,8 @@ packages:
       - supports-color
     dev: true
 
-  /jsii@5.3.14:
-    resolution: {integrity: sha512-FqLxe8ZUyHxqFBirEr4DpWQTNc5XI2BwJeHQkvjJmfxa7wYqO+xlwFYrW4tZXuEzbMhwwUI2Xpy52tT8CPR3OQ==}
+  /jsii@5.3.15:
+    resolution: {integrity: sha512-nAiGxVPHTQedMIr3qsM8d4VR/Gwn4wDLMftaA/EFm+AFidGmVt/9fkMagmGfcczOwDZZS5UNLdHUd+1mGnVdwQ==}
     engines: {node: '>= 18.12.0'}
     hasBin: true
     dependencies:
