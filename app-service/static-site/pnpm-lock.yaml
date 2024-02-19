@@ -1388,7 +1388,7 @@ packages:
     dependencies:
       semver: 7.6.0
       shelljs: 0.8.5
-      typescript: 5.4.0-dev.20240215
+      typescript: 5.4.0-dev.20240219
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -2249,7 +2249,7 @@ packages:
     hasBin: true
     dependencies:
       fs-extra: 9.1.0
-      jsii: 5.3.18
+      jsii: 5.3.20
       jsii-pacmak: 1.94.0
       ncp: 2.0.0
       yargs: 15.4.1
@@ -2314,12 +2314,12 @@ packages:
       - supports-color
     dev: true
 
-  /jsii@5.3.18:
-    resolution: {integrity: sha512-1BQT5rMDNiyZp7u5461EQQuEOnPJv0UEFlTHgDZJqqCeh1OquTpB0fYFfpJnsvl4C1aleBYo3f0QMzvV7wLVjw==}
+  /jsii@5.3.2:
+    resolution: {integrity: sha512-wwwp47+6orlMXpny4dlTOP6776cBo2WFDgxZyGjQaV4VWNydsJiTcinuJzCj1XVZicBhpAnkuBMr89+2aT8Dcg==}
     engines: {node: '>= 18.12.0'}
     hasBin: true
     dependencies:
-      '@jsii/check-node': 1.94.0
+      '@jsii/check-node': 1.93.0
       '@jsii/spec': 1.94.0
       case: 1.6.3
       chalk: 4.1.2
@@ -2336,12 +2336,12 @@ packages:
       - supports-color
     dev: true
 
-  /jsii@5.3.2:
-    resolution: {integrity: sha512-wwwp47+6orlMXpny4dlTOP6776cBo2WFDgxZyGjQaV4VWNydsJiTcinuJzCj1XVZicBhpAnkuBMr89+2aT8Dcg==}
+  /jsii@5.3.20:
+    resolution: {integrity: sha512-OPoEpEvD943+fx6ruoUTpmFJoY55wiuUl64ELeQ4CQ6mUfx31YczvacqDYrrbSwoEe8Ea9a7sQOUXo3b3Oi8PQ==}
     engines: {node: '>= 18.12.0'}
     hasBin: true
     dependencies:
-      '@jsii/check-node': 1.93.0
+      '@jsii/check-node': 1.94.0
       '@jsii/spec': 1.94.0
       case: 1.6.3
       chalk: 4.1.2
@@ -3375,8 +3375,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.4.0-dev.20240215:
-    resolution: {integrity: sha512-XC4/5bqzYJYPwH1EaVY3E7gtieevPWkKc1oBcHdiZytptFaqms77yIiiXmCpZsl+ydrcxCijAVzBXLWxujaksw==}
+  /typescript@5.4.0-dev.20240219:
+    resolution: {integrity: sha512-8axQCpRgDdLJRq7TMsX6U4zYXmHY5akkaGMjiQPro76rLIHMhmI7llfnpuV5wAFAtu1vARTTwccmWy4h5qjEDA==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
