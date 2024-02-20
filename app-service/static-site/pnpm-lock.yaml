@@ -866,9 +866,11 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /available-typed-arrays@1.0.6:
-    resolution: {integrity: sha512-j1QzY8iPNPG4o4xmO3ptzpRxTciqD3MgEHtifP/YnJpIo58Xu+ne4BejlbkuaLfXn/nz6HFiw29bLpj2PNMdGg==}
+  /available-typed-arrays@1.0.7:
+    resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
     engines: {node: '>= 0.4'}
+    dependencies:
+      possible-typed-array-names: 1.0.0
     dev: true
 
   /balanced-match@1.0.2:
@@ -1388,7 +1390,7 @@ packages:
     dependencies:
       semver: 7.6.0
       shelljs: 0.8.5
-      typescript: 5.4.0-dev.20240219
+      typescript: 5.4.0-dev.20240220
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -2794,6 +2796,11 @@ packages:
       find-up: 3.0.0
     dev: true
 
+  /possible-typed-array-names@1.0.0:
+    resolution: {integrity: sha512-d7Uw+eZoloe0EHDIYoe+bQ5WXnGMOpmiZFTuMWCwpjzzkL2nTjcKiAk4hh8TjnGye2TwWOk3UXucZ+3rbmBa8Q==}
+    engines: {node: '>= 0.4'}
+    dev: true
+
   /prebuild-install@7.1.1:
     resolution: {integrity: sha512-jAXscXWMcCK8GgCoHOfIr0ODh5ai8mj63L2nWrjuAgXE6tDyYGnx4/8o/rCgU+B4JSyZBKbeZqzhtwtC3ovxjw==}
     engines: {node: '>=10'}
@@ -3375,8 +3382,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.4.0-dev.20240219:
-    resolution: {integrity: sha512-8axQCpRgDdLJRq7TMsX6U4zYXmHY5akkaGMjiQPro76rLIHMhmI7llfnpuV5wAFAtu1vARTTwccmWy4h5qjEDA==}
+  /typescript@5.4.0-dev.20240220:
+    resolution: {integrity: sha512-mUiEcRGUeqXn0/xKi0K01LrBOJ4D1zbn5oVpvofeuo/QUTS/y4+r46h34STyDGMc2KnMYJcWUt2XMalady2J1A==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
@@ -3456,7 +3463,7 @@ packages:
     resolution: {integrity: sha512-VnXFiIW8yNn9kIHN88xvZ4yOWchftKDsRJ8fEPacX/wl1lOvBrhsJ/OeJCXq7B0AaijRuqgzSKalJoPk+D8MPg==}
     engines: {node: '>= 0.4'}
     dependencies:
-      available-typed-arrays: 1.0.6
+      available-typed-arrays: 1.0.7
       call-bind: 1.0.7
       for-each: 0.3.3
       gopd: 1.0.1
