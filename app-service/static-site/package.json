@@ -23,7 +23,7 @@
     "constructs": "^10.3.0"
   },
   "devDependencies": {
-    "@types/node": "^20.11.19",
+    "@types/node": "^20.11.20",
     "cdktf-cli": "^0.20.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
