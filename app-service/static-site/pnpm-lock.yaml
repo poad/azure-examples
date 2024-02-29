@@ -423,7 +423,7 @@ packages:
     resolution: {integrity: sha512-Oud2QPM5dHviZNn4y/WhhYKSXksv+1xLEIsNrAbGcFzUN3ubqWRFT5gwPchNc5NuzILOU4tPBDTZ4VwhL8Y7cw==}
     engines: {node: '>=6.0.0'}
     dependencies:
-      '@jridgewell/set-array': 1.1.2
+      '@jridgewell/set-array': 1.2.1
       '@jridgewell/sourcemap-codec': 1.4.15
       '@jridgewell/trace-mapping': 0.3.23
     dev: true
@@ -433,8 +433,8 @@ packages:
     engines: {node: '>=6.0.0'}
     dev: true
 
-  /@jridgewell/set-array@1.1.2:
-    resolution: {integrity: sha512-xnkseuNADM0gt2bs+BvhO0p78Mk762YnZdsuzFV018NoG1Sj1SCQvpSqa7XUaTam5vAGasABV9qXASMKnFMwMw==}
+  /@jridgewell/set-array@1.2.1:
+    resolution: {integrity: sha512-R8gLRTZeyp03ymzP/6Lil/28tGeGEzhx1q2k703KGWRAI1VdvPIXdG70VJc2pAMw3NA6JKL5hhFu1sJX0Mnn/A==}
     engines: {node: '>=6.0.0'}
     dev: true
 
@@ -1336,7 +1336,7 @@ packages:
     dependencies:
       semver: 7.6.0
       shelljs: 0.8.5
-      typescript: 5.5.0-dev.20240228
+      typescript: 5.5.0-dev.20240229
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -3382,8 +3382,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.5.0-dev.20240228:
-    resolution: {integrity: sha512-bdFIn0U4p7+PrnESpBPXDc6jRXynawwVQssEw2Pd2o/Mud34LwGgqHXOgIY5EEmZFPjzT3osXB7VKQP1cdHi3g==}
+  /typescript@5.5.0-dev.20240229:
+    resolution: {integrity: sha512-kxMV/9mfAvW78+JvwKsVFk/J+1zFKML+RKzz1S1ZoLxlQ8eu+75VvEo1pUlbQ1E0kF6lIFOK9fMPBt6HMrA51Q==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
