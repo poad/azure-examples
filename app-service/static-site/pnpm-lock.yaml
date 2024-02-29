@@ -17,14 +17,14 @@ dependencies:
 
 devDependencies:
   '@types/node':
-    specifier: ^20.11.21
-    version: 20.11.21
+    specifier: ^20.11.23
+    version: 20.11.23
   cdktf-cli:
     specifier: ^0.20.4
     version: 0.20.4(ink@3.2.0)(react@17.0.2)
   ts-node:
     specifier: ^10.9.2
-    version: 10.9.2(@types/node@20.11.21)(typescript@5.3.3)
+    version: 10.9.2(@types/node@20.11.23)(typescript@5.3.3)
   typescript:
     specifier: ^5.3.3
     version: 5.3.3
@@ -68,8 +68,8 @@ packages:
       js-tokens: 4.0.0
     dev: true
 
-  /@babel/parser@7.23.9:
-    resolution: {integrity: sha512-9tcKgqKbs3xGJ+NtKF2ndOBBLVwPjl1SHxPQkd36r3Dlirw3xWUeGaTbqr7uGZcTaxkVNwc+03SVP7aCdWrTlA==}
+  /@babel/parser@7.24.0:
+    resolution: {integrity: sha512-QuP/FxEAzMSjXygs8v4N9dvdXzEHN4W1oF3PxuWAtPo08UdM17u89RDMgjLn/mlc56iM0HlLmVkO/wgR+rDgHg==}
     engines: {node: '>=6.0.0'}
     hasBin: true
     dependencies:
@@ -81,7 +81,7 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/code-frame': 7.23.5
-      '@babel/parser': 7.23.9
+      '@babel/parser': 7.24.0
       '@babel/types': 7.23.9
     dev: true
 
@@ -294,7 +294,7 @@ packages:
     dependencies:
       '@inquirer/type': 1.2.0
       '@types/mute-stream': 0.0.1
-      '@types/node': 20.11.21
+      '@types/node': 20.11.23
       '@types/wrap-ansi': 3.0.0
       ansi-escapes: 4.3.2
       chalk: 4.1.2
@@ -314,7 +314,7 @@ packages:
     dependencies:
       '@inquirer/type': 1.2.0
       '@types/mute-stream': 0.0.4
-      '@types/node': 20.11.21
+      '@types/node': 20.11.23
       '@types/wrap-ansi': 3.0.0
       ansi-escapes: 4.3.2
       chalk: 4.1.2
@@ -423,7 +423,7 @@ packages:
     resolution: {integrity: sha512-Oud2QPM5dHviZNn4y/WhhYKSXksv+1xLEIsNrAbGcFzUN3ubqWRFT5gwPchNc5NuzILOU4tPBDTZ4VwhL8Y7cw==}
     engines: {node: '>=6.0.0'}
     dependencies:
-      '@jridgewell/set-array': 1.1.2
+      '@jridgewell/set-array': 1.2.1
       '@jridgewell/sourcemap-codec': 1.4.15
       '@jridgewell/trace-mapping': 0.3.23
     dev: true
@@ -433,8 +433,8 @@ packages:
     engines: {node: '>=6.0.0'}
     dev: true
 
-  /@jridgewell/set-array@1.1.2:
-    resolution: {integrity: sha512-xnkseuNADM0gt2bs+BvhO0p78Mk762YnZdsuzFV018NoG1Sj1SCQvpSqa7XUaTam5vAGasABV9qXASMKnFMwMw==}
+  /@jridgewell/set-array@1.2.1:
+    resolution: {integrity: sha512-R8gLRTZeyp03ymzP/6Lil/28tGeGEzhx1q2k703KGWRAI1VdvPIXdG70VJc2pAMw3NA6JKL5hhFu1sJX0Mnn/A==}
     engines: {node: '>=6.0.0'}
     dev: true
 
@@ -596,13 +596,13 @@ packages:
   /@types/mute-stream@0.0.1:
     resolution: {integrity: sha512-0yQLzYhCqGz7CQPE3iDmYjhb7KMBFOP+tBkyw+/Y2YyDI5wpS7itXXxneN1zSsUwWx3Ji6YiVYrhAnpQGS/vkw==}
     dependencies:
-      '@types/node': 20.11.21
+      '@types/node': 20.11.23
     dev: true
 
   /@types/mute-stream@0.0.4:
     resolution: {integrity: sha512-CPM9nzrCPPJHQNA9keH9CVkVI+WR5kMa+7XEs5jcGQ0VoAGnLv242w8lIVgwAEfmE4oufJRaTc9PNLQl0ioAow==}
     dependencies:
-      '@types/node': 20.11.21
+      '@types/node': 20.11.23
     dev: true
 
   /@types/node@18.19.18:
@@ -611,8 +611,8 @@ packages:
       undici-types: 5.26.5
     dev: true
 
-  /@types/node@20.11.21:
-    resolution: {integrity: sha512-/ySDLGscFPNasfqStUuWWPfL78jompfIoVzLJPVVAHBh6rpG68+pI2Gk+fNLeI8/f1yPYL4s46EleVIc20F1Ow==}
+  /@types/node@20.11.23:
+    resolution: {integrity: sha512-ZUarKKfQuRILSNYt32FuPL20HS7XwNT7/uRwSV8tiHWfyyVwDLYZNF6DZKc2bove++pgfsXn9sUwII/OsQ82cQ==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -625,7 +625,7 @@ packages:
     resolution: {integrity: sha512-oJoftv0LSuaDZE3Le4DbKX+KS9G36NzOeSap90UIK0yMA/NhKJhqlSGtNDORNRaIbQfzjXDrQa0ytJ6mNRGz/Q==}
     requiresBuild: true
     dependencies:
-      '@types/node': 20.11.21
+      '@types/node': 20.11.23
     dev: true
     optional: true
 
@@ -3279,7 +3279,7 @@ packages:
     resolution: {integrity: sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==}
     dev: true
 
-  /ts-node@10.9.2(@types/node@20.11.21)(typescript@5.3.3):
+  /ts-node@10.9.2(@types/node@20.11.23)(typescript@5.3.3):
     resolution: {integrity: sha512-f0FFpIdcHgn8zcPSbf1dRevwt047YMnaiJM3u2w2RewrB+fob/zePZcrOyQoLMMO7aBIddLcQIEK5dYjkLnGrQ==}
     hasBin: true
     peerDependencies:
@@ -3298,7 +3298,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.11.21
+      '@types/node': 20.11.23
       acorn: 8.11.3
       acorn-walk: 8.3.2
       arg: 4.1.3
