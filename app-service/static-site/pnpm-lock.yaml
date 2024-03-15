@@ -842,8 +842,8 @@ packages:
   /base64-js@1.5.1:
     resolution: {integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==}
 
-  /binary-extensions@2.2.0:
-    resolution: {integrity: sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==}
+  /binary-extensions@2.3.0:
+    resolution: {integrity: sha512-Ceh+7ox5qe7LJuLHoY0feh3pHuUDHAcRUeyL2VYghZwfpkNIy/+8Ocg0a3UuSoYzavmylwuLWQOf3hl0jjMMIw==}
     engines: {node: '>=8'}
     dev: true
 
@@ -1344,7 +1344,7 @@ packages:
     dependencies:
       semver: 7.6.0
       shelljs: 0.8.5
-      typescript: 5.5.0-dev.20240313
+      typescript: 5.5.0-dev.20240315
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -2007,7 +2007,7 @@ packages:
     resolution: {integrity: sha512-ZMERYes6pDydyuGidse7OsHxtbI7WVeUEozgR/g7rd0xUimYNlvZRE/K2MgZTjWy725IfelLeVcEM97mmtRGXw==}
     engines: {node: '>=8'}
     dependencies:
-      binary-extensions: 2.2.0
+      binary-extensions: 2.3.0
     dev: true
 
   /is-boolean-object@1.1.2:
@@ -3400,8 +3400,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.5.0-dev.20240313:
-    resolution: {integrity: sha512-6fXTCRKCmprlwHuUHH92w6Ll7na8PtjPCCUmUTHa2yl2lJZBtWNw4P/JmV0PuNMaByRWVX6ai008B7TYBKp3QA==}
+  /typescript@5.5.0-dev.20240315:
+    resolution: {integrity: sha512-unbI1s+RxosUsAsJZMLheuH4p87PMzm77BS2Rh4KNKuPFKEA9qhWbsUMNZ4zu8vCzJOv1KSgISMMBEx8A+ofWg==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
